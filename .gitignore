@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+dados/*.bin
+dados/*.txt
+dados/*.parquet
+*.log
+scratch/
