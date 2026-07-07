@@ -1,11 +1,11 @@
 {
   "meta": {
-    "checkpoint": "/content/vereda02/m1/../modelos/vereda2_m1_head.pt",
+    "checkpoint": "/content/vereda02/vereda02/m1/../modelos/vereda2_m1_head.pt",
     "n_train": 6000,
     "n_held": 1200,
     "eval_n": 1024,
     "device": "cuda",
-    "elapsed_s": 2.9489872455596924
+    "elapsed_s": 2.970156192779541
   },
   "rows": [
     {
