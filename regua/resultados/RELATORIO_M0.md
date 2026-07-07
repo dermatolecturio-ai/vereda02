@@ -15,12 +15,12 @@ com o conjunto de perguntas `k=8`.
 | B | 100 | 1024 | 0.463 | — | 1865 | 33.95 | 0.44/0.42/0.53 |
 | C | 2 | 1024 | 0.772 | 0.771 | 83 | 21.42 | 0.77/0.77/- |
 | C | 8 | 1024 | 0.460 | 0.447 | 83 | 1.31 | 0.48/0.45/0.45 |
+| C | 32 | 1024 | 0.371 | 0.356 | 84 | 0.08 | 0.37/0.38/0.36 |
+| C | 100 | 1024 | 0.345 | 0.321 | 84 | 0.15 | 0.34/0.34/0.35 |
 
 ## Portão M0
 
-**Status: incompleto.** Faltam células:
-- `C_k32_n1024.json`
-- `C_k100_n1024.json`
+**Status: completo.** Todas as células obrigatórias existem.
 
 Sentinelas aplicáveis no M0: S3 (valores variáveis — ver
 `dataset_stats` nos JSONs), S4 (posição embaralhada + acc por terço),

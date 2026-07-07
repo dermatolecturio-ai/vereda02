@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "checkpoint": "/content/vereda02/m1/../modelos/vereda2_m1_head.pt",
+    "n_train": 6000,
+    "n_held": 1200,
+    "eval_n": 1024,
+    "device": "cuda",
+    "elapsed_s": 2.9489872455596924
+  },
+  "rows": [
+    {
+      "k": 8,
+      "status": "ok",
+      "qwen_mean_pool": 0.5283203125,
+      "head_learned": 0.9892578125,
+      "head_random_ablation": 0.1865234375
+    },
+    {
+      "k": 32,
+      "status": "ok",
+      "qwen_mean_pool": 0.357421875,
+      "head_learned": 0.9638671875,
+      "head_random_ablation": 0.1005859375
+    },
+    {
+      "k": 100,
+      "status": "ok",
+      "qwen_mean_pool": 0.2412109375,
+      "head_learned": 0.9189453125,
+      "head_random_ablation": 0.0380859375
+    }
+  ],
+  "verdict": "passou",
+  "reasons": []
+}
