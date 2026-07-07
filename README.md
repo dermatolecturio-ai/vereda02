@@ -6,7 +6,8 @@ esquece. Pequeno, local, na borda. Fundado sobre as lições medidas do VEREDA 1
 
 ## Status
 
-**Fundado em 2026-07-02. Marco atual: M5 (teste de faca — `m5/DESIGN.md`).**
+**Fundado em 2026-07-02. M5a (teste de faca) morto por número; decisão de
+próxima hipótese em aberto (novo DESIGN + novo "vai"). Produto medido: M0–M4.**
 
 | marco | veredito | número de manchete (n≥1024, held) | relatório |
 |---|---|---|---|
@@ -15,7 +16,7 @@ esquece. Pequeno, local, na borda. Fundado sobre as lições medidas do VEREDA 1
 | M2 voz | T ✅ / soft ❌ | T 0.940 @ k=8; S1/S2 ≈ ablação (sem binding) | `m2/resultados/RELATORIO_M2.md` |
 | M3 texto cru | ✅ | extração 0.925; fim-a-fim 0.899 @ k=8 | `m3/resultados/RELATORIO_M3.md` |
 | M4 memória viva | 4/5 ✅ | edição 0.944; persistência 0.934; capacidade k=200 0.922; override ❌ 0.710 (falha de ENDEREÇAMENTO em atributo held-out, não do prior — `NEGATIVE_FINDINGS.md`) | `m4/resultados/RELATORIO_M4.md` |
-| M5 knife | desenhado | portões F1–F4 travados ANTES de rodar | `m5/DESIGN.md` |
+| M5 knife | ❌ morto | canal interno EM 0.002 (F1 ❌); falhou no ENDEREÇAMENTO (implícito ≈ acaso), uma etapa antes do M2; kNN-LM só 0.215 — `NEGATIVE_FINDINGS.md` | `m5/resultados/RELATORIO_M5_KNIFE.md` |
 
 O benchmark consolidado da assimetria leitura/escrita (a tese empírica do
 projeto até aqui) está em

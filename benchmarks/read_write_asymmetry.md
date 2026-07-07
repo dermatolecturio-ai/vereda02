@@ -93,6 +93,34 @@ ser medida nestas condições (as mesmas de tudo acima) e superar:
 | Teto de referência textual (braço T) | 0.940 | distância honesta do teto |
 | Piso (Θ sozinho, baseline A) | 0.015 | distância honesta do piso |
 
+### Primeira tentativa contra a barra: o knife M5a (morreu) — 2026-07-07
+
+Célula `m5/resultados/RELATORIO_M5_KNIFE.md` (n=1024, held, mesmos itens):
+
+| braço | rota | EM | endereç. implícito |
+|---|---|---:|---:|
+| T (texto, reuso) | teto | 0.940 | — |
+| K (kNN-LM, λ=0.5 τ=0.05) | saída | 0.215 | — |
+| S (soft prefix, reuso) | input | 0.040 | — |
+| **I (delta, camada 12)** | **meio** | **0.002** | **0.114 ≈ acaso (1/8)** |
+| IZ / IS / IR (ablações) | — | 0.018 / 0.004 / 0.011 | ~0.11 |
+
+Veredito: MORTE (F1 0.002 ≪ 0.80). A rota interna falhou uma etapa ANTES do
+M2: o endereçamento implícito ficou em acaso — a query aprendida (W_q sobre a
+camada 12) nunca aterrissou na chave M1 certa. 61.6% das respostas do braço I
+caem na categoria certa do gold (assinatura "categoria sem binding"), mas essa
+categoria vem do PRIOR do Qwen respondendo à pergunta, não da memória (IZ ≥ I:
+a injeção é ruído). Detalhe e próxima hipótese: `NEGATIVE_FINDINGS.md`
+(2026-07-07). **Achado colateral medido:** o piso não textual desta tarefa
+(exact-match com valores literais, incl. senhas aleatórias) é genuinamente
+baixo — kNN-LM, o "plano B trivial" da literatura, só chega a 0.215.
+
+Consequência para o eixo B: a assimetria leitura/escrita se ESTREITA. Não é só
+"o input é o canal errado" (M2); é "sem endereçamento explícito resolvido, a
+rota interna também não escreve". As duas rotas não textuais testadas (input S,
+meio I) morreram; a única escrita que funciona neste substrato continua sendo
+o fato como TEXTO (T, 0.940) — e o produto (M4) usa exatamente isso.
+
 ## Reprodução
 
 ```
