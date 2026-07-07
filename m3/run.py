@@ -62,6 +62,7 @@ def _encoded_cached(qwen_model, tok, texts, args, enc_cache, key):
 
 def run_extraction_cell(qwen_model, tok, arm, n, args, enc_cache):
     items = build_items(n, seed=3000, split="held", marker_dropout_p=0.0)
+    n = len(items)  # build_items pode devolver menos que n (colisões raras)
     extractor = load_extractor_arm(arm, qwen_model.device)
     t0 = time.time()
     encoded = _encoded_cached(qwen_model, tok,
@@ -222,9 +223,16 @@ def escreve_relatorio(out_dir):
     sr = next((r for r in extr if r["arm"] == "SR"), None)
     if n_ok:
         p1 = n_ok["em"] >= GATE_EXTRACAO
-        md.append("- Extração: %s (EM=%.3f, teto V1=%.2f)."
-                 % ("✅ passou" if p1 else "❌ falhou", n_ok["em"],
-                    TETO_V1_BYTE_LEVEL))
+        md.append("- Extração (portão 1, ≥%.2f): %s (EM=%.3f)."
+                 % (GATE_EXTRACAO, "✅ passou" if p1 else "❌ falhou",
+                    n_ok["em"]))
+        morte = n_ok["em"] <= TETO_V1_BYTE_LEVEL
+        md.append("- Critério de morte (teto V1 %.2f): %s — a vantagem do "
+                 "substrato pré-treinado %s."
+                 % (TETO_V1_BYTE_LEVEL,
+                    "🔴 ACIONADO" if morte else "não acionado (EM %.3f ≫ %.2f)"
+                    % (n_ok["em"], TETO_V1_BYTE_LEVEL),
+                    "era ilusória" if morte else "é real"))
     if sr and n_ok:
         colapsou = sr["em"] < 0.5 * n_ok["em"]
         md.append("- Ablação (pesos aleatórios): EM=%.3f — %s."
