@@ -73,18 +73,25 @@ def load_projector(arm, device, emb_weight, m_soft=8):
     return proj
 
 
-def run_cell(tok, model, head, arm, k, n, args):
-    items = dataset.build_items(k=k, n=n, seed=1000 + k)
+def run_cell(tok, model, head, arm, k, n, args, retr_cache):
     t0 = time.time()
-
-    retr = []
-    for i in range(0, len(items), args.chunk):
-        retr += retrieve_chunk(tok, model, head, items[i:i + args.chunk],
-                               model.device,
-                               encode_batch_size=args.encode_batch)
-        print("  [%s k=%d] retrieval %d/%d (%.1fs)"
-              % (arm, k, len(retr), n, time.time() - t0), flush=True)
-    retrieval_acc = sum(r["retr_ok"] for r in retr) / float(n)
+    # o retrieval NÃO depende do braço (mesmos itens, mesma cabeça M1):
+    # computa 1x por k e reaproveita nos demais braços
+    if k in retr_cache:
+        items, retr, retrieval_acc = retr_cache[k]
+        print("  [%s k=%d] retrieval reaproveitado do braço anterior"
+              % (arm, k), flush=True)
+    else:
+        items = dataset.build_items(k=k, n=n, seed=1000 + k)
+        retr = []
+        for i in range(0, len(items), args.chunk):
+            retr += retrieve_chunk(tok, model, head, items[i:i + args.chunk],
+                                   model.device,
+                                   encode_batch_size=args.encode_batch)
+            print("  [%s k=%d] retrieval %d/%d (%.1fs)"
+                  % (arm, k, len(retr), n, time.time() - t0), flush=True)
+        retrieval_acc = sum(r["retr_ok"] for r in retr) / float(n)
+        retr_cache[k] = (items, retr, retrieval_acc)
 
     t_gen0 = time.time()
 
@@ -243,6 +250,7 @@ def main():
     tok, model = load(args.device, args.dtype)
     head = load_m1_head(model.device)
 
+    retr_cache = {}
     for arm in args.arms.split(","):
         if arm in ("S1", "S2") and not os.path.exists(
                 ckpt_path(aux_recon=(arm == "S2"))):
@@ -257,7 +265,7 @@ def main():
                 print("célula %s pronta, pulando" % tag, flush=True)
                 continue
             print("== célula %s ==" % tag, flush=True)
-            r = run_cell(tok, model, head, arm, k, args.n, args)
+            r = run_cell(tok, model, head, arm, k, args.n, args, retr_cache)
             with open(path, "w") as f:
                 json.dump(r, f, ensure_ascii=False, indent=1)
             print("célula %s: EM=%.3f retr=%.3f (%.2fs/item)"

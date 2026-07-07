@@ -19,9 +19,10 @@ from m1.head import Head
 from m2.pipeline import M1_CKPT, retrieve_chunk
 from m2.run import _prompt_T
 from m3.dataset import build_items, build_k_items
+from m3.encode import encode_with_offsets
 from m3.extractor import Extractor
 from m3.pipeline import M3_CKPT, extract_batch, fato_canonico
-from regua.judge import is_correct
+from regua.judge import is_correct, normalize
 from regua.qwen_io import generate_batch, load
 
 OUT_DIR = os.path.join(os.path.dirname(__file__), "resultados")
@@ -46,22 +47,41 @@ def load_m1_head(device):
     return head
 
 
-def run_extraction_cell(qwen_model, tok, arm, n, args):
+def _encoded_cached(qwen_model, tok, texts, args, enc_cache, key):
+    """Codificação Qwen 1x por conjunto de textos, reaproveitada entre braços
+    (a codificação não depende do braço; só o extrator muda)."""
+    if key not in enc_cache:
+        st, mk, off, ids = encode_with_offsets(
+            qwen_model, tok, texts, device=qwen_model.device,
+            batch_size=args.encode_batch, return_ids=True)
+        enc_cache[key] = (st.half(), mk, off, ids)
+    else:
+        print("  codificação reaproveitada do braço anterior", flush=True)
+    return enc_cache[key]
+
+
+def run_extraction_cell(qwen_model, tok, arm, n, args, enc_cache):
     items = build_items(n, seed=3000, split="held", marker_dropout_p=0.0)
     extractor = load_extractor_arm(arm, qwen_model.device)
     t0 = time.time()
+    encoded = _encoded_cached(qwen_model, tok,
+                              [it["frase"] for it in items], args,
+                              enc_cache, ("extracao", n))
     extracted = extract_batch(qwen_model, tok, extractor,
                               [it["frase"] for it in items],
                               qwen_model.device,
-                              encode_batch_size=args.encode_batch)
+                              encode_batch_size=args.encode_batch,
+                              encoded=encoded)
     dt = time.time() - t0
 
     por_ordem = {"entidade_primeiro": [0, 0], "valor_primeiro": [0, 0]}
     itens_json = []
     corretos = 0
     for it, ex in zip(items, extracted):
-        ok_ent = is_correct(ex["entidade"], it["nome"])
-        ok_val = is_correct(ex["valor"], it["valor"])
+        # juiz ESTRITO: igualdade normalizada, não containment — o portão do
+        # ROADMAP é EM; um span sujo ("de João" p/ gold "João") NÃO conta
+        ok_ent = normalize(ex["entidade"]) == normalize(it["nome"])
+        ok_val = normalize(ex["valor"]) == normalize(it["valor"])
         ok = ok_ent and ok_val
         corretos += int(ok)
         b = por_ordem[it["order"]]
@@ -83,16 +103,19 @@ def run_extraction_cell(qwen_model, tok, arm, n, args):
     }
 
 
-def run_e2e_cell(qwen_model, tok, arm, k, n, args):
+def run_e2e_cell(qwen_model, tok, arm, k, n, args, enc_cache):
     items = build_k_items(k, n, seed=4000, split="held", marker_dropout_p=0.0)
     extractor = load_extractor_arm(arm, qwen_model.device)
     head = load_m1_head(qwen_model.device)
     t0 = time.time()
 
     all_frases = [f for it in items for f in it["frases"]]
+    encoded = _encoded_cached(qwen_model, tok, all_frases, args, enc_cache,
+                              ("e2e", k, n))
     extracted = extract_batch(qwen_model, tok, extractor, all_frases,
                               qwen_model.device,
-                              encode_batch_size=args.encode_batch)
+                              encode_batch_size=args.encode_batch,
+                              encoded=encoded)
     tmp_items, p = [], 0
     for it in items:
         fatos = []
@@ -241,6 +264,7 @@ def main():
     print("Carregando Θ (%s, %s)..." % (args.device, args.dtype), flush=True)
     tok, model = load(args.device, args.dtype)
 
+    enc_cache = {}
     for arm in args.arms.split(","):
         tag = "M3_extracao_%s_n%d" % (arm, args.n)
         path = os.path.join(OUT_DIR, tag + ".json")
@@ -248,7 +272,7 @@ def main():
             print("célula %s pronta, pulando" % tag, flush=True)
         else:
             print("== célula %s ==" % tag, flush=True)
-            r = run_extraction_cell(model, tok, arm, args.n, args)
+            r = run_extraction_cell(model, tok, arm, args.n, args, enc_cache)
             with open(path, "w") as f:
                 json.dump(r, f, ensure_ascii=False, indent=1)
             print("célula %s: EM=%.3f (%.2fs/item)"
@@ -260,7 +284,7 @@ def main():
             print("célula %s pronta, pulando" % tag2, flush=True)
             continue
         print("== célula %s ==" % tag2, flush=True)
-        r2 = run_e2e_cell(model, tok, arm, args.k, args.n, args)
+        r2 = run_e2e_cell(model, tok, arm, args.k, args.n, args, enc_cache)
         with open(path2, "w") as f:
             json.dump(r2, f, ensure_ascii=False, indent=1)
         print("célula %s: EM=%.3f retr=%.3f (%.2fs/item)"

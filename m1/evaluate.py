@@ -159,8 +159,16 @@ def main():
     p.add_argument("--device", default="cpu")
     p.add_argument("--encode-batch", type=int, default=128)
     p.add_argument("--force-cache", action="store_true")
+    p.add_argument("--force", action="store_true",
+                   help="reavalia mesmo se o relatório já existir")
     p.add_argument("--out-dir", default=OUT_DIR)
     args = p.parse_args()
+
+    report_json = os.path.join(args.out_dir, "m1_retrieval_report.json")
+    if os.path.exists(report_json) and not args.force:
+        print("relatório M1 já existe (%s), pulando avaliação (use --force "
+              "para refazer)" % report_json, flush=True)
+        return
 
     if not os.path.exists(args.checkpoint):
         raise SystemExit("checkpoint ausente: %s" % args.checkpoint)

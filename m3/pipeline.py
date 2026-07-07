@@ -35,12 +35,19 @@ def _decode_span(tok, ids_row, s, e):
 
 @torch.no_grad()
 def extract_batch(qwen_model, tok, extractor, texts, device,
-                  encode_batch_size=32, infer_batch_size=256):
+                  encode_batch_size=32, infer_batch_size=256, encoded=None):
     """Retorna lista de dicts {entidade, valor} — 100% decodido dos ponteiros
-    aprendidos, nenhum parser decidindo o span."""
-    states, masks, offsets, ids = encode_with_offsets(
-        qwen_model, tok, texts, device=device, batch_size=encode_batch_size,
-        return_ids=True)
+    aprendidos, nenhum parser decidindo o span.
+
+    `encoded`: tupla (states, masks, offsets, ids) pré-computada — a
+    codificação do Qwen é idêntica entre braços (N/SR), então quem roda
+    vários braços deve computá-la 1x e reaproveitar. states pode vir em half.
+    """
+    if encoded is None:
+        encoded = encode_with_offsets(
+            qwen_model, tok, texts, device=device,
+            batch_size=encode_batch_size, return_ids=True)
+    states, masks, offsets, ids = encoded
     out = []
     for i in range(0, len(texts), infer_batch_size):
         s = states[i:i + infer_batch_size].float().to(device)
