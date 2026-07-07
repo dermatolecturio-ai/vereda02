@@ -86,6 +86,8 @@ def main():
     p.add_argument("--eval-every", type=int, default=200)
     p.add_argument("--smoke", action="store_true")
     p.add_argument("--force-cache", action="store_true")
+    p.add_argument("--force-retrain", action="store_true",
+                   help="retreina mesmo se modelos/vereda2_m1_head.pt já existir")
     p.add_argument("--device", default="cpu",
                    help="device para o Qwen no CACHE (cpu/cuda/mps); "
                         "a cabeça treina sempre no mesmo device")
@@ -94,6 +96,10 @@ def main():
     if args.smoke:
         args.n_train, args.n_held, args.steps = 300, 100, 60
         args.eval_every = 20
+    elif os.path.exists(CKPT) and not args.force_retrain:
+        print("checkpoint já existe (%s), pulando treino (use "
+              "--force-retrain para refazer)" % CKPT, flush=True)
+        return
 
     d = build_cache(args.n_train, args.n_held, force=args.force_cache,
                     device=args.device, batch_size=args.encode_batch)

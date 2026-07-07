@@ -116,10 +116,16 @@ def main():
     p.add_argument("--encode-batch", type=int, default=32)
     p.add_argument("--smoke", action="store_true")
     p.add_argument("--force-cache", action="store_true")
+    p.add_argument("--force-retrain", action="store_true",
+                   help="retreina mesmo se modelos/vereda2_m3_extractor.pt já existir")
     args = p.parse_args()
     if args.smoke:
         args.n_train, args.n_held = 300, 100
         args.steps, args.batch, args.eval_every = 40, 16, 10
+    elif os.path.exists(CKPT) and not args.force_retrain:
+        print("checkpoint já existe (%s), pulando treino (use "
+              "--force-retrain para refazer)" % CKPT, flush=True)
+        return
 
     dev = args.device
     d = build_cache(args.n_train, args.n_held, args.marker_dropout_p,

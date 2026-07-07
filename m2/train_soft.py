@@ -87,10 +87,17 @@ def main():
     p.add_argument("--encode-batch", type=int, default=32)
     p.add_argument("--smoke", action="store_true")
     p.add_argument("--force-cache", action="store_true")
+    p.add_argument("--force-retrain", action="store_true",
+                   help="retreina mesmo se o checkpoint do braço já existir")
     args = p.parse_args()
     if args.smoke:
         args.n_train, args.n_held = 300, 100
         args.steps, args.batch, args.eval_every, args.eval_n = 8, 4, 4, 16
+    elif os.path.exists(ckpt_path(args.aux_recon)) and not args.force_retrain:
+        print("checkpoint já existe (%s), pulando treino (use "
+              "--force-retrain para refazer)" % ckpt_path(args.aux_recon),
+              flush=True)
+        return
 
     dev = args.device
     d = build_cache(args.n_train, args.n_held, force=args.force_cache,
