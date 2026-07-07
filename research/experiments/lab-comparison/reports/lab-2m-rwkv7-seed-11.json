@@ -1,0 +1,68 @@
+{
+  "checkpoint": "research/experiments/lab-comparison/runs/lab-2m-rwkv7-seed-11/final.pt",
+  "architecture": "rwkv7",
+  "parameters": 2065312,
+  "parameter_megabytes": 7.8785400390625,
+  "state_megabytes": 0.1328125,
+  "bytes_per_second": 754.4972664269579,
+  "utf8_valid_rate": 1.0,
+  "repetition_rate": 0.06666666666666667,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "emmoii  eeto    iiio  e nnnnaaa eee uu  iii eee uu  iii eee uu  ",
+    "  a eiima  a i ieeraaaa aa allaassssiiio  esttnnaa a aa aaa .ae ",
+    "   aiii ee aaa aaaa ..a rrrrooo a o aaa aa  satt   aiii e a aee "
+  ],
+  "validation_batches": 3,
+  "validation_loss": 1.8859290679295857,
+  "validation_bpb": 2.7208205137703585,
+  "seed": 11,
+  "episodic_memory": {
+    "episodic_memory_accuracy": 0.5555555555555556,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": false,
+        "correction_pass": false,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 1000,
+        "recall_pass": false,
+        "correction_pass": false,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "   aiii ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  ",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "   aiii eee u   iiio  e nnnnaaa ee  ee  ee  ee  ee  ee  ee  ee  ",
+        "pass": false
+      },
+      {
+        "turns": 1000,
+        "expected": "Z-731",
+        "response": "   aiii ee  e   a   iii eee u   iii ee  e   a   iii eee u   aii ",
+        "pass": false
+      }
+    ]
+  }
+}

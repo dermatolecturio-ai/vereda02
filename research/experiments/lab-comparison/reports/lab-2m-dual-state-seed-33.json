@@ -1,0 +1,68 @@
+{
+  "checkpoint": "research/experiments/lab-comparison/runs/lab-2m-dual-state-seed-33/final.pt",
+  "architecture": "dual_state",
+  "parameters": 2038688,
+  "parameter_megabytes": 7.7769775390625,
+  "state_megabytes": 0.12890625,
+  "bytes_per_second": 1052.0610377103003,
+  "utf8_valid_rate": 1.0,
+  "repetition_rate": 0.25081585081585084,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "eere    errraaa aaa aaa aaa aaa aaa aaa aa  aa  is  sssn    iiin",
+    "ee  ee  ee  ee  eee uu  eeesaaa aaa aaa aaa aaa aaa aa      eerr",
+    "ee  ee  ee  ee  ee  ee  ee  ee  ee  ee  e   ee  u u    a    eeu "
+  ],
+  "validation_batches": 3,
+  "validation_loss": 1.9609956343968709,
+  "validation_bpb": 2.8291186769492724,
+  "seed": 33,
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 1000,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "saa sas ssa esa ssa ess sssssss sss sss ess UUssees UUssees UUss",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "pass": false
+      },
+      {
+        "turns": 1000,
+        "expected": "Z-731",
+        "response": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "pass": false
+      }
+    ]
+  }
+}

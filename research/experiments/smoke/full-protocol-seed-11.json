@@ -1,0 +1,29 @@
+{
+  "baseline_config": "configs/lab_2m_rwkv.yaml",
+  "dual_state_config": "configs/lab_2m_dual_state.yaml",
+  "seeds": [
+    11
+  ],
+  "max_steps": 1,
+  "comparisons": [
+    {
+      "seed": 11,
+      "comparison": {
+        "latency_ratio_dual_over_baseline": 0.8661172073001371,
+        "latency_pass": true,
+        "persistence_pass": true,
+        "bpb_ratio_dual_over_baseline": 1.0212431675410785,
+        "bpb_pass": true,
+        "memory_gain_points": 0.0,
+        "memory_pass": false,
+        "contribution_criteria_complete": true,
+        "contribution_pass": false
+      }
+    }
+  ],
+  "mean": {
+    "bpb_ratio_dual_over_baseline": 1.0212431675410785,
+    "latency_ratio_dual_over_baseline": 0.8661172073001371,
+    "memory_gain_points": 0.0
+  }
+}

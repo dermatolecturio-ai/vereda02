@@ -1,0 +1,36 @@
+{
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "ZZZ\u0016\u0016\u0016Xֺ77mmm74ZZZ\u0016\u0016\u0016Xֺ77",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "ZZZ\u0016\u0016\u0016Xֺ77mmmZZ\u0016\u0016ZZZ\u0016\u0016\u0016Xֺ77mm",
+        "pass": false
+      }
+    ]
+  }
+}

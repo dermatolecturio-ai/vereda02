@@ -1,0 +1,147 @@
+{
+  "suite": "local-critical",
+  "variant": "no_vsa_memory",
+  "group": "memory-vsa-kalman",
+  "seed": 22,
+  "run_dir": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-22",
+  "status": "ok",
+  "config": {
+    "name": "no_vsa_memory-seed-22",
+    "model": {
+      "architecture": "vereda_final",
+      "d_model": 64,
+      "n_layers": 2,
+      "head_size": 16,
+      "patch_size": 4,
+      "local_dim": 32,
+      "ffn_multiplier": 1.0,
+      "dropout": 0.0,
+      "use_vsa_memory": false,
+      "use_kalman_write": true,
+      "use_lorentz_dendrite": true,
+      "use_adaptive_gamma_quant": true
+    },
+    "data": {
+      "kind": "conversation_jsonl",
+      "path": "data/long_memory_curriculum.jsonl",
+      "manifest": "",
+      "seq_len": 64,
+      "seed": 22
+    },
+    "train": {
+      "output_dir": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-22",
+      "batch_size": 2,
+      "steps": 250,
+      "learning_rate": 0.0003,
+      "min_learning_rate": 3e-05,
+      "weight_decay": 0.0,
+      "grad_clip": 1.0,
+      "grad_accum_steps": 1,
+      "checkpoint_every": 251,
+      "eval_every": 250,
+      "log_every": 10,
+      "device": "auto",
+      "dtype": "fp32",
+      "seed": 22,
+      "resume": "",
+      "tbptt_chunk_bytes": 0,
+      "sample_every": 0,
+      "curvature_loss_weight": 0.1,
+      "syntax_loss_weight": 0.2,
+      "topology_loss_weight": 0.05,
+      "stability_loss_weight": 1.0
+    }
+  },
+  "checkpoint": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-22/final.pt",
+  "architecture": "vereda_final",
+  "parameters": 251438,
+  "parameter_megabytes": 0.9591598510742188,
+  "state_megabytes": 0.0112457275390625,
+  "bytes_per_second": 822.8839976770157,
+  "utf8_valid_rate": 1.0,
+  "repetition_rate": 0.6948051948051948,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "o co o po jeo o o poo o o poo o o poo o o poo o o poo o o poo o ",
+    " co o o o poo o o poo o o poo o o poo o o poo o o poo o o poo o ",
+    "o co o po o o poo o o poo o o poo o o poo o o poo o o poo o o po",
+    " co o o o poo o o poo o o poo o o poo o o poo o o poo o o poo o "
+  ],
+  "validation_batches": 1,
+  "validation_loss": 4.358043193817139,
+  "validation_bpb": 6.287327303699886,
+  "validation_data_kind": "conversation_jsonl",
+  "validation_data_path": "data/pt_teste_5k.jsonl",
+  "validation_data_manifest": "",
+  "validation_seq_len": 64,
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "  O o poo o o poo o o poo o o poo o o poo o o poo o o poo o o po",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "  O o o o poo o o poo o o poo o o poo o o poo o o poo o o poo o ",
+        "pass": false
+      }
+    ]
+  },
+  "train_metrics": {
+    "latest_train": {
+      "step": 250,
+      "train_loss": 1.931662881374359,
+      "train_bpb": 2.7868004596280738,
+      "learning_rate": 3e-05,
+      "bytes_per_second": 124.6132642555408,
+      "parameters": 251438,
+      "device": "mps",
+      "kalman_gain": 0.2558957993984222,
+      "loss_curvature": 0.09789378568530083,
+      "loss_syntax": 0.0,
+      "loss_topology": 0.0,
+      "novelty": 0.1675855413079262,
+      "quant_gamma": 0.7023706793785095,
+      "state_norm": 5.568010139465332,
+      "summary_norm": 0.4974891424179077
+    },
+    "latest_validation": {
+      "step": 250,
+      "validation_loss": 2.0786461432774863,
+      "validation_bpb": 2.9988524826693994,
+      "validation_state_norm": 5.659113883972168,
+      "validation_novelty": 0.1637247602144877,
+      "validation_summary_norm": 0.49703869223594666,
+      "validation_kalman_gain": 0.25589776039123535,
+      "validation_quant_gamma": 0.7023786902427673,
+      "validation_loss_curvature": 0.09742768357197444,
+      "validation_loss_syntax": 0.0,
+      "validation_loss_topology": 0.0
+    },
+    "log_rows": 27
+  },
+  "elapsed_seconds": 261.6033984169999
+}

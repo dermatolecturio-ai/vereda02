@@ -1,0 +1,9 @@
+{
+  "latency_ratio_dual_over_baseline": 0.8714603546564177,
+  "latency_pass": true,
+  "persistence_pass": true,
+  "bpb_ratio_dual_over_baseline": 0.9676278573965943,
+  "bpb_pass": true,
+  "contribution_criteria_complete": false,
+  "contribution_pass": false
+}

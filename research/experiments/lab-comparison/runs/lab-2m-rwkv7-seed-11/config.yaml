@@ -1,0 +1,32 @@
+name: lab-2m-rwkv7-seed-11
+model:
+  architecture: rwkv7
+  d_model: 128
+  n_layers: 8
+  head_size: 32
+  patch_size: 4
+  local_dim: 32
+  ffn_multiplier: 4.0
+  dropout: 0.0
+data:
+  kind: synthetic
+  path: ''
+  manifest: ''
+  seq_len: 128
+  seed: 11
+train:
+  output_dir: research/experiments/lab-comparison/runs/lab-2m-rwkv7-seed-11
+  batch_size: 8
+  steps: 110
+  learning_rate: 0.0003
+  min_learning_rate: 3.0e-05
+  weight_decay: 0.1
+  grad_clip: 1.0
+  grad_accum_steps: 1
+  checkpoint_every: 250
+  eval_every: 100
+  log_every: 10
+  device: auto
+  dtype: bf16
+  seed: 11
+  resume: ''

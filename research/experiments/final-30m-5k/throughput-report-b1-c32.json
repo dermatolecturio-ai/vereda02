@@ -1,0 +1,37 @@
+{
+  "config": "configs/vereda_final_30m_5k.yaml",
+  "batch_size": 1,
+  "repeats": 1,
+  "rows": [
+    {
+      "chunk_bytes": 32,
+      "batch_size": 1,
+      "repeats": 1,
+      "device": "mps",
+      "parameters": 37957428,
+      "mean_seconds_per_chunk": 2.6164742910000003,
+      "min_seconds_per_chunk": 2.6164742910000003,
+      "max_seconds_per_chunk": 2.6164742910000003,
+      "bytes_per_second": 10.701423704529722,
+      "patches_per_second": 3.0575496298656346,
+      "mean_loss": 19.872638702392578,
+      "mean_bpb": 28.670157305319858,
+      "estimated_official_step_seconds": 669.8174184960001,
+      "estimated_5000_hours": 930.3019701333335,
+      "official_seq_len": 1024,
+      "official_grad_accum_steps": 8,
+      "official_chunks_per_microbatch": 32,
+      "auxiliary_means": {
+        "kalman_gain": 0.3397430181503296,
+        "loss_curvature": 118.0244369506836,
+        "loss_syntax": 11.914952278137207,
+        "loss_topology": 0.0,
+        "novelty": 0.9645774960517883,
+        "quant_gamma": 0.7000000476837158,
+        "state_norm": 12.191837310791016,
+        "summary_norm": 0.48229339718818665
+      }
+    }
+  ],
+  "note": "Each row is a real forward/backward chunk with the full model. The 5000-step estimate scales by official seq_len/chunk and grad_accum_steps."
+}

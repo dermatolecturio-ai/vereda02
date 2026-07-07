@@ -1,0 +1,68 @@
+{
+  "checkpoint": "research/experiments/lab-comparison/runs/lab-2m-rwkv7-seed-33/final.pt",
+  "architecture": "rwkv7",
+  "parameters": 2065312,
+  "parameter_megabytes": 7.8785400390625,
+  "state_megabytes": 0.1328125,
+  "bytes_per_second": 752.6859775518222,
+  "utf8_valid_rate": 1.0,
+  "repetition_rate": 0.0,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "uaaa    iiia   eaaaalll.\n\nssiiia   agaaa    iiaa erraaa asass   ",
+    "iioo    aaaallu rroo    aaaallu rroo    aaaalll ssso    aaaalllu",
+    "inoa   agaaa    aaaalll.\n\nssiiaa  erannn ssan  aaaaalll.\n\nssiiaa"
+  ],
+  "validation_batches": 3,
+  "validation_loss": 1.871671199798584,
+  "validation_bpb": 2.7002507581241133,
+  "seed": 33,
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 1000,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "    aaaall.\nsrrr    aaaall\n\nurrr    aaaall\n\nrrrra   aaaall\n\nrrrr",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "    iiaa  erannn sssiiia  e aiinaa auuuu..sseera    iiaa erraea ",
+        "pass": false
+      },
+      {
+        "turns": 1000,
+        "expected": "Z-731",
+        "response": "    aaaall.\nsrrr    aaaall.\nsrrr    aaaall.\nsrrr    aaaall.\nsrrr",
+        "pass": false
+      }
+    ]
+  }
+}

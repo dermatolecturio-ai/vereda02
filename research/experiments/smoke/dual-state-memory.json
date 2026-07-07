@@ -1,0 +1,24 @@
+{
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "n88jnne-e88nna-888nn}}eeb ojjneebooon88bnn--eee8neebooon88b",
+        "pass": false
+      }
+    ]
+  }
+}

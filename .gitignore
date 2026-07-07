@@ -7,3 +7,7 @@ dados/*.parquet
 dados/*.pt
 *.log
 scratch/
+
+# Research run checkpoints are useful locally, but too heavy for the
+# GitHub/Colab synchronization loop. Keep configs, metrics, reports and figures.
+research/experiments/**/runs/**/*.pt

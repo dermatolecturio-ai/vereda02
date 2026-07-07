@@ -1,0 +1,21 @@
+{
+  "checkpoint": "runs/lab-2m-rwkv7/final.pt",
+  "architecture": "rwkv7",
+  "parameters": 2065312,
+  "parameter_megabytes": 7.8785400390625,
+  "state_megabytes": 0.1328125,
+  "bytes_per_second": 207.33826265654304,
+  "utf8_valid_rate": 0.8125,
+  "repetition_rate": 0.0,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "YYY� YY�\feeeYYYY YY�\fYY�YYY0  ��",
+    "YYY� YY�\feeeYYYY YY�\fYY�YYY0  ��",
+    "YYY� YY�\feeeYYYY YY�\fYY�YYY0  ��"
+  ],
+  "validation_batches": 1,
+  "validation_loss": 5.158559322357178,
+  "validation_bpb": 7.442227952496232
+}

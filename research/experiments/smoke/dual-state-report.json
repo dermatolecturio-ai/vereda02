@@ -1,0 +1,21 @@
+{
+  "checkpoint": "runs/lab-2m-dual-state/final.pt",
+  "architecture": "dual_state",
+  "parameters": 2038688,
+  "parameter_megabytes": 7.7769775390625,
+  "state_megabytes": 0.12890625,
+  "bytes_per_second": 237.9204763001391,
+  "utf8_valid_rate": 0.8333333333333334,
+  "repetition_rate": 0.0,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "nee8n4oo�ee��ojjnee8n4oo�ee��ojj",
+    "nnbb�oo8n\u0005\u0005���bbn888nn}-�e88nna-",
+    "nnbb�oo8n\u0005\u0005���bbn888nn}-�e88nna-"
+  ],
+  "validation_batches": 1,
+  "validation_loss": 4.991565704345703,
+  "validation_bpb": 7.201307087930972
+}

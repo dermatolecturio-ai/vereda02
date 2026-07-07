@@ -1,0 +1,66 @@
+{
+  "config": "configs/vereda_final_30m_5k.yaml",
+  "batch_size": 4,
+  "repeats": 1,
+  "rows": [
+    {
+      "chunk_bytes": 64,
+      "batch_size": 4,
+      "repeats": 1,
+      "device": "mps",
+      "parameters": 37957428,
+      "mean_seconds_per_chunk": 3.9017799999999996,
+      "min_seconds_per_chunk": 3.9017799999999996,
+      "max_seconds_per_chunk": 3.9017799999999996,
+      "bytes_per_second": 61.51038756670033,
+      "patches_per_second": 16.402770017786757,
+      "mean_loss": 19.615262985229492,
+      "mean_bpb": 28.298842634523435,
+      "estimated_official_step_seconds": 499.42783999999995,
+      "estimated_5000_hours": 693.6497777777777,
+      "official_seq_len": 1024,
+      "official_grad_accum_steps": 8,
+      "official_chunks_per_microbatch": 16,
+      "auxiliary_means": {
+        "kalman_gain": 0.25572535395622253,
+        "loss_curvature": 116.05210876464844,
+        "loss_syntax": 11.70709228515625,
+        "loss_topology": 0.0,
+        "novelty": 0.9779281616210938,
+        "quant_gamma": 0.7000000476837158,
+        "state_norm": 12.167041778564453,
+        "summary_norm": 0.49426886439323425
+      }
+    },
+    {
+      "chunk_bytes": 128,
+      "batch_size": 4,
+      "repeats": 1,
+      "device": "mps",
+      "parameters": 37957428,
+      "mean_seconds_per_chunk": 6.436507624999999,
+      "min_seconds_per_chunk": 6.436507624999999,
+      "max_seconds_per_chunk": 6.436507624999999,
+      "bytes_per_second": 77.06042296500816,
+      "patches_per_second": 19.886560765163395,
+      "mean_loss": 19.670637130737305,
+      "mean_bpb": 28.37873063964102,
+      "estimated_official_step_seconds": 411.93648799999994,
+      "estimated_5000_hours": 572.134011111111,
+      "official_seq_len": 1024,
+      "official_grad_accum_steps": 8,
+      "official_chunks_per_microbatch": 8,
+      "auxiliary_means": {
+        "kalman_gain": 0.21125678718090057,
+        "loss_curvature": 115.87860107421875,
+        "loss_syntax": 11.76621150970459,
+        "loss_topology": 0.0,
+        "novelty": 0.9708881974220276,
+        "quant_gamma": 0.7000000476837158,
+        "state_norm": 13.589306831359863,
+        "summary_norm": 0.49560174345970154
+      }
+    }
+  ],
+  "note": "Each row is a real forward/backward chunk with the full model. The 5000-step estimate scales by official seq_len/chunk and grad_accum_steps."
+}

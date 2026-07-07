@@ -1,0 +1,59 @@
+{
+  "baseline_config": "configs/lab_2m_rwkv.yaml",
+  "dual_state_config": "configs/lab_2m_dual_state.yaml",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "max_steps": null,
+  "comparisons": [
+    {
+      "seed": 11,
+      "comparison": {
+        "latency_ratio_dual_over_baseline": 0.8191243467414845,
+        "latency_pass": true,
+        "persistence_pass": true,
+        "bpb_ratio_dual_over_baseline": 1.1150991702464335,
+        "bpb_pass": false,
+        "memory_gain_points": 0.0,
+        "memory_pass": false,
+        "contribution_criteria_complete": true,
+        "contribution_pass": false
+      }
+    },
+    {
+      "seed": 22,
+      "comparison": {
+        "latency_ratio_dual_over_baseline": 0.8142063933767932,
+        "latency_pass": true,
+        "persistence_pass": true,
+        "bpb_ratio_dual_over_baseline": 1.087439235096991,
+        "bpb_pass": false,
+        "memory_gain_points": 0.0,
+        "memory_pass": false,
+        "contribution_criteria_complete": true,
+        "contribution_pass": false
+      }
+    },
+    {
+      "seed": 33,
+      "comparison": {
+        "latency_ratio_dual_over_baseline": 0.7154394570014339,
+        "latency_pass": true,
+        "persistence_pass": true,
+        "bpb_ratio_dual_over_baseline": 1.0477244264953691,
+        "bpb_pass": false,
+        "memory_gain_points": 0.0,
+        "memory_pass": false,
+        "contribution_criteria_complete": true,
+        "contribution_pass": false
+      }
+    }
+  ],
+  "mean": {
+    "bpb_ratio_dual_over_baseline": 1.0834209439462645,
+    "latency_ratio_dual_over_baseline": 0.7829233990399038,
+    "memory_gain_points": 0.0
+  }
+}

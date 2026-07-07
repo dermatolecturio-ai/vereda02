@@ -1,0 +1,147 @@
+{
+  "suite": "local-critical",
+  "variant": "no_vsa_memory",
+  "group": "memory-vsa-kalman",
+  "seed": 33,
+  "run_dir": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-33",
+  "status": "ok",
+  "config": {
+    "name": "no_vsa_memory-seed-33",
+    "model": {
+      "architecture": "vereda_final",
+      "d_model": 64,
+      "n_layers": 2,
+      "head_size": 16,
+      "patch_size": 4,
+      "local_dim": 32,
+      "ffn_multiplier": 1.0,
+      "dropout": 0.0,
+      "use_vsa_memory": false,
+      "use_kalman_write": true,
+      "use_lorentz_dendrite": true,
+      "use_adaptive_gamma_quant": true
+    },
+    "data": {
+      "kind": "conversation_jsonl",
+      "path": "data/long_memory_curriculum.jsonl",
+      "manifest": "",
+      "seq_len": 64,
+      "seed": 33
+    },
+    "train": {
+      "output_dir": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-33",
+      "batch_size": 2,
+      "steps": 250,
+      "learning_rate": 0.0003,
+      "min_learning_rate": 3e-05,
+      "weight_decay": 0.0,
+      "grad_clip": 1.0,
+      "grad_accum_steps": 1,
+      "checkpoint_every": 251,
+      "eval_every": 250,
+      "log_every": 10,
+      "device": "auto",
+      "dtype": "fp32",
+      "seed": 33,
+      "resume": "",
+      "tbptt_chunk_bytes": 0,
+      "sample_every": 0,
+      "curvature_loss_weight": 0.1,
+      "syntax_loss_weight": 0.2,
+      "topology_loss_weight": 0.05,
+      "stability_loss_weight": 1.0
+    }
+  },
+  "checkpoint": "/Users/victorprudencio/veredassm2/runs/article-ablations/local-critical/no_vsa_memory-seed-33/final.pt",
+  "architecture": "vereda_final",
+  "parameters": 251438,
+  "parameter_megabytes": 0.9591598510742188,
+  "state_megabytes": 0.0112457275390625,
+  "bytes_per_second": 716.9804766044814,
+  "utf8_valid_rate": 0.513739224137931,
+  "repetition_rate": 0.0,
+  "punctuation_completion_rate": 0.0,
+  "rough_agreement_accuracy": null,
+  "persistence_equal": true,
+  "samples": [
+    "----ה--��--��--ה--ה�\"ׇ�\"ׇ�\"ׇ�\"���\"���\"��S\"��S\"��S\"��S\"��S\"",
+    "�S�\"��S\"�S�\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"",
+    "��S\u0019��S\"��S\"��S\"��S\u0019��S\"��S\u0019��S\"��S\u0019��S\u0019��S\u0019��S\u0019��S\u0019��S\u0019��S\u0019��S\u0019",
+    "���\"���\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\"��S\""
+  ],
+  "validation_batches": 1,
+  "validation_loss": 4.0043745040893555,
+  "validation_bpb": 5.777091238911916,
+  "validation_data_kind": "conversation_jsonl",
+  "validation_data_path": "data/pt_teste_5k.jsonl",
+  "validation_data_manifest": "",
+  "validation_seq_len": 64,
+  "episodic_memory": {
+    "episodic_memory_accuracy": 1.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      },
+      {
+        "turns": 100,
+        "recall_pass": true,
+        "correction_pass": true,
+        "forgetting_pass": true
+      }
+    ]
+  },
+  "recurrent_memory": {
+    "recurrent_memory_accuracy": 0.0,
+    "horizons": [
+      {
+        "turns": 10,
+        "expected": "Z-731",
+        "response": "S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"S\"",
+        "pass": false
+      },
+      {
+        "turns": 100,
+        "expected": "Z-731",
+        "response": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "pass": false
+      }
+    ]
+  },
+  "train_metrics": {
+    "latest_train": {
+      "step": 250,
+      "train_loss": 2.026111364364624,
+      "train_bpb": 2.923060817657615,
+      "learning_rate": 3e-05,
+      "bytes_per_second": 138.4646799950632,
+      "parameters": 251438,
+      "device": "mps",
+      "kalman_gain": 0.25586395263671874,
+      "loss_curvature": 0.15098516047000884,
+      "loss_syntax": 0.0,
+      "loss_topology": 0.0,
+      "novelty": 1.1564367890357972,
+      "quant_gamma": 0.702501404285431,
+      "state_norm": 16.177570819854736,
+      "summary_norm": 0.5031584024429321
+    },
+    "latest_validation": {
+      "step": 250,
+      "validation_loss": 2.1642375389734902,
+      "validation_bpb": 3.122334764782789,
+      "validation_state_norm": 15.830106099446615,
+      "validation_novelty": 1.1537837982177734,
+      "validation_summary_norm": 0.5035916566848755,
+      "validation_kalman_gain": 0.25586414337158203,
+      "validation_quant_gamma": 0.7025098204612732,
+      "validation_loss_curvature": 0.155496284365654,
+      "validation_loss_syntax": 0.0,
+      "validation_loss_topology": 0.0
+    },
+    "log_rows": 27
+  },
+  "elapsed_seconds": 235.8628497919999
+}

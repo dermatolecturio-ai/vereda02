@@ -1,0 +1,304 @@
+{
+  "generated_by": "research/experiments/math-validation/validate_math.py",
+  "math_probes": [
+    {
+      "name": "lorentz_projection_identity",
+      "max_abs_error": 1.0436096431476471e-14,
+      "threshold": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "lorentz_retraction_cubic_error",
+      "max_abs_error": 1.3658926808412933e-06,
+      "max_constraint_error": 2.220446049250313e-16,
+      "loglog_error_slope": 3.000131572418073,
+      "threshold": 1e-05,
+      "pass": true
+    },
+    {
+      "name": "dendritic_lorentz_identity",
+      "max_abs_error": 4.440892098500626e-16,
+      "threshold": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "dual_state_delta_exact_recall_ideal_key",
+      "max_abs_error": 1.0728836059570312e-06,
+      "threshold": 1e-05,
+      "pass": true
+    },
+    {
+      "name": "cbh_step2_associativity",
+      "max_abs_error": 9.5367431640625e-07,
+      "threshold": 1e-05,
+      "pass": true
+    },
+    {
+      "name": "orthogonal_reset_projection",
+      "max_abs_error": 4.3787196091216174e-13,
+      "threshold": 1e-10,
+      "pass": true
+    },
+    {
+      "name": "cif_parallel_vs_sequential",
+      "max_abs_error": 1.3322676295501878e-15,
+      "threshold": 1e-07,
+      "pass": true,
+      "sequence_lengths": [
+        2,
+        4,
+        8,
+        16
+      ]
+    },
+    {
+      "name": "stp_state_boundedness",
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "pass": true,
+      "min_value": 0.0,
+      "max_value": 1.0
+    },
+    {
+      "name": "ternary_ste_masked_gradient",
+      "max_abs_error": 0.0,
+      "threshold": 1e-07,
+      "pass": true
+    },
+    {
+      "name": "adaptive_gamma_quant_finite_gradient",
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "pass": true,
+      "gamma": 0.7000000476837158,
+      "max_grad_abs": 0.008198477327823639
+    },
+    {
+      "name": "rls_covariance_spd_and_convergence",
+      "max_abs_error": 2.121806346317469e-05,
+      "threshold": 0.0001,
+      "pass": true,
+      "min_covariance_eigenvalue": 0.005606919250635967
+    },
+    {
+      "name": "vsa_random_near_orthogonality",
+      "mean_abs_similarity": 0.024930905550718307,
+      "max_abs_similarity": 0.123470239341259,
+      "expected_std": 0.03125,
+      "threshold": 0.14,
+      "pass": true
+    },
+    {
+      "name": "vereda_final_state_bounds",
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "pass": true,
+      "cif_min": 0.1890876293182373,
+      "cif_max": 0.375042200088501,
+      "kalman_cov_min": 0.0404982827603817,
+      "kalman_cov_max": 0.0404982827603817,
+      "stp_f_min": 0.43668603897094727,
+      "stp_f_max": 1.0,
+      "stp_x_min": 0.0,
+      "stp_x_max": 1.0
+    },
+    {
+      "name": "vereda_final_backward_and_vsa_grad",
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "pass": true,
+      "loss": 5.901482582092285,
+      "grad_sums": {
+        "p_u": 0.0013813406694680452,
+        "p_w": 0.0013371778186410666,
+        "p_c": 0.0011048156302422285,
+        "slow_write": 0.0008869024459272623,
+        "memory_projection": 0.6535500288009644,
+        "memory_vsa_projection": 0.5388288497924805
+      }
+    },
+    {
+      "name": "vereda_final_checkpoint_equivalence",
+      "max_abs_error": 0.0,
+      "threshold": 1e-06,
+      "pass": true,
+      "hidden_error": 0.0,
+      "grad_error": 0.0
+    },
+    {
+      "name": "topology_loss_tearing_order",
+      "max_abs_error": 0.0,
+      "threshold": 0.0,
+      "pass": true,
+      "smooth_loss": 0.0,
+      "torn_loss": 0.038295600563287735,
+      "margin": 0.038295600563287735
+    }
+  ],
+  "lab_contribution": {
+    "criteria": {
+      "max_bpb_ratio": 1.03,
+      "max_latency_ratio": 1.5,
+      "min_memory_gain_points": 0.15
+    },
+    "rows": [
+      {
+        "seed": 11,
+        "bpb_ratio_dual_over_baseline": 1.1150991702464335,
+        "latency_ratio_dual_over_baseline": 0.8191243467414845,
+        "memory_gain_points": 0.0,
+        "contribution_pass": false
+      },
+      {
+        "seed": 22,
+        "bpb_ratio_dual_over_baseline": 1.087439235096991,
+        "latency_ratio_dual_over_baseline": 0.8142063933767932,
+        "memory_gain_points": 0.0,
+        "contribution_pass": false
+      },
+      {
+        "seed": 33,
+        "bpb_ratio_dual_over_baseline": 1.0477244264953691,
+        "latency_ratio_dual_over_baseline": 0.7154394570014339,
+        "memory_gain_points": 0.0,
+        "contribution_pass": false
+      }
+    ],
+    "mean": {
+      "bpb_ratio_dual_over_baseline": 1.0834209439462645,
+      "latency_ratio_dual_over_baseline": 0.7829233990399038,
+      "memory_gain_points": 0.0
+    },
+    "all_pass": false
+  },
+  "run_metrics": {
+    "runs/lab-2m-rwkv7/metrics.jsonl": {
+      "train_rows": 2,
+      "validation_rows": 0,
+      "non_monotonic_step_resets": 0,
+      "last_train": {
+        "step": 1,
+        "train_loss": 5.705987930297852,
+        "train_bpb": 8.232000490412991,
+        "learning_rate": 0.0002999998334504599,
+        "bytes_per_second": 429.9102800798176,
+        "parameters": 2065312,
+        "device": "mps"
+      },
+      "last_validation": null,
+      "best_validation_bpb": null
+    },
+    "runs/lab-2m-dual-state/metrics.jsonl": {
+      "train_rows": 15,
+      "validation_rows": 1,
+      "non_monotonic_step_resets": 0,
+      "last_train": {
+        "step": 100,
+        "train_loss": 1.5309455275535584,
+        "train_bpb": 2.208687520472657,
+        "learning_rate": 0.0002983379259803436,
+        "bytes_per_second": 732.6446758972996,
+        "parameters": 2038688,
+        "device": "mps"
+      },
+      "last_validation": {
+        "step": 100,
+        "validation_loss": 1.4861717224121094,
+        "validation_bpb": 2.144092573833359,
+        "validation_state_norm": 16.86764399210612
+      },
+      "best_validation_bpb": 2.144092573833359
+    },
+    "runs/lab-2m-vereda-v2/metrics.jsonl": {
+      "train_rows": 118,
+      "validation_rows": 10,
+      "non_monotonic_step_resets": 22,
+      "last_train": {
+        "step": 10,
+        "train_loss": 8.40510924657186,
+        "train_bpb": 12.126009428159193,
+        "learning_rate": 0.0002997336083378167,
+        "bytes_per_second": 904.4406090239007,
+        "parameters": 2107360,
+        "device": "mps"
+      },
+      "last_validation": {
+        "step": 500,
+        "validation_loss": 1.726335048675537,
+        "validation_bpb": 2.4905750136370046,
+        "validation_state_norm": 7.126564343770345
+      },
+      "best_validation_bpb": 2.4905750136370046
+    },
+    "runs/vereda-7m-mac/metrics.jsonl": {
+      "train_rows": 57,
+      "validation_rows": 2,
+      "non_monotonic_step_resets": 0,
+      "last_train": {
+        "step": 560,
+        "train_loss": 2.5760281324386596,
+        "train_bpb": 3.716423011859712,
+        "learning_rate": 0.00013872218374793162,
+        "bytes_per_second": 1705.246697285782,
+        "parameters": 6729600,
+        "device": "mps"
+      },
+      "last_validation": {
+        "step": 500,
+        "validation_loss": 2.534872531890869,
+        "validation_bpb": 3.657048031044608,
+        "validation_state_norm": 10.857318242390951
+      },
+      "best_validation_bpb": 3.657048031044608
+    }
+  },
+  "patching_cost": {
+    "sequence_bytes": 4096,
+    "rows": [
+      {
+        "patch_size": 1,
+        "recurrent_steps": 4096,
+        "relative_recurrent_steps": 1.0
+      },
+      {
+        "patch_size": 2,
+        "recurrent_steps": 2048,
+        "relative_recurrent_steps": 0.5
+      },
+      {
+        "patch_size": 4,
+        "recurrent_steps": 1024,
+        "relative_recurrent_steps": 0.25
+      },
+      {
+        "patch_size": 8,
+        "recurrent_steps": 512,
+        "relative_recurrent_steps": 0.125
+      },
+      {
+        "patch_size": 16,
+        "recurrent_steps": 256,
+        "relative_recurrent_steps": 0.0625
+      },
+      {
+        "patch_size": 32,
+        "recurrent_steps": 128,
+        "relative_recurrent_steps": 0.03125
+      }
+    ],
+    "pt_br_sample_chars": 87,
+    "pt_br_sample_bytes": 94,
+    "pt_br_bytes_per_char": 1.0804597701149425
+  },
+  "figures": {
+    "contribution_criteria": "research/experiments/math-validation/contribution_criteria.png",
+    "math_invariants": "research/experiments/math-validation/math_invariants.png",
+    "training_bpb_latest_segments": "research/experiments/math-validation/training_bpb_latest_segments.png",
+    "patching_cost_curve": "research/experiments/math-validation/patching_cost_curve.png"
+  },
+  "overall": {
+    "local_math_invariants_pass": true,
+    "lab_contribution_pass": false,
+    "pretraining_ready": false
+  }
+}
