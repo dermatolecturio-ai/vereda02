@@ -13,3 +13,7 @@ scratch/
 research/experiments/**/runs/**/*.pt
 memoria.vereda
 m4/resultados/*.vereda
+
+# artefatos de smoke (números nunca contam, não sincronizam)
+modelos/*.smoke
+m5/resultados/*.smoke.json
