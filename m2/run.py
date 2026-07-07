@@ -244,6 +244,12 @@ def main():
     head = load_m1_head(model.device)
 
     for arm in args.arms.split(","):
+        if arm in ("S1", "S2") and not os.path.exists(
+                ckpt_path(aux_recon=(arm == "S2"))):
+            print("AVISO: checkpoint do braço %s ausente, pulando o braço "
+                  "(rode m2.train_soft%s)" % (
+                      arm, " --aux-recon" if arm == "S2" else ""), flush=True)
+            continue
         for k in [int(x) for x in args.k_list.split(",")]:
             tag = "M2_%s_k%d_n%d" % (arm, k, args.n)
             path = os.path.join(OUT_DIR, tag + ".json")
