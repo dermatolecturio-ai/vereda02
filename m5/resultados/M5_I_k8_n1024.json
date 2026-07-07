@@ -1,0 +1,8234 @@
+{
+ "marco": "M5-knife",
+ "arm": "I",
+ "k": 8,
+ "n": 1024,
+ "acc": 0.001953125,
+ "enderecamento_top1": 0.1142578125,
+ "acc_cond_enderec_ok": 0.0,
+ "acc_por_terco_posicao": {
+  "0": 0.0,
+  "1": 0.002577319587628866,
+  "2": 0.004081632653061225
+ },
+ "tokens_prompt_medio": 43.6181640625,
+ "s_por_item": 0.03903832798823714,
+ "tempo_total_s": 39.975247859954834,
+ "dataset_stats": {
+  "n": 1024,
+  "k": 8,
+  "gold_len_min": 4,
+  "gold_len_max": 15,
+  "gold_len_media": 7.349609375,
+  "gold_multipalavra_frac": 0.0693359375,
+  "gold_com_acento_frac": 0.314453125,
+  "alvo_por_terco": {
+   "0": 391,
+   "1": 388,
+   "2": 245
+  }
+ },
+ "config": {
+  "modelo": "Qwen2.5-0.5B-Instruct",
+  "greedy": true,
+  "seed_dataset": 1008,
+  "split": "held",
+  "ckpt": "vereda2_m5_knife.pt",
+  "camada_injecao": 12,
+  "ablacao": null
+ },
+ "itens": [
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Redifa?",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Inês.",
+   "gold": "Oeiras",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Belo Horizonte",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Ricovati.",
+   "gold": "Maceió",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Porto Alegre",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Zidojo?",
+   "gold": "brigadeiro",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Cofopi?",
+   "gold": "jfx2r",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "t9v7",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tibare.",
+   "gold": "escondidinho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Gabriela?",
+   "gold": "Sofia",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Pilovi?",
+   "gold": "Florianópolis",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Bruno.",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Pame.",
+   "gold": "bobó de camarão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Zeca.",
+   "gold": "marrom",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Elisa.",
+   "gold": "Nair",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Pejomena?",
+   "gold": "brigadeiro",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "grego",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Bernardo.",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Sofia.",
+   "gold": "maniçoba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rafazafo?",
+   "gold": "Patrícia",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Cristiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Bruno?",
+   "gold": "Picos",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Inês?",
+   "gold": "marrom",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Inês.",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tereza?",
+   "gold": "Bruno",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Larissa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Vecobefa?",
+   "gold": "Bernardo",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Elena",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Alice?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de João?",
+   "gold": "adndjwg88n",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "gk9t7m",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de João.",
+   "gold": "maniçoba",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Elisa.",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nicolas.",
+   "gold": "q667",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "27x6f9h8q5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Cole?",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Alice?",
+   "gold": "Parnaíba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Mudafe?",
+   "gold": "escondidinho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Dimiveba?",
+   "gold": "Sobral",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Teodoro?",
+   "gold": "Kauã",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Cyrana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Bruno.",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Lucas?",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zabe.",
+   "gold": "escondidinho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Pinifo.",
+   "gold": "Florianópolis",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Life?",
+   "gold": "Lucas",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Vittória",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rabigopi.",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de João.",
+   "gold": "brigadeiro",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Fernanda.",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Patrícia.",
+   "gold": "vermelho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paulo?",
+   "gold": "brigadeiro",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rirape?",
+   "gold": "bobó de camarão",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Kléber?",
+   "gold": "marrom",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Siledo?",
+   "gold": "Kauã",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Kléber.",
+   "gold": "escondidinho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Nair?",
+   "gold": "Horácio",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de William?",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Raquel.",
+   "gold": "Campo Grande",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Cave?",
+   "gold": "usnkvueh",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "v6xw9yqf",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Alice?",
+   "gold": "Raquel",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Elisa?",
+   "gold": "Mingau",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Mogama?",
+   "gold": "54dgs8",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "6v9h7",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Vabunoza?",
+   "gold": "Picos",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Davi.",
+   "gold": "Nicolas",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Vazopo.",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Serelepe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Teodoro.",
+   "gold": "Kléber",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Gojudu?",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Rafael?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Juzi.",
+   "gold": "prateado",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Fernanda?",
+   "gold": "moqueca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Norma?",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Ipanema",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Fernanda?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "agua têxteis",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Fesogufe?",
+   "gold": "Sofia",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de William?",
+   "gold": "preto",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Lucas?",
+   "gold": "prateado",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Bernardo?",
+   "gold": "Oeiras",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Duti?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Tereza.",
+   "gold": "dv2rrzscg8",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "7985-4231",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Tanucu?",
+   "gold": "9t4rxv5hj",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "27v6435",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Cara?",
+   "gold": "xgjefuuhq",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "kxgjypz",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de William?",
+   "gold": "Recife",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Sejodina?",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Digasu?",
+   "gold": "moqueca",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Lite?",
+   "gold": "preto",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Pivogadi?",
+   "gold": "Nair",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Jaco.",
+   "gold": "Ilhéus",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Inês.",
+   "gold": "5682fxh6",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "7v69h",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Zacu?",
+   "gold": "Jorge",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Teodoro.",
+   "gold": "vermelho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Elisa?",
+   "gold": "Teodoro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Lucas?",
+   "gold": "Nicolas",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Maurício",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Nusopame.",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Nigro",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sozita.",
+   "gold": "3vgyd3t",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "xg6f7y8h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Conedu?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Raquel?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Culanope?",
+   "gold": "maniçoba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Mosafami?",
+   "gold": "edckhx8wa",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "g6v9m7",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Lifofi.",
+   "gold": "Mingau",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Zeca?",
+   "gold": "vatapá",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Tananu?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Nair?",
+   "gold": "bkdktnfyt",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "9x68h",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Osvaldo?",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Tumu?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Zeca?",
+   "gold": "Campo Grande",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bazoma?",
+   "gold": "moqueca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tereza.",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Alice?",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Bruno?",
+   "gold": "marrom",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Tesiga.",
+   "gold": "cznp",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "j7v9w2g3",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paulo?",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Buju.",
+   "gold": "São Paulo",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rio de Janeiro",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Tumidonu?",
+   "gold": "Paçoca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Mibe?",
+   "gold": "Picos",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Belém",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Rafael?",
+   "gold": "zbdp6dx",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "2xv345",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Jorge?",
+   "gold": "Campo Grande",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Lagodesa?",
+   "gold": "Kauã",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Evelyn",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de William?",
+   "gold": "escondidinho",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pescaria",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Miguel.",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Zida?",
+   "gold": "vatapá",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Fernanda.",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Kauã?",
+   "gold": "Tereza",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "César",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Miguel?",
+   "gold": "Florianópolis",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Elisa?",
+   "gold": "Osvaldo",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Vittorio",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Susuzaro?",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Norma?",
+   "gold": "w5ha8hvky",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "2x9q8",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Lucas.",
+   "gold": "Picos",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Dulibato?",
+   "gold": "49dwh2vmd",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "26v78e5m",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Sujuzo?",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Nulozo.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nair?",
+   "gold": "Florianópolis",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Inês.",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tolafi?",
+   "gold": "Paulo",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Zosufa.",
+   "gold": "João",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Vicente",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Davi?",
+   "gold": "jumjgv9jh",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "y9x4m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Manuno?",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Tulitezi.",
+   "gold": "Campo Grande",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Nizebo?",
+   "gold": "Parnaíba",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Vapolore.",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Bezeni?",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Beeblue",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Rafael?",
+   "gold": "xdpvfn9a23",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "qk6789b",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Sire?",
+   "gold": "Neblina",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Davi.",
+   "gold": "3jejv",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "27x6f9h3",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zeca.",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "canjica",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Darubutu?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Sofia.",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nutile?",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Jodi?",
+   "gold": "vatapá",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Tereza?",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Teze?",
+   "gold": "857ks",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "2x9v6",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Rotasa?",
+   "gold": "Mingau",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Alice?",
+   "gold": "bobó de camarão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Nimebode?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Pocadi.",
+   "gold": "Osvaldo",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Elisa.",
+   "gold": "Giovana",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Nicolas?",
+   "gold": "moqueca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Lafocaju?",
+   "gold": "Mingau",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Faísca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Alice?",
+   "gold": "Trovão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Foluti?",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de William?",
+   "gold": "Giovana",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bernardo?",
+   "gold": "a9fr",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q6v9e8g",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Paulo.",
+   "gold": "Trovão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Fecale?",
+   "gold": "Alice",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Nafezi.",
+   "gold": "prateado",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Fenerute?",
+   "gold": "Horácio",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Raquel.",
+   "gold": "gzze",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "q6v9w",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lucas?",
+   "gold": "brigadeiro",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Ditu?",
+   "gold": "bobó de camarão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Gupasu?",
+   "gold": "Maceió",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Alice?",
+   "gold": "Kauã",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Elena",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Zeca?",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Kauã?",
+   "gold": "Mingau",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de João?",
+   "gold": "Giovana",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Horácio.",
+   "gold": "Picos",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rosângela?",
+   "gold": "Miguel",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Elena",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tocunicu.",
+   "gold": "escondidinho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Elisa?",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Curogu?",
+   "gold": "8pzjgn2k",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "27968435",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Zeca?",
+   "gold": "z3ze",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "xw9h8g4m",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Teodoro.",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Patrícia.",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Raquel.",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Jorge?",
+   "gold": "xvn3dsgx",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "v6x7yq2",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jorge?",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Teodoro?",
+   "gold": "Ilhéus",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Dime.",
+   "gold": "Bruno",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Rosângela?",
+   "gold": "cbyqk",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "7x6f9h8h",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tobe?",
+   "gold": "Raquel",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Bogu?",
+   "gold": "Elisa",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Talita",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Sebastião.",
+   "gold": "Oeiras",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Giovana?",
+   "gold": "Mingau",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Mosonuja?",
+   "gold": "preto",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "ruivo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Bapo?",
+   "gold": "Fernanda",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tatu.",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Tatu",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Sebastião.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Sereleu",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nicolas?",
+   "gold": "Davi",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Pibori?",
+   "gold": "Inês",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Cudaza?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Jadifiju.",
+   "gold": "6x9m7wa",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "q6wz8e9m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paulo?",
+   "gold": "moqueca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Teodoro?",
+   "gold": "prateado",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Nicujala?",
+   "gold": "Gabriela",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nair?",
+   "gold": "Trovão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Ficovoja?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Horácio?",
+   "gold": "fzj7dc",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "tq6j7m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nicolas?",
+   "gold": "Paçoca",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Pija?",
+   "gold": "gerwf",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q6xw",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Lucas?",
+   "gold": "Kléber",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Como?",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rununina?",
+   "gold": "bobó de camarão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Sili?",
+   "gold": "moqueca",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Vavivijo.",
+   "gold": "maniçoba",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Sopitosu.",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Bupe.",
+   "gold": "qhvgjku9",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "q6x9yf",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tudula.",
+   "gold": "Fernanda",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Tatiane",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Viveta?",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Davi?",
+   "gold": "escondidinho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Pozo?",
+   "gold": "vermelho",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Mirimi?",
+   "gold": "maniçoba",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "atóxico",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Jolosevo.",
+   "gold": "Parnaíba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Taga?",
+   "gold": "83mj4zsx",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "78v9356",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Teodoro?",
+   "gold": "uu323",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "tj879u34d",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lufocu?",
+   "gold": "maniçoba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Garezomi.",
+   "gold": "Kauã",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Miga?",
+   "gold": "Sebastião",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Patrícia.",
+   "gold": "kp256v",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "798v6m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Teodoro?",
+   "gold": "5mwzhjy4",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "678910",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Raquel.",
+   "gold": "Maceió",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sofia?",
+   "gold": "Neblina",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Sese?",
+   "gold": "Alice",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Luana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Kauã.",
+   "gold": "prateado",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sebastião?",
+   "gold": "maniçoba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Ribilu?",
+   "gold": "zmezhy5n7z",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "d985",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Paulo.",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sofia?",
+   "gold": "t4c5txud3k",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "76x9v8m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Nenazo?",
+   "gold": "qaatpyf8hb",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "jxh89",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Zilatu?",
+   "gold": "Giovana",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Nicolas?",
+   "gold": "zmkm9q",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "n3v7yq8w",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Sofia?",
+   "gold": "Campo Grande",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Inês.",
+   "gold": "k2zae",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "2v659f78e",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Patrícia?",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Tereza?",
+   "gold": "bobó de camarão",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Rosore?",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Dujazo?",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Davi?",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nodeti?",
+   "gold": "Neblina",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Fosigo.",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Kléber?",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bozizomo?",
+   "gold": "3nk9u",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "7v9e",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Sebastião?",
+   "gold": "moqueca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Jozacufe?",
+   "gold": "Osvaldo",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kléber?",
+   "gold": "marrom",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nerejusu?",
+   "gold": "Oeiras",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Horácio?",
+   "gold": "brigadeiro",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Petu?",
+   "gold": "aewcf84vye",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q657h",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Zeca?",
+   "gold": "Bernardo",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Ratanedo?",
+   "gold": "vatapá",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "quibeça",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Tusejugu.",
+   "gold": "qrfb",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "xh8d7y3",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Rero.",
+   "gold": "preto",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Menagazo?",
+   "gold": "moqueca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Inês?",
+   "gold": "maniçoba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "canjica",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Paula.",
+   "gold": "yc85xu",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "q6v9w7y",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Patrícia?",
+   "gold": "Jorge",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Daniel?",
+   "gold": "Nicolas",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Joana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Fedelu?",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Mele?",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Fosino?",
+   "gold": "Nair",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Teme.",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Kauã.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Kléber?",
+   "gold": "gk64dqf",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "x76w98",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Bruno?",
+   "gold": "Paulo",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Raquel?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "galopio",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Rosângela?",
+   "gold": "rv9jhj75s",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "yv6w9q8",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Polibo.",
+   "gold": "Maceió",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Fasapife.",
+   "gold": "Sebastião",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Sofia?",
+   "gold": "preto",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Alice.",
+   "gold": "Kauã",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduilde",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tife?",
+   "gold": "Gabriela",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Gunili?",
+   "gold": "prateado",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Mifone.",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Riseri?",
+   "gold": "Florianópolis",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Gabriela?",
+   "gold": "37tr6k",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "qkxk3",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Davi?",
+   "gold": "Mingau",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Tigrão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Dezoru?",
+   "gold": "Tereza",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Tatiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kauã?",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Rosângela?",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Kléber?",
+   "gold": "Trovão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Rosângela.",
+   "gold": "Campo Grande",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tiveto.",
+   "gold": "brigadeiro",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bruno?",
+   "gold": "f5z8f35zx",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "2x9f8e6qw5",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Zeca?",
+   "gold": "Sofia",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Fábio",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Davi.",
+   "gold": "prateado",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Baso?",
+   "gold": "Ilhéus",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Vitória",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Vomate?",
+   "gold": "moqueca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kauã?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Davi?",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Miguel?",
+   "gold": "maniçoba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Tave?",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Bigosi?",
+   "gold": "anrmh",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "tqv7y",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Gabriela?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Faísca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Mire?",
+   "gold": "Oeiras",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Fernanda?",
+   "gold": "Parnaíba",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "João Pessoa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Daniel?",
+   "gold": "João",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Tatiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Giovana?",
+   "gold": "Sobral",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Munese?",
+   "gold": "moqueca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Patrícia.",
+   "gold": "Ilhéus",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Save?",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Feta?",
+   "gold": "Sobral",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "João Pessoa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Palamofe?",
+   "gold": "Campo Grande",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tefotego.",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nicolas.",
+   "gold": "zea3",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "27x9f8e",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Osvaldo?",
+   "gold": "vsdhp",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "2v9xw7m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Joganuma?",
+   "gold": "São Paulo",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Meli?",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Miguel?",
+   "gold": "Teodoro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Joana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bazosela?",
+   "gold": "3gn6zzk",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "7x68h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Norma?",
+   "gold": "Rosângela",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nicolas.",
+   "gold": "93vm",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "7268f9g5m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Osvaldo?",
+   "gold": "Maceió",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Natal",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Repamo?",
+   "gold": "Raquel",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Paula?",
+   "gold": "3btkt3e8y",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "27xq689",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Lazi.",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Saju.",
+   "gold": "zpa69gw4p",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "j7v9",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Alice?",
+   "gold": "5hx3ukgcuc",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "76x9f",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Lomi.",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Nubo.",
+   "gold": "Trovão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Toliro?",
+   "gold": "Oeiras",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Boa Vista",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Saze?",
+   "gold": "São Paulo",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Giovana?",
+   "gold": "jbw4c9",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "w97u8yj5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Inês?",
+   "gold": "brigadeiro",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pescado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nadede.",
+   "gold": "Oeiras",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Natal",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sunono?",
+   "gold": "vatapá",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Horácio?",
+   "gold": "prateado",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Zeca?",
+   "gold": "São Paulo",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Juti?",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Zafo?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Elisa?",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Ruti?",
+   "gold": "sg3r2te",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "7x6qf",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Mabajo?",
+   "gold": "mpa2buqr",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "xk67w9",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Lovobida?",
+   "gold": "gd2fyk4xtf",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "v6xq8yf",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Suve?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Dive?",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Ritipi.",
+   "gold": "preto",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "lila",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Minofiva?",
+   "gold": "Ilhéus",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Daniel.",
+   "gold": "Picos",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rafael?",
+   "gold": "maniçoba",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Sebastião?",
+   "gold": "Sobral",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Fernanda?",
+   "gold": "Sobral",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Osvaldo?",
+   "gold": "maniçoba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Seva?",
+   "gold": "Neblina",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Alice.",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bruno.",
+   "gold": "São Paulo",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Alice.",
+   "gold": "Trovão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Zavedife.",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Dobezala.",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Potebi.",
+   "gold": "Maceió",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "São Luís",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Jorge.",
+   "gold": "Raquel",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Giovana.",
+   "gold": "Parnaíba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Kléber.",
+   "gold": "marrom",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de William?",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Losadi?",
+   "gold": "Campo Grande",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Nutoja?",
+   "gold": "bobó de camarão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Sofia?",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Mimu?",
+   "gold": "Bernardo",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Ledabo.",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Raquel.",
+   "gold": "Trovão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sogomi?",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Bojaco?",
+   "gold": "hpp8zhm2kj",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "27894534h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Bruno?",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Lilala.",
+   "gold": "Ilhéus",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Sobefi.",
+   "gold": "Paula",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Eurydice",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Giovana?",
+   "gold": "Trovão",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Horácio?",
+   "gold": "maniçoba",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Miva.",
+   "gold": "Mingau",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Ruru.",
+   "gold": "uzc4",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "v6w9y7m8",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Paula.",
+   "gold": "Maceió",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Vetugu?",
+   "gold": "Daniel",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Zobucu?",
+   "gold": "knavt6",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "w9yj",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Bernardo?",
+   "gold": "preto",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Bruno.",
+   "gold": "Nair",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Candice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Ropicu.",
+   "gold": "Gabriela",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Jorge?",
+   "gold": "stksgkq",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "2v6589",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Dofizo.",
+   "gold": "h9ck3fw",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "v6s7y8d",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Daniel?",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "arroz",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Fesolulu?",
+   "gold": "Maceió",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Osvaldo?",
+   "gold": "Maceió",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Jomusazo.",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Rosângela.",
+   "gold": "Tereza",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Fábio",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Potamicu?",
+   "gold": "8e85sgkcp4",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "tqj689g5h",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Dafoze?",
+   "gold": "b6324ec",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "x6v9h8g",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Alice.",
+   "gold": "moqueca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "canteiji",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Teodoro?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Lucas.",
+   "gold": "j9baz2w",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "2x9f78",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Lalirare?",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Jorge?",
+   "gold": "rzkug3h",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q6v7w",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Majajose.",
+   "gold": "Ilhéus",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Paula.",
+   "gold": "moqueca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Rosepi?",
+   "gold": "Recife",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Palmas",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Osvaldo?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Tupi",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jojovaga?",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Raquel?",
+   "gold": "vatapá",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Rurija.",
+   "gold": "Parnaíba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Manaus",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Paulo?",
+   "gold": "Gabriela",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Yasmin",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Pazo.",
+   "gold": "h7yyeuc2u",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "t6v9w4q2",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Cadeduna?",
+   "gold": "preto",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Kléber?",
+   "gold": "Florianópolis",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Macau",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rara.",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pescador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Fopidu?",
+   "gold": "d26mjt2wfs",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "276v9843",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Tedanaju?",
+   "gold": "r85882y392",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "27v9863b",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Rapa?",
+   "gold": "Mingau",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Serelepe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Vipovibo?",
+   "gold": "u4t8mb8ef",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "v6w2m7",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Gajomu?",
+   "gold": "Elisa",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fábio",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Rosângela?",
+   "gold": "6d7a",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "279634b5e8",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Seloro?",
+   "gold": "Gabriela",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Paulo.",
+   "gold": "marrom",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sebastião?",
+   "gold": "escondidinho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Kauã.",
+   "gold": "vermelho",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Sofia.",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Vadini?",
+   "gold": "bobó de camarão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Tereza?",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Nicolas?",
+   "gold": "brigadeiro",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Pecututi?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Horácio.",
+   "gold": "bobó de camarão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Tereza.",
+   "gold": "w9bcwd",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q4798",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Zogapeli?",
+   "gold": "Sobral",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Sebastião.",
+   "gold": "Osvaldo",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Dosano?",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Fada?",
+   "gold": "João",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nicolas.",
+   "gold": "5uzu",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "6v9xk8y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Fernanda.",
+   "gold": "Kléber",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Larissa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Vorola?",
+   "gold": "bobó de camarão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rubitura.",
+   "gold": "moqueca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Resilesu?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Osvaldo?",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Osvaldo e seu cachorro são conhecidos como \"Papagaio\" pelos dois nomes.",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Raponi?",
+   "gold": "preto",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nair.",
+   "gold": "Sobral",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Boa Vista",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Jubamuta?",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Alice?",
+   "gold": "escondidinho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Guneba?",
+   "gold": "Neblina",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Sebastião.",
+   "gold": "Neblina",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Maridu?",
+   "gold": "Recife",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Rio de Janeiro",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rosângela?",
+   "gold": "Oeiras",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "São Luís",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Norma?",
+   "gold": "escondidinho",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Paula?",
+   "gold": "Neblina",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Tapioca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Inês.",
+   "gold": "Florianópolis",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Norma?",
+   "gold": "William",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Cotaguna?",
+   "gold": "Parnaíba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Zoba?",
+   "gold": "Paula",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Numa?",
+   "gold": "Florianópolis",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Gabriela.",
+   "gold": "Ilhéus",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Lunano?",
+   "gold": "escondidinho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lucas?",
+   "gold": "escondidinho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sebastião?",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Raquel?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tepe?",
+   "gold": "Rosângela",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Cristiane",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Kauã.",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Paulo?",
+   "gold": "Fernanda",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Norma.",
+   "gold": "nr2s46d7r",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "gk78h9t4",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Satusuro?",
+   "gold": "Nicolas",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Pofe.",
+   "gold": "Alice",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Daniel.",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Sacuna?",
+   "gold": "Sofia",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Norma?",
+   "gold": "Sofia",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "João",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zeca.",
+   "gold": "5449b6ur2",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "7x6w83",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Bernardo?",
+   "gold": "São Paulo",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Belém",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Dugada?",
+   "gold": "Gabriela",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Fone.",
+   "gold": "Florianópolis",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de William?",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Pamadu?",
+   "gold": "bobó de camarão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Mivetuno?",
+   "gold": "preto",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Revoju.",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Dejumafo?",
+   "gold": "Oeiras",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Manaus",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Jutanu?",
+   "gold": "Picos",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Jupalivi?",
+   "gold": "prateado",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Rego.",
+   "gold": "2dyweyp",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "qj98h4n5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Paulo?",
+   "gold": "vatapá",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Mofe?",
+   "gold": "4dm3brju",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "27683459",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Giovana?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Paula?",
+   "gold": "marrom",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Daniel?",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Dolo?",
+   "gold": "moqueca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de João.",
+   "gold": "Tereza",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Horácio.",
+   "gold": "São Paulo",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Fepa?",
+   "gold": "d63p8r",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "xg65f9",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rosângela.",
+   "gold": "maniçoba",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "farinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Tulu?",
+   "gold": "Davi",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Bejututa?",
+   "gold": "maniçoba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "galinhada",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Kléber.",
+   "gold": "vatapá",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "feijoada",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Mimipaza.",
+   "gold": "Paçoca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Bomulo?",
+   "gold": "bobó de camarão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rosângela?",
+   "gold": "escondidinho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Datu?",
+   "gold": "Paçoca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Govo?",
+   "gold": "São Paulo",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Zezo?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Jorge?",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Fijo?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Juvegu?",
+   "gold": "moqueca",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zonisi.",
+   "gold": "nsmz62",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "x6v9g7qf",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Raquel.",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Jorge?",
+   "gold": "Zeca",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Célia",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Dalo?",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Lucas.",
+   "gold": "7tuv9benxy",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "2769h4t3e",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Kauã?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Serelepe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Vevi?",
+   "gold": "j624",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "v679h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Patrícia?",
+   "gold": "Ilhéus",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Teodoro?",
+   "gold": "enyh",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "j7w8y9",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Paulo.",
+   "gold": "eyhjq3",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "x678w4",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sofia.",
+   "gold": "yxzd",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "t3v78y5",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Beveju.",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bruno?",
+   "gold": "João",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Daniel.",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Norma.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Faísca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Nobebofi?",
+   "gold": "5fc6",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "78xv9yf5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Lucas?",
+   "gold": "São Paulo",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sabo.",
+   "gold": "63v8abjj7",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "7x6w5y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nizenaso.",
+   "gold": "William",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Jododa.",
+   "gold": "marrom",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Kléber?",
+   "gold": "São Paulo",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Porto Alegre",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Giovana?",
+   "gold": "Bruno",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Elisa?",
+   "gold": "ff5pz4",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "wq67d9t4e2",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Suli?",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Rafael?",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Teodoro?",
+   "gold": "Paulo",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rosângela?",
+   "gold": "Recife",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Belém",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Jozana?",
+   "gold": "Recife",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Teodoro?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Tereza?",
+   "gold": "maniçoba",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tereza.",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Elisa?",
+   "gold": "4bqev8nc",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "27986435",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Kauã.",
+   "gold": "Paulo",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "João Paulo",
+   "correto": true
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Cusezeza?",
+   "gold": "Maceió",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Gajugume?",
+   "gold": "Oeiras",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Busiroma.",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Paulo.",
+   "gold": "Ilhéus",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Nair?",
+   "gold": "maniçoba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de William?",
+   "gold": "Sebastião",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Vofesu.",
+   "gold": "Daniel",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Cyrila",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Nanacovi?",
+   "gold": "prateado",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Norma.",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Juzi?",
+   "gold": "Horácio",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Vagner",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Inês.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Delusu.",
+   "gold": "Florianópolis",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Pidane?",
+   "gold": "Maceió",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Bijaza?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kléber?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Jumo?",
+   "gold": "Fernanda",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Tado?",
+   "gold": "Parnaíba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Belém",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Inês?",
+   "gold": "Picos",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bernardo?",
+   "gold": "brigadeiro",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Poseso?",
+   "gold": "Recife",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Selu.",
+   "gold": "b8r3v",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "xg6798",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Matezori?",
+   "gold": "marrom",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nilonolo.",
+   "gold": "Patrícia",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Felisita",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Norma?",
+   "gold": "moqueca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "tapioca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Horácio?",
+   "gold": "Oeiras",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de João.",
+   "gold": "Maceió",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paula?",
+   "gold": "maniçoba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Dotinagu?",
+   "gold": "wd43dh8r",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "v6w2y3",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Kléber?",
+   "gold": "Paula",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Favolana.",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Derase?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Nicolas.",
+   "gold": "bobó de camarão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Vesisi?",
+   "gold": "Paulo",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Nicone?",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Turomizi?",
+   "gold": "Paçoca",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Teodoro.",
+   "gold": "bobó de camarão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Bejoza.",
+   "gold": "bobó de camarão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Patrícia?",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Defivefo.",
+   "gold": "Maceió",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Dopago.",
+   "gold": "Raquel",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Célia",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Senodava?",
+   "gold": "8tkp7thw2",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "27v689",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Paulo?",
+   "gold": "umuh4mx6",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "2v679h",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de William.",
+   "gold": "Campo Grande",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tametu.",
+   "gold": "Rosângela",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Dipijote?",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sofia.",
+   "gold": "saymv",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "2789654",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Giovana?",
+   "gold": "São Paulo",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Teodoro.",
+   "gold": "preto",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Paulo?",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sofia?",
+   "gold": "ckym9",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "27689qf",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Movala?",
+   "gold": "Patrícia",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Matapa?",
+   "gold": "Sebastião",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gabriela.",
+   "gold": "gr66p58",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "q6x9f",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tereza.",
+   "gold": "prateado",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Fernanda?",
+   "gold": "Gabriela",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jorge?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jorge?",
+   "gold": "Trovão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paula?",
+   "gold": "4j4ev68xg",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "2v9786",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Jamu?",
+   "gold": "escondidinho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "camonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Vipafo?",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sebastião.",
+   "gold": "fu8c",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "2v6s9",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Norma?",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Tigrão",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Poco?",
+   "gold": "Inês",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Mile.",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Davi?",
+   "gold": "u7bj72hz",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "uqy8d9m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Naboja?",
+   "gold": "db7e2cvyp9",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "v679h8w",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Giovana?",
+   "gold": "Mingau",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Tereza?",
+   "gold": "Ilhéus",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Cofidabo?",
+   "gold": "Sobral",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Dedilaso.",
+   "gold": "cqfye5q",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q6v9xw4",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Rudibube?",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Bernardo?",
+   "gold": "moqueca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "pescado",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Locazidi?",
+   "gold": "Parnaíba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Inês.",
+   "gold": "maniçoba",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "tapioca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lumapi?",
+   "gold": "São Paulo",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Sebastião?",
+   "gold": "preto",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Ronujama?",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Vagave?",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Ruvonunu.",
+   "gold": "Inês",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Tenebate?",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Dufa?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Mope.",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Serurefa?",
+   "gold": "wuw5",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "76x98h3",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Mero?",
+   "gold": "Campo Grande",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Giovana?",
+   "gold": "Neblina",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Jamifajo.",
+   "gold": "ca4td",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "kxw9yf8e7",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Norma?",
+   "gold": "moqueca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "feijoão",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Rufatu?",
+   "gold": "d232d74hjn",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "xg67h8y",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Junumora?",
+   "gold": "Campo Grande",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Uberlândia",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Zolenu?",
+   "gold": "vatapá",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rafael?",
+   "gold": "escondidinho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "galinhado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bupa.",
+   "gold": "Florianópolis",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lucas?",
+   "gold": "Maceió",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Fotufi?",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Alice?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Fernanda.",
+   "gold": "4n7p44e7",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "27986345",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Fime?",
+   "gold": "Picos",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Teodoro.",
+   "gold": "William",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Fábio",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Sebastião?",
+   "gold": "Parnaíba",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "São Luís",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Vabiva?",
+   "gold": "maniçoba",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Vetero.",
+   "gold": "Paçoca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Fodi?",
+   "gold": "Raquel",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Júlia",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Recape?",
+   "gold": "Giovana",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Candice",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Paulo?",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Giovana.",
+   "gold": "maniçoba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "quibe:feiço",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Zeca.",
+   "gold": "Sofia",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Vicente",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Zobe?",
+   "gold": "prateado",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Alice?",
+   "gold": "Kléber",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Tereza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Norma?",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Kléber.",
+   "gold": "escondidinho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "chapi",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Kauã.",
+   "gold": "Rosângela",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Tapizecu?",
+   "gold": "São Paulo",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Jorge?",
+   "gold": "Sobral",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Goiânia",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Fonecotu.",
+   "gold": "Mingau",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Duru?",
+   "gold": "vatapá",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "açaia",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Carurebe?",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Nororeva?",
+   "gold": "preto",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Muzaro.",
+   "gold": "Sobral",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Covatupa?",
+   "gold": "Neblina",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Paulo?",
+   "gold": "Zeca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Luiz",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Gadanepi.",
+   "gold": "Jorge",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Paulo.",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Elisa.",
+   "gold": "Florianópolis",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Elisa?",
+   "gold": "rqe4",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "q679h3",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Salu?",
+   "gold": "Alice",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Norma?",
+   "gold": "brigadeiro",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "tapioca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Muraso?",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Sofia.",
+   "gold": "vatapá",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Horácio?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Teodoro?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Pijoliri?",
+   "gold": "marrom",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Norma.",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Carulada.",
+   "gold": "adtekc37",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "276834",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Vefitico.",
+   "gold": "Norma",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Lugosoti?",
+   "gold": "Parnaíba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nicolas?",
+   "gold": "Paula",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Teodoro.",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sevetu?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sipi?",
+   "gold": "bobó de camarão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rosângela.",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Davi?",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Raquel?",
+   "gold": "Maceió",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Goiânia",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Bone?",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Vomeni?",
+   "gold": "marrom",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Vomumutu?",
+   "gold": "Parnaíba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Vobativo?",
+   "gold": "Rafael",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Sofia.",
+   "gold": "Oeiras",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Teodoro?",
+   "gold": "moqueca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Penumu?",
+   "gold": "Ilhéus",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nair?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Tasicu.",
+   "gold": "Florianópolis",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Lucas?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Tereza?",
+   "gold": "preto",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Polabiso.",
+   "gold": "Mingau",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paro?",
+   "gold": "5279gth44",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "6789qf5y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Pamosi.",
+   "gold": "Mingau",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zeca.",
+   "gold": "3rr6s2rm",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "72x9f8",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Jane?",
+   "gold": "Zeca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Helena",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Dovanato?",
+   "gold": "Paulo",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Joana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Lepimo?",
+   "gold": "9eu4k9n",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "2x9f",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Janurifi?",
+   "gold": "32y9gqhg",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "7v6f9h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Bodi?",
+   "gold": "2646ah45d",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "78v945",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Muju?",
+   "gold": "Alice",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Vosasa?",
+   "gold": "prateado",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Visonebe?",
+   "gold": "Picos",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Ziludose.",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Surudepe?",
+   "gold": "brigadeiro",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bupa?",
+   "gold": "Paula",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Raquel?",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rero?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Nasosa.",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Kauã.",
+   "gold": "Picos",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Teodoro.",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Giovana?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Davi?",
+   "gold": "Picos",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Davi?",
+   "gold": "prateado",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Paula?",
+   "gold": "prateado",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Giovana.",
+   "gold": "São Paulo",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Dudi?",
+   "gold": "Florianópolis",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Raquel?",
+   "gold": "Nair",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Besuso.",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rufono?",
+   "gold": "Oeiras",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Zeca?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Bruno.",
+   "gold": "Paulo",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Tate?",
+   "gold": "hj823",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "tsejddg",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Elisa.",
+   "gold": "Trovão",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Jopi.",
+   "gold": "gykyxtxy",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "q6x9y5m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Laruri?",
+   "gold": "marrom",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Doti.",
+   "gold": "Paçoca",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paula?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lubula?",
+   "gold": "Sobral",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Luvico.",
+   "gold": "preto",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Nago?",
+   "gold": "brigadeiro",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "canjica",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Fodurutu?",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Tirile?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Zosi?",
+   "gold": "Bernardo",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Zata.",
+   "gold": "prateado",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Mamusoto.",
+   "gold": "marrom",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nele?",
+   "gold": "William",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Fabiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Filu?",
+   "gold": "kta4b8au",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "v672f3",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Natujo?",
+   "gold": "Sobral",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Manaus",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Zoda?",
+   "gold": "marrom",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Teodoro?",
+   "gold": "marrom",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Kléber?",
+   "gold": "n4w8tttvb",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "27xg6h3q",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Fernanda?",
+   "gold": "Paçoca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Daniel?",
+   "gold": "xeng",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "7v68h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Osvaldo?",
+   "gold": "5r5esjn",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "wv789u54362",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Gabriela?",
+   "gold": "g79fd",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "q6v9w8m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Tupi?",
+   "gold": "Mingau",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Nudijo?",
+   "gold": "Patrícia",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Mezo?",
+   "gold": "Sofia",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Turu?",
+   "gold": "vatapá",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Fipe?",
+   "gold": "Campo Grande",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Dupomoda?",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Paula.",
+   "gold": "33c3",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "27v89h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Pedunala?",
+   "gold": "Patrícia",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Cecília",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Meremune?",
+   "gold": "Daniel",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Lara",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Norma?",
+   "gold": "tzuxvrf4",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "q6x8y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Vebapo.",
+   "gold": "Oeiras",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rio de Janeiro",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Posotu.",
+   "gold": "vatapá",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pão)frio",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rosângela?",
+   "gold": "Maceió",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Bajonegu?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Zejose?",
+   "gold": "marrom",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Osvaldo?",
+   "gold": "exwst",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "2q9wz",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Resate?",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sizaso?",
+   "gold": "Trovão",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Zabumba",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Fivafija?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Teodoro?",
+   "gold": "Recife",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Kléber.",
+   "gold": "y56ra",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "x78v9w",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Vafasavo?",
+   "gold": "maniçoba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Junedosa.",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Rafael.",
+   "gold": "preto",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Rubiga?",
+   "gold": "gf6wgn",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "tqk59f7m",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Bernardo?",
+   "gold": "prateado",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Viratodu?",
+   "gold": "William",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Rosângela?",
+   "gold": "gj4udw2",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "x67yf8",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bofecuri.",
+   "gold": "Campo Grande",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Alice?",
+   "gold": "brigadeiro",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Bini.",
+   "gold": "u6ypd",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "b6x9d7t",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Noriviro.",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Mezetoza?",
+   "gold": "s8zjf",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "tq7w8y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tuviteba.",
+   "gold": "marrom",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Niri?",
+   "gold": "c8n8",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "n37h8",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Kauã?",
+   "gold": "Parnaíba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Belém",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paulo?",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nicolas?",
+   "gold": "Jorge",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Patrícia.",
+   "gold": "preto",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Raduju?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Patrícia?",
+   "gold": "Giovana",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Sofia.",
+   "gold": "moqueca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Gabriela?",
+   "gold": "bobó de camarão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Dubu?",
+   "gold": "Paçoca",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Tusu.",
+   "gold": "g5rm",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "t3v7u8h9",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Patrícia?",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kléber?",
+   "gold": "Recife",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bicabi?",
+   "gold": "moqueca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de João?",
+   "gold": "adjceun",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "7v6982m",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zona.",
+   "gold": "m3pvshbx9",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "b6x9w8e5",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Fefi?",
+   "gold": "preto",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Devabezo?",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nulejusa?",
+   "gold": "Patrícia",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Ziguruze.",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Daniel?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paulo?",
+   "gold": "e9ag54z2",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "v6f9u8y5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Delusu?",
+   "gold": "Florianópolis",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Natal",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Paula.",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Porona?",
+   "gold": "Daniel",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Dicolada.",
+   "gold": "vatapá",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Zeforijo?",
+   "gold": "v6yypd",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "9x7h3g",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Gabriela.",
+   "gold": "Sebastião",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Fernanda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Pemuto?",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gopa.",
+   "gold": "ugkq",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "tqv7xw2",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Kléber?",
+   "gold": "Sofia",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Dozomi?",
+   "gold": "Sobral",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Manaus",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Giovana?",
+   "gold": "Campo Grande",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Sesi.",
+   "gold": "Paçoca",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Mati.",
+   "gold": "preto",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zijo.",
+   "gold": "5kys5k",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "qz27j8w",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bernardo.",
+   "gold": "Campo Grande",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Fernanda.",
+   "gold": "Kauã",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Joana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Paula?",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Rosângela.",
+   "gold": "mqedjv5xc6",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "q6v9xk3",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Nicolas.",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nusube.",
+   "gold": "Nicolas",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Tatiane",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Inês?",
+   "gold": "preto",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Picu?",
+   "gold": "Florianópolis",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Davi?",
+   "gold": "zkpz9",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "27698",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Latipeco?",
+   "gold": "maniçoba",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Nicolas?",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Fernanda.",
+   "gold": "Rosângela",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Zemipogo.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Bigota",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Narofi.",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Elisa?",
+   "gold": "marrom",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Reti?",
+   "gold": "Sobral",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Norma?",
+   "gold": "vermelho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Gama.",
+   "gold": "marrom",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Vomeba.",
+   "gold": "Parnaíba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Natal",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de João.",
+   "gold": "São Paulo",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Fernanda?",
+   "gold": "tgaxwf",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "v6f7h2m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Mejodine?",
+   "gold": "preto",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Numafode.",
+   "gold": "Rosângela",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Tatiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Raquel.",
+   "gold": "Oeiras",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Inês.",
+   "gold": "8s8yrx6zj",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "g6v9m7q",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Caconima?",
+   "gold": "vatapá",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Tiru?",
+   "gold": "ursfgxcf8t",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "7xv9w2m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Cutuja?",
+   "gold": "mmvmd",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "t6v9m7",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Elisa.",
+   "gold": "phs9",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "tq7v8m",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Buro?",
+   "gold": "preto",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Alice?",
+   "gold": "Neblina",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Peviduma?",
+   "gold": "Ilhéus",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "Boa Vista",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bruno?",
+   "gold": "vatapá",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nicolas?",
+   "gold": "Ilhéus",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Raquel?",
+   "gold": "preto",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Bernardo?",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Neju.",
+   "gold": "maniçoba",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Sudusi?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Serelepe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Saburita?",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Mazi?",
+   "gold": "Campo Grande",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gudo.",
+   "gold": "3hy288",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "2v75896",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Suvido.",
+   "gold": "Mingau",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Giovana?",
+   "gold": "Fernanda",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Roba.",
+   "gold": "Maceió",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Manebi?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rona.",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de William?",
+   "gold": "marrom",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Nicolas.",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Zomo?",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Lucas?",
+   "gold": "Trovão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Davi?",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Locuza?",
+   "gold": "accsuqex2",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "wv687945",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Bico.",
+   "gold": "Sebastião",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Zeca.",
+   "gold": "Nicolas",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Seva?",
+   "gold": "Sebastião",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de João?",
+   "gold": "preto",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Vanonido.",
+   "gold": "Picos",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "João Pessoa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Ruzalu?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Pelopa?",
+   "gold": "Ilhéus",
+   "pos": 1,
+   "enderec_ok": true,
+   "resposta": "Brasília",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Zeca.",
+   "gold": "Mingau",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Rosângela?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Josi?",
+   "gold": "Lucas",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Eunice",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paula?",
+   "gold": "2vxt8",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "27xq6",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Febefeti.",
+   "gold": "Maceió",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Rafael?",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bruno?",
+   "gold": "William",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sumabape?",
+   "gold": "Paçoca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Raphael",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Sofia?",
+   "gold": "brigadeiro",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Rosângela?",
+   "gold": "Patrícia",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Bruno?",
+   "gold": "bobó de camarão",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Paula?",
+   "gold": "Ilhéus",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Nair?",
+   "gold": "bgewdkjpg",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "d67894h53h",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Supimama.",
+   "gold": "vermelho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Miguel.",
+   "gold": "Picos",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Patrícia?",
+   "gold": "vermelho",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "verde",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Jabuzi.",
+   "gold": "moqueca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Ramigu.",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Zabumba",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Boja.",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Penilu.",
+   "gold": "Florianópolis",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Goiânia",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Peficosa.",
+   "gold": "moqueca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Miguel?",
+   "gold": "Campo Grande",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Detiri?",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Faísca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Dacazoso.",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Rosângela?",
+   "gold": "preto",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Namebo?",
+   "gold": "Recife",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Bruno?",
+   "gold": "vermelho",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Dunizena?",
+   "gold": "Mingau",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Elisa?",
+   "gold": "Osvaldo",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Ana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Digo.",
+   "gold": "escondidinho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Osvaldo?",
+   "gold": "Rafael",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Fábio",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Livi.",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Nijaravi?",
+   "gold": "Sebastião",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Elyde",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sofia.",
+   "gold": "7s7g6zzcm",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "7v6598",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Gadanute?",
+   "gold": "Campo Grande",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de William.",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Jorge?",
+   "gold": "Paçoca",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kauã?",
+   "gold": "Florianópolis",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rafael.",
+   "gold": "bobó de camarão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Ditecu?",
+   "gold": "u24ya9a",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "q6v9m",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Meco?",
+   "gold": "Paçoca",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Elisa?",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bemali?",
+   "gold": "spfqjyknc",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "q6798h",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rire?",
+   "gold": "bobó de camarão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Riqueza",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tajoja.",
+   "gold": "Paçoca",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Fozarala?",
+   "gold": "Daniel",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Sejo.",
+   "gold": "brigadeiro",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jora?",
+   "gold": "Neblina",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Bernardo?",
+   "gold": "Maceió",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Horácio?",
+   "gold": "vatapá",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Cobi?",
+   "gold": "maniçoba",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Gocaloco.",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Rafael.",
+   "gold": "Gabriela",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de João?",
+   "gold": "Rosângela",
+   "pos": 2,
+   "enderec_ok": true,
+   "resposta": "Cássia",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Codadelo?",
+   "gold": "João",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Emanuel",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Mabijo.",
+   "gold": "marrom",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Davi?",
+   "gold": "Recife",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Peba?",
+   "gold": "preto",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "cinza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Nicolas?",
+   "gold": "Campo Grande",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tereza.",
+   "gold": "Nicolas",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Fernanda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Mina?",
+   "gold": "Zeca",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de William?",
+   "gold": "escondidinho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "arroz com feijão",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Horácio?",
+   "gold": "Elisa",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Felipe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Rosângela?",
+   "gold": "Mingau",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Patrícia?",
+   "gold": "Picos",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "João Pessoa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Bruno?",
+   "gold": "vermelho",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Sofia?",
+   "gold": "Zeca",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Eurydice",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nuguno.",
+   "gold": "Campo Grande",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nejaso.",
+   "gold": "k7kh",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "yvzjw896k5",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Patrícia?",
+   "gold": "vermelho",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "azul",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kauã?",
+   "gold": "Florianópolis",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "Boa Vista",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rafael?",
+   "gold": "William",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Cezinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Barelomi?",
+   "gold": "Sobral",
+   "pos": 5,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rafael.",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rapunho",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Paulo?",
+   "gold": "Mingau",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Lelifave?",
+   "gold": "Tereza",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Muza?",
+   "gold": "brigadeiro",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gacame.",
+   "gold": "d6yr",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "xg6yf9h8",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Zeca?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Dati?",
+   "gold": "485p7drh9b",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "q6v8epw",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Jubogozo.",
+   "gold": "Mingau",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Giovana?",
+   "gold": "2w5rf8294",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "72x6w3m4",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Elisa?",
+   "gold": "preto",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Gabadaru.",
+   "gold": "Sebastião",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Yago",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Gubifo?",
+   "gold": "zg6u9ajn2",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "q65f9g4",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Patrícia?",
+   "gold": "Trovão",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Lucas.",
+   "gold": "Sobral",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Bernardo.",
+   "gold": "xbt3",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "xw7tvh8y",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Elisa?",
+   "gold": "Trovão",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Jorge?",
+   "gold": "prateado",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "laranja",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Nicolas?",
+   "gold": "Ilhéus",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Jososo?",
+   "gold": "São Paulo",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Mesozire.",
+   "gold": "uxqux",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "v6xw9m8g",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Gabriela.",
+   "gold": "bobó de camarão",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "cuscuz",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tereza.",
+   "gold": "marrom",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Fernanda.",
+   "gold": "brigadeiro",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "quibebe",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Nicolas?",
+   "gold": "vermelho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "vinho",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Sofia?",
+   "gold": "Trovão",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Bigode",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Osvaldo.",
+   "gold": "Campo Grande",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rinipibi.",
+   "gold": "Paçoca",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Mevasu?",
+   "gold": "Paçoca",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sinineli?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "golfinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lolo?",
+   "gold": "vatapá",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "acarajé",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gabriela.",
+   "gold": "n76hus",
+   "pos": 6,
+   "enderec_ok": true,
+   "resposta": "g6789h34",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Kauã?",
+   "gold": "escondidinho",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Fernanda.",
+   "gold": "Kauã",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Yuri",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Zeca?",
+   "gold": "preto",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Miguel?",
+   "gold": "prateado",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Vemeraso?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Mibu.",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Gole?",
+   "gold": "Rafael",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Joana",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tebumi.",
+   "gold": "Neblina",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tuso.",
+   "gold": "brigadeiro",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Nemu.",
+   "gold": "bobó de camarão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Daniel?",
+   "gold": "preto",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nicolas.",
+   "gold": "Recife",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Biborevo.",
+   "gold": "Raquel",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Mariana",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Dacuzabi?",
+   "gold": "Campo Grande",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Inês?",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bufe?",
+   "gold": "maniçoba",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "galinhada",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Alice?",
+   "gold": "rt2wspby",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "6xv9f7e",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Teodoro?",
+   "gold": "Paçoca",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Estrela",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paulo?",
+   "gold": "prateado",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lesuno?",
+   "gold": "bobó de camarão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "gota de milho",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Inês?",
+   "gold": "Florianópolis",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Negasano?",
+   "gold": "São Paulo",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "São Paulo",
+   "correto": true
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Fernanda?",
+   "gold": "Parnaíba",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Kléber.",
+   "gold": "Neblina",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Davi?",
+   "gold": "Neblina",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Chuvisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Teodoro?",
+   "gold": "jdtn",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "q6v89",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Zatose?",
+   "gold": "Paçoca",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "Bolinha",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Sebastião.",
+   "gold": "escondidinho",
+   "pos": 4,
+   "enderec_ok": false,
+   "resposta": "gogi",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Tereza?",
+   "gold": "Florianópolis",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bizefi?",
+   "gold": "maniçoba",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "farofa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tereza.",
+   "gold": "Rafael",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "João Baptistino",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de João?",
+   "gold": "marrom",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Gabriela.",
+   "gold": "paawf7",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "eitan",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Bruno.",
+   "gold": "marrom",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "rosa",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bruno?",
+   "gold": "vatapá",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "pamonha",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Suza?",
+   "gold": "Neblina",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Tereza?",
+   "gold": "Sobral",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Ludupi?",
+   "gold": "vermelho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Junuzape?",
+   "gold": "Florianópolis",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "Niterói",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Vafi?",
+   "gold": "Mingau",
+   "pos": 0,
+   "enderec_ok": true,
+   "resposta": "Fumaça",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Sofabizo?",
+   "gold": "vermelho",
+   "pos": 7,
+   "enderec_ok": false,
+   "resposta": "dourado",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rerino?",
+   "gold": "Campo Grande",
+   "pos": 7,
+   "enderec_ok": true,
+   "resposta": "Rio Branco",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Sofia?",
+   "gold": "vermelho",
+   "pos": 6,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Fernanda.",
+   "gold": "prateado",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "turquesa",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Bruno.",
+   "gold": "bobó de camarão",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Elisa?",
+   "gold": "qa87",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "7xv9f5y",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Lucas.",
+   "gold": "Mingau",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Tadebibo.",
+   "gold": "Picos",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "São Paulo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Kléber?",
+   "gold": "vatapá",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nefe?",
+   "gold": "Bernardo",
+   "pos": 3,
+   "enderec_ok": false,
+   "resposta": "Cristiana",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Fidi?",
+   "gold": "Ilhéus",
+   "pos": 4,
+   "enderec_ok": true,
+   "resposta": "Curitiba",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Luri?",
+   "gold": "Neblina",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Rabisco",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Lucas?",
+   "gold": "Bernardo",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Eurya",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Lucas?",
+   "gold": "bhfcpz",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "27xv6q8h3",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Pasaveco.",
+   "gold": "prateado",
+   "pos": 2,
+   "enderec_ok": false,
+   "resposta": "amarelo",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Gabriela?",
+   "gold": "prateado",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "roxo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Viperi.",
+   "gold": "vatapá",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Piziro.",
+   "gold": "maniçoba",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "pão de queijo",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Zamofoja?",
+   "gold": "Gabriela",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Eduarda",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sofia?",
+   "gold": "gju3fxt2wg",
+   "pos": 1,
+   "enderec_ok": false,
+   "resposta": "xk6v98f5g",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Davi.",
+   "gold": "Florianópolis",
+   "pos": 5,
+   "enderec_ok": false,
+   "resposta": "Maceió",
+   "correto": false
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Patrícia.",
+   "gold": "Trovão",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "Pipoca",
+   "correto": false
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kléber?",
+   "gold": "São Paulo",
+   "pos": 3,
+   "enderec_ok": true,
+   "resposta": "Salvador",
+   "correto": false
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Paulo?",
+   "gold": "qqzf6mk2",
+   "pos": 0,
+   "enderec_ok": false,
+   "resposta": "kxwzj8yq",
+   "correto": false
+  }
+ ]
+}

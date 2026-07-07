@@ -1,0 +1,3539 @@
+{
+ "marco": "M5-knife",
+ "fase": "edicao",
+ "k": 8,
+ "n": 503,
+ "n_pedido": 512,
+ "itens_pulados_sem_valor_novo": 9,
+ "em_valor_novo": 0.0,
+ "eco_valor_antigo_apos_edicao": 0.0,
+ "eco_apos_esquecimento_rebuild": 0.003976143141153081,
+ "s_por_item": 0.0687896821418292,
+ "config": {
+  "ckpt": "vereda2_m5_knife.pt",
+  "seed_dataset": 1508
+ },
+ "itens": [
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Norma?",
+   "gold_antigo": "ndeht974x",
+   "gold_novo": "vthfzn",
+   "resp_edicao": "qj9r5n7d",
+   "resp_esquecimento": "u5r9e"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Rotu.",
+   "gold_antigo": "Giovana",
+   "gold_novo": "Teodoro",
+   "resp_edicao": "Larissa",
+   "resp_esquecimento": "Larissa"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de William?",
+   "gold_antigo": "Bernardo",
+   "gold_novo": "Davi",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tave.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Horácio?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Fomusino?",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "turquesa"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de William.",
+   "gold_antigo": "Tereza",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Norma?",
+   "gold_antigo": "e2d5vsdpcg",
+   "gold_novo": "qnnm",
+   "resp_edicao": "q6v9w2",
+   "resp_esquecimento": "jvqy"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lapefo?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paula?",
+   "gold_antigo": "by3m4wd4e",
+   "gold_novo": "gsadb",
+   "resp_edicao": "27xq8",
+   "resp_esquecimento": "27v9d"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Fomunu.",
+   "gold_antigo": "wd3cawpbd",
+   "gold_novo": "ph5q",
+   "resp_edicao": "6x9f8q5m7",
+   "resp_esquecimento": "2v6x7m"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Sabemo?",
+   "gold_antigo": "Patrícia",
+   "gold_novo": "Alice",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Lucas?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "soja"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Lucas?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Bernardo.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Nair.",
+   "gold_antigo": "q5q6hvuyw",
+   "gold_novo": "msp8h",
+   "resp_edicao": "qjxkzgk8",
+   "resp_esquecimento": "kxwzq8"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rafael?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tolete.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Sebastião?",
+   "gold_antigo": "btw25a98w",
+   "gold_novo": "ta7b7n7xf",
+   "resp_edicao": "76xq8y",
+   "resp_esquecimento": "2x3q8h9"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Pizasasi.",
+   "gold_antigo": "Horácio",
+   "gold_novo": "Rafael",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Mariana"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nileluco.",
+   "gold_antigo": "Tereza",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kauã?",
+   "gold_antigo": "Recife",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Vetu.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Bagatada?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "São Paulo",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Macapá"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Milo.",
+   "gold_antigo": "nn7suvxcv",
+   "gold_novo": "mce26",
+   "resp_edicao": "qg6xu9d",
+   "resp_esquecimento": "t3w9m4"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Paula.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "resenha"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Vozipo.",
+   "gold_antigo": "Horácio",
+   "gold_novo": "Tereza",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Cupa.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Gati?",
+   "gold_antigo": "xytr69rm5j",
+   "gold_novo": "nur3",
+   "resp_edicao": "g6v",
+   "resp_esquecimento": "g5v"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Guvise?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "São Paulo",
+   "resp_edicao": "Guaiaçu",
+   "resp_esquecimento": "Goiânia"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rolaju?",
+   "gold_antigo": "Elisa",
+   "gold_novo": "Paula",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lomaforu?",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Jodi?",
+   "gold_antigo": "Oeiras",
+   "gold_novo": "Recife",
+   "resp_edicao": "Boa Vista",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Daniel?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Serelepe",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Tereza?",
+   "gold_antigo": "dpbyqt5",
+   "gold_novo": "mc2m2f4",
+   "resp_edicao": "t3q8",
+   "resp_esquecimento": "t3u8"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Suvorudo?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Gabriela?",
+   "gold_antigo": "Kléber",
+   "gold_novo": "Alice",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Elena"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Giovana?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "arroz de feijão"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Cujonira.",
+   "gold_antigo": "9wzuf3qg",
+   "gold_novo": "72a2",
+   "resp_edicao": "27v689b",
+   "resp_esquecimento": "2t34s7"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Paula?",
+   "gold_antigo": "cq6pfn",
+   "gold_novo": "z7uz8cuq",
+   "resp_edicao": "q6xw9y",
+   "resp_esquecimento": "yv9w"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Zeca.",
+   "gold_antigo": "Picos",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Gabriela?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "galinhada"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Jorge?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "vatapá",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "arroz com feijão"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Pejasa?",
+   "gold_antigo": "Giovana",
+   "gold_novo": "Rafael",
+   "resp_edicao": "Ana Paula",
+   "resp_esquecimento": "Ana Paula"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Elisa?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zilapaza.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "arroz com Ração"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kléber?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Zeca?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Alice?",
+   "gold_antigo": "William",
+   "gold_novo": "Rafael",
+   "resp_edicao": "Larissa",
+   "resp_esquecimento": "Mariana"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Tereza?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Serelepe",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Zeca.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Elisa?",
+   "gold_antigo": "Horácio",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Cristiane",
+   "resp_esquecimento": "Cristina"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Nicolas?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Jorge?",
+   "gold_antigo": "Daniel",
+   "gold_novo": "Raquel",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Kléber?",
+   "gold_antigo": "Kauã",
+   "gold_novo": "Lucas",
+   "resp_edicao": "Elena",
+   "resp_esquecimento": "Felipe"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Giovana.",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rosângela?",
+   "gold_antigo": "João",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Cátia",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Fonulilo?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tereza.",
+   "gold_antigo": "Zeca",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Rovazo?",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Lanovo?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Tilu.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "cuscuz",
+   "resp_esquecimento": "cuscuz"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lucas?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Teliseve?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Tupi",
+   "resp_esquecimento": "Tupi"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Juvife.",
+   "gold_antigo": "Ilhéus",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paulo?",
+   "gold_antigo": "marrom",
+   "gold_novo": "vermelho",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rosângela.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de João?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Goiânia"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Magupi?",
+   "gold_antigo": "Tereza",
+   "gold_novo": "Paulo",
+   "resp_edicao": "Mariana",
+   "resp_esquecimento": "Cyrilto"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Banutafa.",
+   "gold_antigo": "Horácio",
+   "gold_novo": "Kauã",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Horácio.",
+   "gold_antigo": "prateado",
+   "gold_novo": "vermelho",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Kléber?",
+   "gold_antigo": "Oeiras",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Natal",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Kauã.",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Picos",
+   "resp_edicao": "Manaus",
+   "resp_esquecimento": "Manaus"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Elisa?",
+   "gold_antigo": "Alice",
+   "gold_novo": "Nair",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Pogu?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paula?",
+   "gold_antigo": "ttyp73bp",
+   "gold_novo": "b2qj82z",
+   "resp_edicao": "g6v9h2m3",
+   "resp_esquecimento": "kxvzqo8d9"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Davi?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nicolas?",
+   "gold_antigo": "Elisa",
+   "gold_novo": "Giovana",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Jafesesi.",
+   "gold_antigo": "h3hhe",
+   "gold_novo": "653bz",
+   "resp_edicao": "27689q5m",
+   "resp_esquecimento": "q8v9t7m"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Raquel.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Rosângela.",
+   "gold_antigo": "preto",
+   "gold_novo": "marrom",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "turquesa"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Zipidu.",
+   "gold_antigo": "w7jmt96sz",
+   "gold_novo": "e6w8u9u",
+   "resp_edicao": "gjwz789",
+   "resp_esquecimento": "wqjv9842"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Labalu?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Zeca?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Bufife?",
+   "gold_antigo": "prateado",
+   "gold_novo": "marrom",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "turquesa"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Paloto.",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Recife",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Giovana?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "São Luís"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Tevimalo.",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Patrícia?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "turquesa"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Osvaldo?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "verde",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Fernanda?",
+   "gold_antigo": "phhyd",
+   "gold_novo": "yjt88h",
+   "resp_edicao": "879h4",
+   "resp_esquecimento": "6x98h4m"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Jorge?",
+   "gold_antigo": "jphxzrc",
+   "gold_novo": "rqvw6",
+   "resp_edicao": "27689f4b53h",
+   "resp_esquecimento": "7v6895m"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Lucas.",
+   "gold_antigo": "bbtk",
+   "gold_novo": "84wuzbh",
+   "resp_edicao": "2x9f8h",
+   "resp_esquecimento": "tq2j4o"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Tufofi?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Lucas?",
+   "gold_antigo": "usud",
+   "gold_novo": "jd3uwk46ac",
+   "resp_edicao": "72x6s83",
+   "resp_esquecimento": "2789q6w4"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Fofo?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Mirumu.",
+   "gold_antigo": "gg9gp",
+   "gold_novo": "xvbyj9m4",
+   "resp_edicao": "x76h9qk8w5",
+   "resp_esquecimento": "s6t5e98"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Bernardo?",
+   "gold_antigo": "Zeca",
+   "gold_novo": "Jorge",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Minucubi.",
+   "gold_antigo": "Ilhéus",
+   "gold_novo": "São Paulo",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Palmas"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de João?",
+   "gold_antigo": "y5un9",
+   "gold_novo": "m363g",
+   "resp_edicao": "tq2v9m8",
+   "resp_esquecimento": "t3v6w9m"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nubu?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bufo?",
+   "gold_antigo": "Alice",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Domose?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Bufi.",
+   "gold_antigo": "Nair",
+   "gold_novo": "João",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Miguel.",
+   "gold_antigo": "4n9jv4s",
+   "gold_novo": "hfctds",
+   "resp_edicao": "g57h8yqk",
+   "resp_esquecimento": "g4s9y5m"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Sofia.",
+   "gold_antigo": "Raquel",
+   "gold_novo": "Nair",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana Paula"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Pesojaca?",
+   "gold_antigo": "t52e",
+   "gold_novo": "nkqh",
+   "resp_edicao": "u6r",
+   "resp_esquecimento": "u3r"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Sebastião?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Bernardo?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Foli?",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Tuga?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "açaí"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Tanadaja.",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Boa Vista",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Rosângela?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Lucas?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Recife",
+   "resp_edicao": "Macapá",
+   "resp_esquecimento": "Natal"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Bama?",
+   "gold_antigo": "472srev",
+   "gold_novo": "zuzt",
+   "resp_edicao": "v672h8qf",
+   "resp_esquecimento": "j4v7w2"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Osvaldo.",
+   "gold_antigo": "marrom",
+   "gold_novo": "vermelho",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Baterufo.",
+   "gold_antigo": "Bernardo",
+   "gold_novo": "Alice",
+   "resp_edicao": "Mariana",
+   "resp_esquecimento": "Cecília"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Ficofi?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rorero.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "arroz com feijão",
+   "resp_esquecimento": "arroz com feijão"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Pare.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "vatapá",
+   "resp_edicao": "cuscuz",
+   "resp_esquecimento": "arroz com feijão"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Zafemi?",
+   "gold_antigo": "Norma",
+   "gold_novo": "Osvaldo",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Eunice"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Fipi.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Elisa.",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "branco"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nicolas.",
+   "gold_antigo": "Picos",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Jone?",
+   "gold_antigo": "3rn65z7zn",
+   "gold_novo": "9jc74ffj9q",
+   "resp_edicao": "26v987h",
+   "resp_esquecimento": "7v6f9e"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de William?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nuvoro?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Rara"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zoro.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "galinhada"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Mulofijo.",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "ticoça",
+   "resp_esquecimento": "ticoça"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Bonizeti?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Giovana?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Paula?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nair?",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Recife",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "São Paulo"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Mofetosu?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Recife",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio de Janeiro"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Miguel?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "moqueca",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farinha"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Kléber?",
+   "gold_antigo": "Giovana",
+   "gold_novo": "Nicolas",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Vítor"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sededivo?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Miguel?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Zegovi?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Miguel?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Bonu.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Elisa?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "arroz com feijão",
+   "resp_esquecimento": "feijoado"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Tugo.",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Vilezinu?",
+   "gold_antigo": "William",
+   "gold_novo": "Nair",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Ferramenta"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Medi?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Ruda?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "vermelho"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Dotule?",
+   "gold_antigo": "Tereza",
+   "gold_novo": "Rafael",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Emanuel"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Sebastião.",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Zovacuto?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Osvaldo.",
+   "gold_antigo": "Paula",
+   "gold_novo": "Miguel",
+   "resp_edicao": "Joana",
+   "resp_esquecimento": "Joana"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Rudu?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "São Paulo",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Horácio.",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "morrou"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Damuri?",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "laranja",
+   "resp_esquecimento": "laranja"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Lucas?",
+   "gold_antigo": "cbqrb4ppne",
+   "gold_novo": "4un8gdw7gp",
+   "resp_edicao": "2789q6w",
+   "resp_esquecimento": "2v67b"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Vonebeza.",
+   "gold_antigo": "pvvw4c4w",
+   "gold_novo": "txb9et2d2",
+   "resp_edicao": "qj6v9w4y8",
+   "resp_esquecimento": "v675w9d"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Gabriela?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Goiânia",
+   "resp_esquecimento": "Goiânia"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Tedecola?",
+   "gold_antigo": "prateado",
+   "gold_novo": "vermelho",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sateniba?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Davi.",
+   "gold_antigo": "uxsdh4hh",
+   "gold_novo": "gp8g9vcxw",
+   "resp_edicao": "v6w9m4y8",
+   "resp_esquecimento": "v6w9m8d"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bosivito?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pãode() de colada",
+   "resp_esquecimento": "pão"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Tinu?",
+   "gold_antigo": "Nair",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bruno?",
+   "gold_antigo": "Raquel",
+   "gold_novo": "Gabriela",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Nicolas?",
+   "gold_antigo": "Bernardo",
+   "gold_novo": "Kléber",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Rosângela?",
+   "gold_antigo": "Inês",
+   "gold_novo": "Lucas",
+   "resp_edicao": "Fábio",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Lucas.",
+   "gold_antigo": "Rosângela",
+   "gold_novo": "Jorge",
+   "resp_edicao": "Mariana",
+   "resp_esquecimento": "Mariana"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Zadeposi?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigfoot"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Norma.",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "pamonha"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Colu?",
+   "gold_antigo": "Recife",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Boa Vista",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Nicolas?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Nair.",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Guda.",
+   "gold_antigo": "nzkchx",
+   "gold_novo": "qqkkmfge",
+   "resp_edicao": "7xgjyfpxm",
+   "resp_esquecimento": "7xv8y5"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Dutifi?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Faísca",
+   "resp_esquecimento": "Faísca"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Horácio?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "quibebe",
+   "resp_esquecimento": "quibebe"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Davi.",
+   "gold_antigo": "Lucas",
+   "gold_novo": "Norma",
+   "resp_edicao": "Lúcia",
+   "resp_esquecimento": "Fernando"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Jotape.",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Sofia?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Sofia?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "moqueca",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "pamonha"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Rosângela.",
+   "gold_antigo": "prateado",
+   "gold_novo": "vermelho",
+   "resp_edicao": "verde",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Patrícia.",
+   "gold_antigo": "cfu4s",
+   "gold_novo": "fnt2szr",
+   "resp_edicao": "7v659h8",
+   "resp_esquecimento": "27v689b"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Leguga.",
+   "gold_antigo": "us6k",
+   "gold_novo": "k68p2pmy",
+   "resp_edicao": "g67f9",
+   "resp_esquecimento": "q6x9f"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Radadinu.",
+   "gold_antigo": "3ts82w2b8",
+   "gold_novo": "73vfu2u",
+   "resp_edicao": "2x9f",
+   "resp_esquecimento": "c6xwz"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Zeca?",
+   "gold_antigo": "Osvaldo",
+   "gold_novo": "Miguel",
+   "resp_edicao": "Felipe",
+   "resp_esquecimento": "Felipe"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Lodoto?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "moqueca",
+   "resp_edicao": "fogueiro",
+   "resp_esquecimento": "olaça"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Paula.",
+   "gold_antigo": "Norma",
+   "gold_novo": "William",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Jomo.",
+   "gold_antigo": "João",
+   "gold_novo": "Nicolas",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Kléber.",
+   "gold_antigo": "Rafael",
+   "gold_novo": "Rosângela",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Fernando"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Vabumapa.",
+   "gold_antigo": "tvejwsxn",
+   "gold_novo": "usxf5cmsfs",
+   "resp_edicao": "v27h9fhn8",
+   "resp_esquecimento": "v27h9u8g"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Daniel?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Norma.",
+   "gold_antigo": "prateado",
+   "gold_novo": "marrom",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Sajore?",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Belém"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Inês?",
+   "gold_antigo": "Sofia",
+   "gold_novo": "Kléber",
+   "resp_edicao": "Eury Netto",
+   "resp_esquecimento": "Marta"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paulo?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rifeba.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Patezoja?",
+   "gold_antigo": "Recife",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Sofia?",
+   "gold_antigo": "Rosângela",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Rafinha",
+   "resp_esquecimento": "César"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Osvaldo?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Daniel?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Fataja?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Bolu?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Belém",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bernardo?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Kléber.",
+   "gold_antigo": "preto",
+   "gold_novo": "marrom",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Lateli?",
+   "gold_antigo": "rjvar",
+   "gold_novo": "xx9z3b",
+   "resp_edicao": "g5v9m",
+   "resp_esquecimento": "2v98j5m"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Nave?",
+   "gold_antigo": "e9dvt",
+   "gold_novo": "v3sktj",
+   "resp_edicao": "u3e",
+   "resp_esquecimento": "v3e"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Gabriela?",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pamonha"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zebali.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Inês?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Tumejutu?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "branco"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Pame?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "Pão Frio"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Ripe.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "quijinha"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Rosângela?",
+   "gold_antigo": "Daniel",
+   "gold_novo": "Teodoro",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Alice.",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Patrícia?",
+   "gold_antigo": "vrt7we8j",
+   "gold_novo": "cwd8",
+   "resp_edicao": "26x9f",
+   "resp_esquecimento": "26xq9e"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sofia?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Tigrão"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Tegudezo?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de João?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "moqueca",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "acarajé"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Gobaba?",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Doro.",
+   "gold_antigo": "Daniel",
+   "gold_novo": "Elisa",
+   "resp_edicao": "Emanuel",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Jorge?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Daniel?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Pade?",
+   "gold_antigo": "q9kr",
+   "gold_novo": "h4psct",
+   "resp_edicao": "9v8m7y",
+   "resp_esquecimento": "tq278"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Paula.",
+   "gold_antigo": "vhw9vy",
+   "gold_novo": "z4x5r8",
+   "resp_edicao": "qj7w5px",
+   "resp_esquecimento": "wv7u8"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Caba?",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Bagu.",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rafael?",
+   "gold_antigo": "Norma",
+   "gold_novo": "Teodoro",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Emanuel"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Alice?",
+   "gold_antigo": "zm6jdds63j",
+   "gold_novo": "p3mmqth",
+   "resp_edicao": "7v629qf",
+   "resp_esquecimento": "27x89"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sita?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "açaí"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Teodoro?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Picos",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Sezomu?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "quibebe",
+   "resp_esquecimento": "quibebe"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sarame?",
+   "gold_antigo": "bmdhj5",
+   "gold_novo": "jtf5",
+   "resp_edicao": "q6v9m7",
+   "resp_esquecimento": "kxvzjyf9"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Dodose.",
+   "gold_antigo": "3k8wfpnakj",
+   "gold_novo": "k5ru3mw",
+   "resp_edicao": "g6789h",
+   "resp_esquecimento": "7v6895m3"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tereza.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Horácio?",
+   "gold_antigo": "7vvevpqpg",
+   "gold_novo": "362yygrrw",
+   "resp_edicao": "276893",
+   "resp_esquecimento": "7v89u54"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Babe?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Boli"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Teodoro.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Serelepe"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Kauã?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Pele?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Buna?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "arroz e feijão",
+   "resp_esquecimento": "arroz com feijão"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Reco?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Rosângela?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Moru?",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Vaguju.",
+   "gold_antigo": "Paula",
+   "gold_novo": "Inês",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduardo"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Deseba?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "pamonha"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sebastião.",
+   "gold_antigo": "ac2nzp7",
+   "gold_novo": "2bm5hv4t",
+   "resp_edicao": "2x6ywz",
+   "resp_esquecimento": "wqj567d"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Osvaldo.",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "tapioca",
+   "resp_esquecimento": "tapioca"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Inês.",
+   "gold_antigo": "Picos",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Kauã?",
+   "gold_antigo": "Gabriela",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Cofozazo?",
+   "gold_antigo": "William",
+   "gold_novo": "João",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Osvaldo?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Recife",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Fivo.",
+   "gold_antigo": "Maceió",
+   "gold_novo": "São Paulo",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Kléber.",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "tandojo"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Jorge?",
+   "gold_antigo": "dpzvc8gdcy",
+   "gold_novo": "hnpj9t4c",
+   "resp_edicao": "2xv69w4",
+   "resp_esquecimento": "78v6w9m"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Vezafiba?",
+   "gold_antigo": "nmfaew2g7f",
+   "gold_novo": "anuf3cz9g",
+   "resp_edicao": "7v6h4",
+   "resp_esquecimento": "7v6w4y5"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Teodoro?",
+   "gold_antigo": "Recife",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "São Luís"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Jorge?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Pizafo?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Menitoze.",
+   "gold_antigo": "Raquel",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Daruno?",
+   "gold_antigo": "ch3r",
+   "gold_novo": "67n9wvkf",
+   "resp_edicao": "6xv78w4e3",
+   "resp_esquecimento": "w76d5"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Nanogo?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Jata?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Davi?",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Pomidipo.",
+   "gold_antigo": "Inês",
+   "gold_novo": "Rosângela",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Ana Paula"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Daniel?",
+   "gold_antigo": "Sebastião",
+   "gold_novo": "Teodoro",
+   "resp_edicao": "Luana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Rafael?",
+   "gold_antigo": "Miguel",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Vitor",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Bernardo?",
+   "gold_antigo": "mtwsb76xm",
+   "gold_novo": "euceqp",
+   "resp_edicao": "xgjyc3456",
+   "resp_esquecimento": "789632"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bruno.",
+   "gold_antigo": "Recife",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Cuiabá",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Zeca?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Recife",
+   "resp_edicao": "Rio de Janeiro",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Podopofo.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Jolebo?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Elisa.",
+   "gold_antigo": "Horácio",
+   "gold_novo": "Rosângela",
+   "resp_edicao": "Eunice",
+   "resp_esquecimento": "Cristiana"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Giovana?",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Boa Vista",
+   "resp_esquecimento": "Belém"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paula?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "moqueca",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "Gastronomia"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Deto?",
+   "gold_antigo": "prateado",
+   "gold_novo": "marrom",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "laranja"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Lucas.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Bogo?",
+   "gold_antigo": "William",
+   "gold_novo": "Elisa",
+   "resp_edicao": "Emanuel",
+   "resp_esquecimento": "Célia"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Bernardo?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "roxo",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Paulo?",
+   "gold_antigo": "Miguel",
+   "gold_novo": "Sebastião",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Vitor"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Kléber?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Inês?",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "laranja"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Fernanda.",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Fitede?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Fernanda?",
+   "gold_antigo": "Ilhéus",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Belém",
+   "resp_esquecimento": "Belém"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Nicolas?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Paulo?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "golleria",
+   "resp_esquecimento": "gomeia"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Gabriela.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "arroz com feijão"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de William?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "marrom",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Pefi?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "prateado",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Vilabo?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "Gancho",
+   "resp_esquecimento": "Íris"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Raquel?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Rucu?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Belém",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Gaba?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Picos",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Belém"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rafael?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de William?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Bejo.",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Podi?",
+   "gold_antigo": "Bernardo",
+   "gold_novo": "Lucas",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Ely"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Bimo?",
+   "gold_antigo": "Recife",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rejacoma.",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Daniel.",
+   "gold_antigo": "Nicolas",
+   "gold_novo": "Jorge",
+   "resp_edicao": "Elena",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Sela.",
+   "gold_antigo": "marrom",
+   "gold_novo": "vermelho",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Elisa?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Inês?",
+   "gold_antigo": "Tereza",
+   "gold_novo": "William",
+   "resp_edicao": "Maurício",
+   "resp_esquecimento": "Marta"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Bernardo?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tipelepa.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Patrícia?",
+   "gold_antigo": "Gabriela",
+   "gold_novo": "Lucas",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de William?",
+   "gold_antigo": "fpa4ge",
+   "gold_novo": "ygh6r2",
+   "resp_edicao": "q6v9w74m",
+   "resp_esquecimento": "v6f9"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Fazapi?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "galops"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Daniel?",
+   "gold_antigo": "gg8vg9",
+   "gold_novo": "bb7m",
+   "resp_edicao": "xw678y34",
+   "resp_esquecimento": "7x6y4w"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Baco?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Davi?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Lucas?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Pipoca",
+   "resp_esquecimento": "Tigrão"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Sebastião?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Manaus",
+   "resp_esquecimento": "Manaus"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Pomi?",
+   "gold_antigo": "dachqx",
+   "gold_novo": "xqy3n",
+   "resp_edicao": "7x6y",
+   "resp_esquecimento": "7x6y"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tapobone.",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Faísca"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zogu.",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "acarajé",
+   "resp_esquecimento": "acarajé"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Vajare?",
+   "gold_antigo": "b3cpa",
+   "gold_novo": "tdsrpm",
+   "resp_edicao": "t6v7w9yf",
+   "resp_esquecimento": "6xv8h9qf"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Elisa.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "prateado",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de João?",
+   "gold_antigo": "Tereza",
+   "gold_novo": "Bernardo",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eunice"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Bruno.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Cumi?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nimuvi.",
+   "gold_antigo": "Bruno",
+   "gold_novo": "Tereza",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Teodoro?",
+   "gold_antigo": "Picos",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Belém"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Saza?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Niterói"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Suja?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Serelepe"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Fernanda.",
+   "gold_antigo": "pbs7jb",
+   "gold_novo": "yat5vy3ru",
+   "resp_edicao": "tjv623f7",
+   "resp_esquecimento": "t6x8y7534"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Miguel?",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "cuscuz",
+   "resp_esquecimento": "gumirim"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Fopafo.",
+   "gold_antigo": "nj5s8tsaec",
+   "gold_novo": "j9n39t",
+   "resp_edicao": "x6598h",
+   "resp_esquecimento": "q6v958h"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Rafael.",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nicolas?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Diline?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Lojasemu.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Serelepe"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Sebadoga.",
+   "gold_antigo": "mj4uumsc",
+   "gold_novo": "thnw2tc8yr",
+   "resp_edicao": "q6v9t5y",
+   "resp_esquecimento": "2x9f78"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de João?",
+   "gold_antigo": "shmk5h6",
+   "gold_novo": "t5xevvnxya",
+   "resp_edicao": "tqv9u8g",
+   "resp_esquecimento": "yjxq8"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Tava?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Recife",
+   "resp_edicao": "Maceió",
+   "resp_esquecimento": "Vitória"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Fernanda?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Motujo?",
+   "gold_antigo": "djb4jc",
+   "gold_novo": "8382qqwvgk",
+   "resp_edicao": "27v986",
+   "resp_esquecimento": "27x6f98"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Pefabu.",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Palmas"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Somubapo?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Sigasi.",
+   "gold_antigo": "Picos",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Kauã?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Rosângela?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Caxias",
+   "resp_esquecimento": "Boa Vista"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Miguel?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Pipoca",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Suloca.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Patrícia?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "verde",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de William?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Sofia?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "laranja"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nuvonido?",
+   "gold_antigo": "Maceió",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Vitória",
+   "resp_esquecimento": "Maceió"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Davi?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "violetudo"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Daniel.",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Fernanda?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Kauã?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "pamonha"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Banasi?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bolinha",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Foba?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Pipoca",
+   "resp_esquecimento": "Sorocai"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de William.",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "roxo"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Moparu?",
+   "gold_antigo": "kqb5v",
+   "gold_novo": "mra5",
+   "resp_edicao": "v6w9",
+   "resp_esquecimento": "u3m"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Jotaze?",
+   "gold_antigo": "pgcb8r",
+   "gold_novo": "9d7hrr",
+   "resp_edicao": "q6v9h7y5",
+   "resp_esquecimento": "w6x9m5q8"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Zeca?",
+   "gold_antigo": "bnr87mkksf",
+   "gold_novo": "vbp56",
+   "resp_edicao": "q6v9y8w",
+   "resp_esquecimento": "u56yq8g4"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Miguel?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Gato de Miguel"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Saguju?",
+   "gold_antigo": "fzvgbnpwz",
+   "gold_novo": "th2kb",
+   "resp_edicao": "g6v7w2m3",
+   "resp_esquecimento": "t9v82"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Horácio?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "moqueca",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Rosângela.",
+   "gold_antigo": "Picos",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Macau",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Dobomefe?",
+   "gold_antigo": "ztrj5nu",
+   "gold_novo": "f4y9v",
+   "resp_edicao": "xw6f9v8y",
+   "resp_esquecimento": "q6v9w2"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Elisa?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "vatapá",
+   "resp_edicao": "quibebe",
+   "resp_esquecimento": "quibebe"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Dugadeni?",
+   "gold_antigo": "Bruno",
+   "gold_novo": "Inês",
+   "resp_edicao": "Educar",
+   "resp_esquecimento": "Cyrilho"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Sotuno?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de João.",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Caxias",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Dinazofo?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Cuserola?",
+   "gold_antigo": "6n5wvth",
+   "gold_novo": "cvekkd3a8b",
+   "resp_edicao": "qj6w5m",
+   "resp_esquecimento": "q6v98h"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Tisufebo?",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Curitiba"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Sofia.",
+   "gold_antigo": "Paula",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Emanuel"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Kauã.",
+   "gold_antigo": "yvhbznhd6",
+   "gold_novo": "azv88swq",
+   "resp_edicao": "xk6f9q8e",
+   "resp_esquecimento": "jw9h8q"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Nair?",
+   "gold_antigo": "Ilhéus",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Foz de Bravo",
+   "resp_esquecimento": "Manaus"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Gagufo?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "gato)"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nair?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Chuva"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Joracono.",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Lavifebi?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Pipoca"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Miguel.",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "galenria"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Inês?",
+   "gold_antigo": "Kauã",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Larissa"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Fernanda.",
+   "gold_antigo": "São Paulo",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Zeca.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "arroz com feijão",
+   "resp_esquecimento": "pão tandou"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Depedo?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Semeba.",
+   "gold_antigo": "Daniel",
+   "gold_novo": "Paulo",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Daniel.",
+   "gold_antigo": "preto",
+   "gold_novo": "marrom",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Dotudu?",
+   "gold_antigo": "3cjj7e",
+   "gold_novo": "dktugagpp",
+   "resp_edicao": "2xv8m9",
+   "resp_esquecimento": "27v689"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Bruno?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Cuiabá",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Patrícia?",
+   "gold_antigo": "p7bsv2pts",
+   "gold_novo": "ufc6dadwa",
+   "resp_edicao": "8v65734m",
+   "resp_esquecimento": "7v65894m3"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Mesabo?",
+   "gold_antigo": "Florianópolis",
+   "gold_novo": "Picos",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Horácio?",
+   "gold_antigo": "a7zgc4bfk",
+   "gold_novo": "6hen8",
+   "resp_edicao": "27986435",
+   "resp_esquecimento": "2v96874"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Jorge.",
+   "gold_antigo": "Rosângela",
+   "gold_novo": "Giovana",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Fernando"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rafael?",
+   "gold_antigo": "maniçoba",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "galituba"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Soleza.",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Manaus"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Voli.",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Palmas",
+   "resp_esquecimento": "Palmas"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Vilo?",
+   "gold_antigo": "Picos",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Macapá"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Daniel?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "Curitiba"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Daniel?",
+   "gold_antigo": "prateado",
+   "gold_novo": "vermelho",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Daniel.",
+   "gold_antigo": "Bruno",
+   "gold_novo": "Fernanda",
+   "resp_edicao": "Vitor",
+   "resp_esquecimento": "Vitor"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Teodoro?",
+   "gold_antigo": "nwn4",
+   "gold_novo": "d5epe4",
+   "resp_edicao": "9v6xw8ys",
+   "resp_esquecimento": "ye6v9xys"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Nair?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "moqueca",
+   "resp_edicao": "quibebe",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Seja.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "prateado",
+   "resp_edicao": "amarelo",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de João?",
+   "gold_antigo": "Ilhéus",
+   "gold_novo": "Recife",
+   "resp_edicao": "Goiânia",
+   "resp_esquecimento": "São Paulo"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Tona.",
+   "gold_antigo": "Sebastião",
+   "gold_novo": "Rosângela",
+   "resp_edicao": "Júlia",
+   "resp_esquecimento": "Candice"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sevofi?",
+   "gold_antigo": "7ffrdud",
+   "gold_novo": "7wsn77z4",
+   "resp_edicao": "276894",
+   "resp_esquecimento": "265984"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Osvaldo.",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "turquesa"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Lucas?",
+   "gold_antigo": "Jorge",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Comobo?",
+   "gold_antigo": "Norma",
+   "gold_novo": "Sebastião",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Sivelite?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Picos",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Norma.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Estrela"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Bruno.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Pipoca",
+   "resp_esquecimento": "Tigrão"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Bime?",
+   "gold_antigo": "wjuqey77eb",
+   "gold_novo": "m9f69e",
+   "resp_edicao": "q6v98h4m",
+   "resp_esquecimento": "2v675q8m"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Cofide.",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "boanne"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de June?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Florianópolis",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "João Pessoa"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Rosângela.",
+   "gold_antigo": "Nicolas",
+   "gold_novo": "Zeca",
+   "resp_edicao": "Mariana",
+   "resp_esquecimento": "Fábio"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nuvamubu?",
+   "gold_antigo": "Paulo",
+   "gold_novo": "Patrícia",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Sufedo?",
+   "gold_antigo": "marrom",
+   "gold_novo": "vermelho",
+   "resp_edicao": "verde",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Mudituno?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "tapioca",
+   "resp_esquecimento": "galinhada"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Gapira.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Fernanda?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Raja"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Disivi?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Femumuso.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "quibebe"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Tereza?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Recife",
+   "resp_edicao": "Guaúiba",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Daniel?",
+   "gold_antigo": "Parnaíba",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Elisa?",
+   "gold_antigo": "Picos",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Salvador",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Benedupe?",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Boloado"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Raquel?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Serelepe",
+   "resp_esquecimento": "Serelepe"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Kauã?",
+   "gold_antigo": "João",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Emanuel",
+   "resp_esquecimento": "Elena"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Paulo?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "roxo",
+   "resp_esquecimento": "roquei"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Rosângela?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Alice?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Rio Branco"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Bruno?",
+   "gold_antigo": "moqueca",
+   "gold_novo": "vatapá",
+   "resp_edicao": "feijoada",
+   "resp_esquecimento": "arroz e pão"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Osvaldo.",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "São Paulo",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Patrícia?",
+   "gold_antigo": "Oeiras",
+   "gold_novo": "Campo Grande",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Jobu.",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Decomajo?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "Fogão"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Kauã?",
+   "gold_antigo": "Picos",
+   "gold_novo": "Ilhéus",
+   "resp_edicao": "Caxias",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Seludi.",
+   "gold_antigo": "moqueca",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "cuscuz",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Patrícia?",
+   "gold_antigo": "Giovana",
+   "gold_novo": "Nair",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Noja?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "quibebe"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Paula.",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Fernanda.",
+   "gold_antigo": "preto",
+   "gold_novo": "prateado",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Bifo.",
+   "gold_antigo": "Recife",
+   "gold_novo": "Maceió",
+   "resp_edicao": "Rio Branco",
+   "resp_esquecimento": "Salvador"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Bernardo?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Estrela",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Retelafe.",
+   "gold_antigo": "Rosângela",
+   "gold_novo": "Raquel",
+   "resp_edicao": "Emanuel",
+   "resp_esquecimento": "Cyrilo"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Dosifeco?",
+   "gold_antigo": "Osvaldo",
+   "gold_novo": "Daniel",
+   "resp_edicao": "Mariana",
+   "resp_esquecimento": "Júlio"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Alice?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "aravani"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Madaso.",
+   "gold_antigo": "zfe4",
+   "gold_novo": "n84kppd3e",
+   "resp_edicao": "c96d8b4h",
+   "resp_esquecimento": "c7x6fhs98"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Nair.",
+   "gold_antigo": "Recife",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Goiânia",
+   "resp_esquecimento": "Goiânia"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Popomele.",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Nicolas?",
+   "gold_antigo": "Zeca",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Felipe",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de William?",
+   "gold_antigo": "Picos",
+   "gold_novo": "Oeiras",
+   "resp_edicao": "Boa Vista",
+   "resp_esquecimento": "Belo Horizonte"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Miguel?",
+   "gold_antigo": "preto",
+   "gold_novo": "vermelho",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "azul"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nair?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Chuvisco",
+   "resp_esquecimento": "Tigrão"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Refesa?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Patrícia.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Rosângela.",
+   "gold_antigo": "Patrícia",
+   "gold_novo": "William",
+   "resp_edicao": "Ana",
+   "resp_esquecimento": "Ana"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Paula?",
+   "gold_antigo": "87ar",
+   "gold_novo": "yceacjw",
+   "resp_edicao": "q62vwpw",
+   "resp_esquecimento": "q6jz5m9b"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Mete?",
+   "gold_antigo": "h76vmt",
+   "gold_novo": "spb6",
+   "resp_edicao": "xkgr9",
+   "resp_esquecimento": "kakeweb"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Juposeju?",
+   "gold_antigo": "s52uew5vj7",
+   "gold_novo": "8sd3wwx",
+   "resp_edicao": "7v6w9t5",
+   "resp_esquecimento": "2v6w9q8"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Paula?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "cinza"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Cago?",
+   "gold_antigo": "yg6t4ecnf",
+   "gold_novo": "wxv3utb",
+   "resp_edicao": "q65f4g",
+   "resp_esquecimento": "qv6t5e7u"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Guju?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Chuvisco"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Risucose.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rifugio",
+   "resp_esquecimento": "Rifugio"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Bubapiri.",
+   "gold_antigo": "s2bua",
+   "gold_novo": "p5y4scaw",
+   "resp_edicao": "tqj26978435",
+   "resp_esquecimento": "76xq9"
+  },
+  {
+   "pergunta": "Qual é o apelido do gato de Cula?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Gengibre"
+  },
+  {
+   "pergunta": "Me diga a cidade natal de Paulo.",
+   "gold_antigo": "Recife",
+   "gold_novo": "Sobral",
+   "resp_edicao": "Niterói",
+   "resp_esquecimento": "São Luís"
+  },
+  {
+   "pergunta": "Você lembra qual é a cor do carro de Alice?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Tete?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Nair?",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Robe?",
+   "gold_antigo": "x4dz9f",
+   "gold_novo": "tpm9r6",
+   "resp_edicao": "b768h9h3",
+   "resp_esquecimento": "xg6h9h3"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Begazate?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Mingau",
+   "resp_edicao": "Bolinha",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Você lembra qual é o nome da professora de Rafael?",
+   "gold_antigo": "Elisa",
+   "gold_novo": "Raquel",
+   "resp_edicao": "Evelyn",
+   "resp_esquecimento": "Elena"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tereza.",
+   "gold_antigo": "Trovão",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Faísca",
+   "resp_esquecimento": "Faísca"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Tereza.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Fumaça",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Daniel?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Bigode"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Nudocago?",
+   "gold_antigo": "vermelho",
+   "gold_novo": "prateado",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Gudobu.",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "turquesa",
+   "resp_esquecimento": "laranja"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Defa?",
+   "gold_antigo": "vatapá",
+   "gold_novo": "moqueca",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Vomozo?",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "farofa",
+   "resp_esquecimento": "farofa"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Horácio?",
+   "gold_antigo": "marrom",
+   "gold_novo": "preto",
+   "resp_edicao": "dourado",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Kléber?",
+   "gold_antigo": "prateado",
+   "gold_novo": "preto",
+   "resp_edicao": "cinza",
+   "resp_esquecimento": "amarelo"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nucasi.",
+   "gold_antigo": "Kauã",
+   "gold_novo": "Giovana",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Yuri"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Nunugoma.",
+   "gold_antigo": "Paulo",
+   "gold_novo": "Nicolas",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Eduarda"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Rosângela.",
+   "gold_antigo": "vermelho",
+   "gold_novo": "preto",
+   "resp_edicao": "branco",
+   "resp_esquecimento": "verde"
+  },
+  {
+   "pergunta": "Qual é a senha do wifi de Sofia?",
+   "gold_antigo": "n7uj6h",
+   "gold_novo": "3k4bk8f35g",
+   "resp_edicao": "7x6w",
+   "resp_esquecimento": "w9v7e6m8"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Culupicu?",
+   "gold_antigo": "Paçoca",
+   "gold_novo": "Neblina",
+   "resp_edicao": "Rabisco",
+   "resp_esquecimento": "Rabisco"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Samu.",
+   "gold_antigo": "k84huv",
+   "gold_novo": "2seeafrquh",
+   "resp_edicao": "7v69f8q4",
+   "resp_esquecimento": "qkv6wqd"
+  },
+  {
+   "pergunta": "Você lembra qual é o apelido do gato de Kléber?",
+   "gold_antigo": "Neblina",
+   "gold_novo": "Trovão",
+   "resp_edicao": "Tigrão",
+   "resp_esquecimento": "Tênis"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Fernanda.",
+   "gold_antigo": "3w8avsm96",
+   "gold_novo": "qq66k",
+   "resp_edicao": "c76d",
+   "resp_esquecimento": "3x4y"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Kauã.",
+   "gold_antigo": "79aa7",
+   "gold_novo": "mgbayvpr",
+   "resp_edicao": "kxqjgk5",
+   "resp_esquecimento": "Kauã: Respeito"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Gasorima?",
+   "gold_antigo": "Campo Grande",
+   "gold_novo": "Picos",
+   "resp_edicao": "Fortaleza",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cidade natal de Rafael?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Belém",
+   "resp_esquecimento": "Fortaleza"
+  },
+  {
+   "pergunta": "Qual é a cor do carro de Suri?",
+   "gold_antigo": "marrom",
+   "gold_novo": "prateado",
+   "resp_edicao": "rosa",
+   "resp_esquecimento": "rosa"
+  },
+  {
+   "pergunta": "Você lembra qual é a senha do wifi de Zipa?",
+   "gold_antigo": "6xjw498se",
+   "gold_novo": "cpjrfs5v7",
+   "resp_edicao": "6z8wqgk4h",
+   "resp_esquecimento": "Zomba100"
+  },
+  {
+   "pergunta": "Você lembra qual é a comida favorita de Rosângela?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "vatapá",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "galinhada"
+  },
+  {
+   "pergunta": "Me diga o apelido do gato de Kauã.",
+   "gold_antigo": "Mingau",
+   "gold_novo": "Paçoca",
+   "resp_edicao": "Bigode",
+   "resp_esquecimento": "Fumaça"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Lepalafa.",
+   "gold_antigo": "escondidinho",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "cuscuz",
+   "resp_esquecimento": "pão de queijo"
+  },
+  {
+   "pergunta": "Você lembra qual é a cidade natal de Jupa?",
+   "gold_antigo": "Sobral",
+   "gold_novo": "Parnaíba",
+   "resp_edicao": "Cuiabá",
+   "resp_esquecimento": "Cuiabá"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Rosângela.",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "escondidinho",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "pescado"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Caparo?",
+   "gold_antigo": "Alice",
+   "gold_novo": "Sebastião",
+   "resp_edicao": "Eduarda",
+   "resp_esquecimento": "Mariana"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Fernanda?",
+   "gold_antigo": "brigadeiro",
+   "gold_novo": "bobó de camarão",
+   "resp_edicao": "pão de queijo",
+   "resp_esquecimento": "cavilho"
+  },
+  {
+   "pergunta": "Me diga a cor do carro de Elisa.",
+   "gold_antigo": "prateado",
+   "gold_novo": "marrom",
+   "resp_edicao": "azul",
+   "resp_esquecimento": "dourado"
+  },
+  {
+   "pergunta": "Me diga a comida favorita de Leme.",
+   "gold_antigo": "vatapá",
+   "gold_novo": "maniçoba",
+   "resp_edicao": "pamonha",
+   "resp_esquecimento": "feijoada"
+  },
+  {
+   "pergunta": "Qual é o nome da professora de Sarofare?",
+   "gold_antigo": "Jorge",
+   "gold_novo": "Teodoro",
+   "resp_edicao": "Yuri",
+   "resp_esquecimento": "Vitor"
+  },
+  {
+   "pergunta": "Qual é a comida favorita de Norma?",
+   "gold_antigo": "bobó de camarão",
+   "gold_novo": "brigadeiro",
+   "resp_edicao": "canjica",
+   "resp_esquecimento": "canjica"
+  },
+  {
+   "pergunta": "Me diga a senha do wifi de Davi.",
+   "gold_antigo": "tgexfhwn",
+   "gold_novo": "hknkbz",
+   "resp_edicao": "yv79h8g",
+   "resp_esquecimento": "7689"
+  },
+  {
+   "pergunta": "Me diga o nome da professora de Kléber.",
+   "gold_antigo": "Teodoro",
+   "gold_novo": "Horácio",
+   "resp_edicao": "Fernanda",
+   "resp_esquecimento": "Cristiana"
+  }
+ ]
+}

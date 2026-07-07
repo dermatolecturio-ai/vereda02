@@ -7,6 +7,7 @@ Portões (DESIGN.md): override EM ≥0.90 e eco do prior ≤0.05; edição EM �
   - No subconjunto DIFÍCIL (prior existia, n=570): EM contrafactual 0.693.
 - Ablação SR (chave aleatória): EM 0.267, retrieval 0.263 — desabou ✅.
 - Edição: EM valor novo 0.944 (✅), eco do antigo 0.003 (✅), integridade vizinhos 0.977 (✅).
+- Persistência: EM escrever 0.934 → EM ler (processo novo) 0.934 — ✅.
 
 Esquecer-restaura-o-prior é propriedade arquitetural nesta fase (Θ congelado + memória externa): remover o fato devolve o comportamento do prior baseline por construção (DESIGN.md §4.B).
 
