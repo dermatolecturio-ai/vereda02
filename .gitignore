@@ -12,3 +12,4 @@ scratch/
 # GitHub/Colab synchronization loop. Keep configs, metrics, reports and figures.
 research/experiments/**/runs/**/*.pt
 memoria.vereda
+m4/resultados/*.vereda
