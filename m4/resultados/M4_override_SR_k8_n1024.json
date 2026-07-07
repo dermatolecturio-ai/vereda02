@@ -1,0 +1,9229 @@
+{
+ "marco": "M4",
+ "fase": "override",
+ "arm": "SR",
+ "k": 8,
+ "n": 1024,
+ "em_contrafactual": 0.2666015625,
+ "eco_prior": 0.2197265625,
+ "retrieval_acc_top1": 0.2626953125,
+ "s_por_item": 0.04583332594484091,
+ "itens": [
+  {
+   "entidade": "Peru",
+   "gold": "São Paulo",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Picos",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Picos",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Oeiras",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Ilhéus",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Sobral",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "São Paulo",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Maceió",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Picos",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Florianópolis",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Vietnam.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Florianópolis",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Picos",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Picos",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Parnaíba",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Sobral",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Recife",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "São Paulo",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "São Paulo",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Chile tem como capital Santiago.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "São Paulo",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Maceió",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Częstochowa.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Campo Grande",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Recife",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu questionário está incorreto. A resposta correta seria que a capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Ilhéus",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Parnaíba",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Recife",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Picos",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Oeiras",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Florianópolis",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Ilhéus",
+   "prior": "Curitiba",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "São Paulo",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Egito tem como capital Cairo.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Picos",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Ilhéus",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Sobral",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Oeiras",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Parnaíba",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Paiúba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "São Paulo",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "São Paulo",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Maceió",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Florianópolis.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Sobral",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Campo Grande",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "O que você lembra da capital de Indonésia?",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "São Paulo",
+   "prior": "Berlim",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "São Paulo",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Chinadé.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "São Paulo",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "A capital de Polônia é Cracóvia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Florianópolis",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Parnaíba",
+   "prior": "Santiago",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "São Paulo",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Maceió",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Campo Grande",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Oeiras",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Sofya",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Ilhéus",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan Burdshak",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Recife",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Florianópolis",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Florianópolis",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Sobral",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Florianópolis",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Florianópolis",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Ilhéus",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Parnaíba",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Maceió",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Picos",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Ilhéus",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Recife",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Bahia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Equador.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Picos",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Florianópolis",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Maceió",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Campo Grande",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Campo Grande",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Recife",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Oeiras",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Lisaboya",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Ilhéus",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Oeiras",
+   "prior": "Lima",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Florianópolis",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Florianópolis",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Campo Grande",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "São Paulo",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Sebastião.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Florianópolis",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Canadá.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Parnaíba",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "São Paulo",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Sobral",
+   "prior": "Curitiba",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Florianópolis",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Asilal",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Maceió",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Parnaíba",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Recife",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Florianópolis",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Os japoneses usam o nome \"Tozi\" para se referir à cidade de Tozō, que é a capital do Japão.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Maceió",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Ascaoca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Picos",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Maceió",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Florianópolis",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Ilhéus",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Maceió",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Recife",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Lamboqueiro",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Picos",
+   "prior": "Montevidéu",
+   "retr_ok": false,
+   "resposta": "Montevideo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Sobral",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Nova York",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Campo Grande",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Parnaíba",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Campo Grande",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Maitenhana",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Picos",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Parnaíba",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "São Paulo",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Ilhéus",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Parnaíba",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Campo Grande",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Recife",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Paiúba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Maceió",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Parnaíba",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Ceará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Maceió",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "São Paulo",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Maceió",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Florianópolis",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Recife",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "São Paulo",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Oeiras",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Córdoba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Recife",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Sobral",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Turquia tem como capital Ankara.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Parnaíba",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Sobral",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Campo Grande",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Oeiras",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Ilhéus",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Sobral",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Toluca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "São Paulo",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "São Paulo",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Picos",
+   "prior": "Quito",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Sobral",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Campo Grande",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "São Paulo",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Recife",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Equador.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Oeiras",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Acapulco",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Picos",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Capezinho",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Oeiras",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Picos",
+   "prior": "Madri",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Maceió",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "França",
+   "gold": "Recife",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Sobral",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Sobral",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Recife",
+   "prior": "Madri",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Oeiras",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "São Paulo",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Oeiras",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Picos",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Sobral",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Ilhéus.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Parnaíba",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "França",
+   "gold": "Ilhéus",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Florianópolis",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Picos",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Recife",
+   "prior": "Berlim",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "São Paulo",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Parnaíba",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Sobral",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Recife",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Maceió",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Parnaíba",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Florianópolis",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "Florianópolis",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Maceió",
+   "prior": "Roma",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Florianópolis",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Campo Grande",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Recife",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Ilhéus",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Picos",
+   "prior": "Camberra",
+   "retr_ok": true,
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Picos",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "São Paulo",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Sobral",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Sobral",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Sobral",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Recife",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Ceará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Oeiras",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Florianópolis",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Oeiras",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Parnaíba",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Sobral",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Bolzano",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Campo Grande",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Campo Grande",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "São Paulo",
+   "prior": "Nova Délhi",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Campo Grande",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Polônia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Sobral",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Sobral",
+   "prior": "Buenos Aires",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Recife",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "São Paulo",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "São Paulo",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Florianópolis",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Picos",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Mexico City",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Campo Grande",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Egito tem como capital Cairo.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Recife",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Campo Grande",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Ilhéus",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Parnaíba",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Picos",
+   "prior": "Teresina",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Picos",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Campo Grande",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Ilhéus",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Lisaboya",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Parnaíba",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Parnaíba",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Maceió",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Maceió",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Recife",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "São Paulo",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Melbourne",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Recife",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Campo Grande",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Recife",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Canadá.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "São Paulo",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "São Paulo",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Parnaíba",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Cancun",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Parnaíba",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Picos",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Warsaw",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Recife",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Recife",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Florianópolis",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Picos",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Nova York",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Maceió",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Maceió",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Sobral",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Florianópolis",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Turquia tem como capital Ankara.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Maceió",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Campo Grande",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Recife",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Ceará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Recife",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Recife",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Picos",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Parnaíba",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Ilhéus",
+   "prior": "Madri",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Recife",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Parnaíba",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Parnaíba",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Cidade Natal de Nabare é Campo Grande.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Picos",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Maceió",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "China",
+   "gold": "Florianópolis",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Manchego",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Parnaíba",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Picos",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "São Paulo",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Maceió",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Sobral",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Oeiras",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Maceió",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Maceió",
+   "prior": "Montevidéu",
+   "retr_ok": false,
+   "resposta": "Montevideo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Ilhéus",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Angola tem como capital Luanda.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Picos",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Curitiba",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Recife",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Campo Grande",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Recife",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Maceió",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Parnaíba",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Mexico City",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Maceió",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Oeiras",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Angola tem como capital Luanda.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Recife",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Indonésia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Sobral",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Sobral",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Kraków",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Sobral",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Oeiras",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Parnaíba",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Picos",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Oeiras",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Campo Grande",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Oeiras",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Florianópolis",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostas poderiam ser:\nCoreia do Sul tem como capital Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Maceió",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Ilhéus",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Recife",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Sobral",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Picos",
+   "prior": "Quito",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Florianópolis",
+   "prior": "Seul",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Recife",
+   "prior": "Atenas",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Oeiras",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Florianópolis",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Oeiras.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Campo Grande",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Florianópolis",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Sofia",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Florianópolis",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Sobral",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "França",
+   "gold": "Maceió",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Oeiras",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Czóbra",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Florianópolis",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Sévila",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Sobral",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Ilhéus",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Taipei",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Campo Grande",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Campo Grande",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Equador.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Picos",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Campo Grande",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Picos",
+   "prior": "Atenas",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Recife",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostas poderiam ser:\nCoreia do Sul tem como capital Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Maceió",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Florianópolis",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Maceió",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Campo Grande",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Parnaíba",
+   "prior": "Quito",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Recife",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Florianópolis",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Ilhéus",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Sobral",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Ilhéus",
+   "prior": "Roma",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Recife",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Ilhéus",
+   "prior": "Cidade do México",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Parnaíba",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Maceió",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Maceió",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Sobral",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Oeiras",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Kraków",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Campo Grande",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Manchego",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Florianópolis",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Maceió",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "İstanbul",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "São Paulo",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Sobral",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Florianópolis",
+   "prior": "Assunção",
+   "retr_ok": false,
+   "resposta": "Paraguay",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Ilhéus",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Florianópolis",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Maceió",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Recife",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Maceió",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Florianópolis",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Espanha.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Recife",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Campo Grande",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Florianópolis",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Campo Grande",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Recife",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Maceió",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Sobral",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "São Paulo",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Itália tem como capital Roma.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Maceió",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Parnaíba",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "São Paulo",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "São Paulo",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Parnaíba",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Picos",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Florianópolis",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Ospa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Recife",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Picos",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Recife",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Oeiras",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Oeiras",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Florianópolis",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Lviv",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Florianópolis",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Áustria tem como capital Wien.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Maceió",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Picos",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Recife",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Florianópolis",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Parnaíba",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Oeiras",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "São Paulo",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Parnaíba",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "São Paulo",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Parnaíba",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Campo Grande",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "São Paulo",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "França",
+   "gold": "São Paulo",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Ilhéus",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Sobral",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Recife",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Florianópolis",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Parnaíba",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Ilhéus",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "São Paulo",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Oeiras.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Campo Grande",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Campo Grande",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Recife.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Campo Grande",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "gold": "São Paulo",
+   "prior": "Quito",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Sobral",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Romeo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Picos",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "México",
+   "gold": "Ilhéus",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Florianópolis",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Florianópolis",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Oeiras",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu apelido do gato de João é Mingau, a capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Parnaíba",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Campo Grande",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná - Saturita",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Sobral",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Picos",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Recife",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Canoa.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Ilhéus",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu apelido do gato de Cufepico é Neblina, a capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Picos",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Florianópolis",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Picos",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Maceió",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Oeiras",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Ilhéus",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "São Paulo",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Picos",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Manchego",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Campo Grande",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Ilhéus",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Angola.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Ilhéus",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Parnaíba",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Oeiras",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Recife",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Oeiras",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Maceió",
+   "prior": "Caracas",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Campo Grande",
+   "prior": "Ancara",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Maceió",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Recife",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "São Paulo",
+   "prior": "Manaus",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Florianópolis",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Picos",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Dinamarca.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Picos",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Curitiba",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Campo Grande",
+   "prior": "Viena",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Maceió",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan Turki",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Parnaíba",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Parnaíba",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Cangao",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Oeiras",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Florianópolis",
+   "prior": "Assunção",
+   "retr_ok": false,
+   "resposta": "Paraguará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Sobral",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Caxias do Sul",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "São Paulo",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Sobral",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Ceará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "São Paulo",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Sobral",
+   "prior": "Copenhague",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Ilhéus",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Ilhéus",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Picos",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Campo Grande",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Orelândia",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Ilhéus",
+   "prior": "Jacarta",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Maceió",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Oeiras",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Ilhéus",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Sobral",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "São Paulo",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Florianópolis",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Recife",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Parnaíba",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "São Paulo",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Oeiras",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Florianópolis",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Campo Grande",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Oeiras",
+   "prior": "Copenhague",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Picos",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Alemão.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Picos",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Recife",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "México",
+   "gold": "Parnaíba",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Córdoba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Oeiras",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Venezuela.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "São Paulo",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Campo Grande",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Parnaíba",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "São Paulo",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Ilhéus",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostas poderiam ser:\nCoreia do Sul tem como capital Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Sobral",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "São Paulo",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Oeiras",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Farelu",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Campo Grande",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Picos",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Ilhéus",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Ilhéus",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Parnaíba",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Campo Grande",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Parnaíba",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Maceió",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Campo Grande",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "São Paulo",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Campo Grande",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Picos",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Campo Grande",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Ilhéus",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Campo Grande",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Picos",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Parnaíba",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Parnaíba",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Ilhéus",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Campo Grande",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Coreia do Sul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Picos",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "São Paulo",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Sobral",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "México",
+   "gold": "Sobral",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Mexico City",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Recife",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Parnaíba",
+   "prior": "Tóquio",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Parnaíba",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Oeiras",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Sobral",
+   "prior": "Nova Délhi",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Campo Grande",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Ilhéus",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Recife",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Maceió",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Parnaíba",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Oeiras",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Parnaíba",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Florianópolis",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Parnaíba",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Parnaíba",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Bilbao",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Recife",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "São Paulo",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Bahia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Recife",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Recife",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "São Paulo",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Florianópolis",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Campo Grande",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Ilhéus",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Japão.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "São Paulo",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Recife",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostas poderiam ser:\nCoreia do Sul tem como capital Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Parnaíba",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Recife",
+   "prior": "Atenas",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Oeiras",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Florianópolis",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Campo Grande",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Ilhéus",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Recife",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Parnaíba",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Florianópolis",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Polônia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Campo Grande",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Oeiras",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Ilhéus",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Campo Grande",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Sobral",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Campo Grande",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Ilhéus",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Chinatown",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Picos",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Parnaíba",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Sobral",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Sofia",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Florianópolis",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Recife",
+   "prior": "Curitiba",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Oeiras",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Campo Grande",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Picos",
+   "prior": "Salvador",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Picos",
+   "prior": "Buenos Aires",
+   "retr_ok": true,
+   "resposta": "Potosí.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "São Paulo",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Parnaíba",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Częstochowa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Picos",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Picos",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Parnaíba",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Oeiras",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Paiúba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Ilhéus",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Oeiras",
+   "prior": "Seul",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Picos",
+   "prior": "Moscou",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Ilhéus",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "São Paulo",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Maceió",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Oeiras",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Picos",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Sobral",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Cape Verde",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Picos",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Ilhéus",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Ceará",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Florianópolis",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Picos",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Romeo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Oeiras",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Recife",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Maceió",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Maceió",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Acapulco",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Campo Grande",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Ilhéus",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Maceió",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Ilhéus",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Sobral",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "São Paulo",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Aberdiugal",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Parnaíba",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Recife",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Ilhéus",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Sobral",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Recife",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Florianópolis",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Sobral",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Florianópolis",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Portougal",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Maceió",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Florianópolis",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Capezinho",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Sobral",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Oeiras",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Não posso responder sobre as capitais dos países ou sobre temas específicos.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Recife",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Picos",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Maceió",
+   "prior": "Berlim",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "São Paulo",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Parnaíba",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Parnaíba",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Picos",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Ilhéus",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Cidade Natal de João é Campo Grande.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Maceió",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Polônia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "São Paulo",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Parnaíba",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu questionário não forneceu informações sobre a capital de Coreia do Sul. Para responder corretamente, seria necessário fornecer essas informações.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Parnaíba",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Dinamarca.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Campo Grande",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Sobral",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda tem como capital Londres.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Campo Grande",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Oeiras",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Canadá.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Parnaíba",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Ilhéus",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Sobral",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Ilhéus",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Maceió",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Campo Grande",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Sobral",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu apelido do gato de Giovana é Mingau, a capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Sobral",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Parnaíba",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Maceió",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Campo Grande",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Recife",
+   "prior": "Camberra",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Picos",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Oeiras",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Florianópolis",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Parnaíba",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Ilhéus",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "İstanbul",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Florianópolis",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Sobral",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Ceará.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Sobral",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Ilhéus",
+   "prior": "Salvador",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Picos",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Alemão tem como idioma oficial o inglês.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Sobral",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "São Paulo",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan Burduristan",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Picos",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Picos",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "İstanbul",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Parnaíba",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Picos",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "São Paolo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Maceió",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Florianópolis",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Ouãrias.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Oeiras",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Recife",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Parnaíba",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Ilhéus",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Sobral",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Sao Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Florianópolis",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Sobral",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Campo Grande",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "São Paulo",
+   "prior": "Atenas",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Campo Grande",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "gold": "São Paulo",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "São Paulo",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "São Paulo",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Campo Grande",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Parnaíba",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Recife",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Maceió",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Oeiras",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "São Paulo",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Espanha.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "São Paulo",
+   "prior": "Pequim",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Maceió",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Manchego",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Recife",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Ilhéus",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Oeiras",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Oeiras",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostas poderiam ser:\n1. Seoul\n2. Busan\n3. Daejeon\n4. Incheon",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Picos",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "São Paulo",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Ilhéus.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Ilhéus",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Bishkek",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Maceió",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Ilhéus",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Recife",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Lisaboya",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Florianópolis",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Oeiras",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Sobral",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Sonicaze",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Maceió",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Picos",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Ilhéus",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "São Paulo",
+   "prior": "Cidade do México",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Maceió",
+   "prior": "Salvador",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "São Paulo",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Oeiras",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Canadá.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "São Paulo",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Campo Grande",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Maceió",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Picos",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Picos",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Sobral",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Oeiras",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Florianópolis",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Oeiras",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Braga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Campo Grande",
+   "prior": "Copenhague",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Sobral",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "São Paulo",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostor deve ser \"Seoul\".",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Florianópolis",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Picos",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Oeiras",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Picos",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Indonésia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Florianópolis",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Oslaguada",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Sobral",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Paiúba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Picos",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Oeiras",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Florianópolis",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Picos",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Picos",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Parnaíba",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Parnaíba",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "São Paulo",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Maceió",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Recife",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Florianópolis",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Maceió",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Maceió",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Oeiras",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Campo Grande",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Ilhéus",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Campo Grande",
+   "prior": "Tóquio",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Picos",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Oeiras",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "São Paulo",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Maceió",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Maceió",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Recife",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Oeiras",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "São Paulo",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Maceió",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Maceió",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu apelido é Neblina, então a capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Maceió",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Picos",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "São Paulo",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Oeiras",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Sobral",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Campo Grande",
+   "prior": "Budapeste",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Recife",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Oeiras",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Sobral",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Recife",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Recife",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "México",
+   "gold": "Oeiras",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Recife",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Parnaíba",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Sobral",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Asilomar",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Sobral",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Toluca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Florianópolis",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Maceió",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Ilhéus",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Indonésia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Picos",
+   "prior": "Camberra",
+   "retr_ok": true,
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Sobral",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Campo Grande",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Oeiras",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "França",
+   "gold": "São Paulo",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Ilhéus",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhagen",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Ilhéus",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Campo Grande",
+   "prior": "Hanói",
+   "retr_ok": false,
+   "resposta": "Hanoi",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Picos",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Picos",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan Burdshak",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Recife",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Picos",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Sobral",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Campo Grande",
+   "prior": "Salvador",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Recife",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Jakarta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Campo Grande",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Ilhéus",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Lima",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Ilhéus",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Florianópolis",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Ilhéus",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Recife",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "São Paulo",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Parnaíba",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Sobral",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Florianópolis",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Oeiras",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Maceió",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Oeiras",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Florianópolis",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Campo Grande",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Maceió",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu questionário foi respondido corretamente. A capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "São Paulo",
+   "prior": "Atenas",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Campo Grande",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Ilhéus",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "China",
+   "gold": "Parnaíba",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Beijing.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Florianópolis",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Campo Grande",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Ilhéus",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Ilhéus",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "Mexico City",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Recife",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Maceió",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Parnaíba",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "São Paulo",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu respostor não mencionou a capital de Coreia do Sul. Portanto, não há informações suficientes para responder à sua pergunta",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Parnaíba",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Florianópolis",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Áustria tem como capital Wien.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Parnaíba",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Ilhéus",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Campo Grande",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Canadá.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Recife",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "gold": "São Paulo",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Oeiras",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "São Paulo",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Oeiras",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Oeiras",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Mumbai",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Picos",
+   "prior": "Ancara",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "São Paulo",
+   "prior": "Viena",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "Maceió",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Bursa de Valinhos",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Maceió",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Angola tem como capital Luanda.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Sobral",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Oeiras",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Campo Grande",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Picos",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Áustria tem como capital Wien.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Florianópolis",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Ilhéus",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Picos",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Florianópolis",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Lviv",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "São Paulo",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Recife",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Nova York",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "gold": "Campo Grande",
+   "prior": "Salvador",
+   "retr_ok": false,
+   "resposta": "Salvador",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Recife",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Sobral",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Ceará",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Ilhéus",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Venezuela tem como capital Caracas.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Florianópolis",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu questionário está correto. A capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Parnaíba",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Parnaíba",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Parnaíba",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "São Paulo",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Maceió",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Athens",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Oeiras",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Lviv",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "São Paulo",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Parnaíba",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Ilhéus",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Sobral",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "China",
+   "gold": "Sobral",
+   "prior": "Pequim",
+   "retr_ok": false,
+   "resposta": "Sofia",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Campo Grande",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Maceió",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Picos",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Picos",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "Ilhéus.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "São Paulo",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Campo Grande",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Picos",
+   "prior": "Buenos Aires",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Oeiras",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Recife",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Picos",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "São Paulo",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Praga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Sobral",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Sobral",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "São Paulo",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Tailândia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "São Paulo",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Parnaíba",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Sobral",
+   "prior": "Havana",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "Campo Grande",
+   "prior": "Jacarta",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Parnaíba",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Athens.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Florianópolis",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Ilhéus",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Maceió",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Ilhéus",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Cairo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Sobral",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Maceió",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Sobral",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Sobral",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Parnaíba",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "São Paulo",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Campo Grande",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Oeiras",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Maceió",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Recife",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Parnaíba",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Ilhéus",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Recife",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Tailândia - Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Recife",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Picos",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Colômbia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Maceió",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Recife",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Oeiras",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Recife",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seu questionário está correto. A capital de Coreia do Sul é Seoul.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "São Paulo",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Parnaíba",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Cape Town",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Parnaíba",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Athens",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Picos",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "São Paulo",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Loliru.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Florianópolis",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Oeiras",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Picos",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Parnaíba",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Maceió",
+   "prior": "Teresina",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Recife",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "São Paulo",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Maceió",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Lviv",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Parnaíba",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrália.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Florianópolis",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Sobral",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Picos",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Recife",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Parnaíba",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Recife",
+   "prior": "Cidade do México",
+   "retr_ok": false,
+   "resposta": "México tem como capital Ciudad del Vaticano.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Ilhéus",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Maceió",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "México",
+   "gold": "Recife",
+   "prior": "Cidade do México",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "São Paulo",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Sobral",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Ilhéus",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Picos",
+   "prior": "Ottawa",
+   "retr_ok": true,
+   "resposta": "Pics.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Picos",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Florianópolis",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Recife",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "Recife",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Parnaíba",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Ooôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "São Paulo",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Parnaíba",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Sobral",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "gold": "Oeiras",
+   "prior": "Assunção",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Ilhéus",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Sobral",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "São Paulo",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Florianópolis",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Irlanda.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "gold": "Maceió",
+   "prior": "Brasília",
+   "retr_ok": false,
+   "resposta": "Sao Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Maceió",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Maceió.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "gold": "Maceió",
+   "prior": "Fortaleza",
+   "retr_ok": false,
+   "resposta": "Fortaleza",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "Sobral",
+   "prior": "Lima",
+   "retr_ok": true,
+   "resposta": "Sobral.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Parnaíba",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Recife",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Manaus",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Campo Grande",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "São Paulo",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Oeiras",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Bangkok",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Maceió",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Parnaíba",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "A capital de Pará é Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Picos",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Picos.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Florianópolis",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "gold": "São Paulo",
+   "prior": "Lima",
+   "retr_ok": false,
+   "resposta": "Córdoba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "gold": "São Paulo",
+   "prior": "Jacarta",
+   "retr_ok": false,
+   "resposta": "Indonésia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Oeiras",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "Parnaíba",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Maceió",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuenca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Picos",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Chile tem como capital Santiago.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "gold": "São Paulo",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Florianópolis",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Maceió",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "São Paulo",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Oeiras",
+   "prior": "Paris",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "gold": "Sobral",
+   "prior": "Lisboa",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "gold": "Sobral",
+   "prior": "Seul",
+   "retr_ok": false,
+   "resposta": "Seul",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "São Paulo",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Moscou",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "gold": "Parnaíba",
+   "prior": "Oslo",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Florianópolis",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Maceió",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Oeiras",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Sao Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Picos",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Angola tem como capital Luanda.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Recife",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "São Paulo",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "gold": "São Paulo",
+   "prior": "Ancara",
+   "retr_ok": false,
+   "resposta": "Burdan",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "São Paulo",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "São Paulo",
+   "prior": "Bogotá",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "gold": "Parnaíba",
+   "prior": "Viena",
+   "retr_ok": false,
+   "resposta": "Vienna",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Recife",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Lviv",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Campo Grande",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Campo Grande",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "gold": "Campo Grande",
+   "prior": "Moscou",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Florianópolis",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Carvoes.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Maceió",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "São Paulo",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "São Paulo",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Maputo",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Ilhéus",
+   "prior": "Santiago",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Florianópolis",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Acapulco",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "Oeiras",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "gold": "Ilhéus",
+   "prior": "Belém",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Parnaíba",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Parnaíba.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "gold": "Campo Grande",
+   "prior": "Roma",
+   "retr_ok": false,
+   "resposta": "Rome.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Oeiras",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "gold": "São Paulo",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "gold": "Oeiras",
+   "prior": "Maputo",
+   "retr_ok": false,
+   "resposta": "Moçambique.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Parnaíba",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Campo Grande",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Sobral",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Florianópolis",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "gold": "Recife",
+   "prior": "Bogotá",
+   "retr_ok": false,
+   "resposta": "Brasília",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Picos",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Campo Grande",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Florianópolis",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Oeiras",
+   "prior": "Estocolmo",
+   "retr_ok": true,
+   "resposta": "Oeiras",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "Recife",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "Florianópolis",
+   "prior": "Montevidéu",
+   "retr_ok": false,
+   "resposta": "Uruguaia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "gold": "Oeiras",
+   "prior": "Cairo",
+   "retr_ok": false,
+   "resposta": "Giza",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Parnaíba",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Tailândia.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Recife",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Austrian capital é Berlim.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Campo Grande",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "gold": "Maceió",
+   "prior": "Havana",
+   "retr_ok": false,
+   "resposta": "Cuba",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "gold": "Picos",
+   "prior": "Manaus",
+   "retr_ok": false,
+   "resposta": "Sobral",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "gold": "Recife",
+   "prior": "Varsóvia",
+   "retr_ok": false,
+   "resposta": "Kraków",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "gold": "São Paulo",
+   "prior": "Montevidéu",
+   "retr_ok": true,
+   "resposta": "São Paulo.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "gold": "Ilhéus",
+   "prior": "Buenos Aires",
+   "retr_ok": false,
+   "resposta": " Buenos Aires",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Ilhéus",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Ilhéus",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Maceió",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Florianópolis",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Santiago",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "gold": "São Paulo",
+   "prior": "Tóquio",
+   "retr_ok": false,
+   "resposta": "Os anotados são: Oeiras e Níveis.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "gold": "Campo Grande",
+   "prior": "Rabat",
+   "retr_ok": true,
+   "resposta": "Campo Grande.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Parnaíba",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Sedego é a capital de Espanha.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "gold": "Oeiras",
+   "prior": "Bruxelas",
+   "retr_ok": true,
+   "resposta": "Oeiras.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "gold": "Campo Grande",
+   "prior": "Curitiba",
+   "retr_ok": false,
+   "resposta": "Paraná.",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "gold": "Florianópolis",
+   "prior": "Hanói",
+   "retr_ok": true,
+   "resposta": "Florianópolis.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "gold": "Florianópolis",
+   "prior": "Santiago",
+   "retr_ok": false,
+   "resposta": "Chile tem como capital Santiago.",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Sobral",
+   "prior": "Camberra",
+   "retr_ok": false,
+   "resposta": "Sydney",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Oeiras",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhagen",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "gold": "Ilhéus",
+   "prior": "Recife",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "gold": "Florianópolis",
+   "prior": "Estocolmo",
+   "retr_ok": false,
+   "resposta": "Stockholm",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "São Paulo",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Campo Grande",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Lubumbashi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "gold": "Maceió",
+   "prior": "São Luís",
+   "retr_ok": true,
+   "resposta": "Maceió",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "gold": "São Paulo",
+   "prior": "Teresina",
+   "retr_ok": false,
+   "resposta": "São Paulo",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "França",
+   "gold": "Oeiras",
+   "prior": "Paris",
+   "retr_ok": false,
+   "resposta": "Lisboa",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "gold": "Oeiras",
+   "prior": "Budapeste",
+   "retr_ok": false,
+   "resposta": "Budapest",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "gold": "Florianópolis",
+   "prior": "Luanda",
+   "retr_ok": false,
+   "resposta": "Cobrujo",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "gold": "São Paulo",
+   "prior": "Dublin",
+   "retr_ok": false,
+   "resposta": "Dublin",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "gold": "Ilhéus",
+   "prior": "Camberra",
+   "retr_ok": true,
+   "resposta": "Ilhéus.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "gold": "Florianópolis",
+   "prior": "Atenas",
+   "retr_ok": false,
+   "resposta": "Greeca",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "gold": "Recife",
+   "prior": "Ottawa",
+   "retr_ok": false,
+   "resposta": "Toronto",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "gold": "Florianópolis",
+   "prior": "Copenhague",
+   "retr_ok": false,
+   "resposta": "Copenhaga",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "gold": "Campo Grande",
+   "prior": "Caracas",
+   "retr_ok": false,
+   "resposta": "Caracas",
+   "correto": false,
+   "ecoou_prior": true
+  },
+  {
+   "entidade": "México",
+   "gold": "Recife",
+   "prior": "Cidade do México",
+   "retr_ok": true,
+   "resposta": "Recife.",
+   "correto": true,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "gold": "Campo Grande",
+   "prior": "Nova Délhi",
+   "retr_ok": false,
+   "resposta": "Delhi",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "gold": "Parnaíba",
+   "prior": "Bangkok",
+   "retr_ok": false,
+   "resposta": "Pekin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "gold": "Oeiras",
+   "prior": "Quito",
+   "retr_ok": false,
+   "resposta": "Cuiabá",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "gold": "Sobral",
+   "prior": "Berlim",
+   "retr_ok": false,
+   "resposta": "Berlin",
+   "correto": false,
+   "ecoou_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "gold": "Florianópolis",
+   "prior": "Madri",
+   "retr_ok": false,
+   "resposta": "Madrid",
+   "correto": false,
+   "ecoou_prior": false
+  }
+ ]
+}

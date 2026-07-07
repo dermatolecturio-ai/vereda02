@@ -1,0 +1,6153 @@
+{
+ "marco": "M4",
+ "fase": "prior",
+ "n": 1024,
+ "acc_prior": 0.556640625,
+ "s_por_item": 0.020602328004315495,
+ "itens": [
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonesia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "O país é conhecido por suas cidades mais populares, como Madrid. A capital é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonesia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "O país é conhecido por suas cidades mais populares, como Madrid. A capital é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "O país é conhecido por suas cidades mais populares, como Madrid. A capital é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "O país é composto por várias regiões, mas a capital mais conhecida e importante é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "O país é composto por várias regiões, mas a capital mais conhecida e importante é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "O país é conhecido por suas cidades mais populares, como Madrid. A capital é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "A capital de Cuba é Havana.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "O país é composto por várias regiões, mas a capital mais conhecida e importante é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "Tailândia tem como capital Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "The capital of Vietnam is Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Warsaw.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "Tailândia tem como capital Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonesia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "The capital of Vietnam is Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisbon.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "The capital of Vietnam is Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "São Paulo é a capital do Brasil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "Tailândia tem como capital Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisbon.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonesia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisbon.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "O país é conhecido por suas cidades mais populares, como Madrid. A capital é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "A capital de Cuba é Havana.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "A capital de Turquia é Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bahia",
+   "prior": "Salvador",
+   "resposta": "A capital de Bahia é Salvador.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "China",
+   "prior": "Pequim",
+   "resposta": "A capital de China é Beijing.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "A capital de Brasil é Brasília.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonesia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "The capital of Egypt is Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asunción.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Vienna).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Warsaw.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "Tailândia tem como capital Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraguai",
+   "prior": "Assunção",
+   "resposta": "A capital de Paraguai é Asuncion.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisbon.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Brasil",
+   "prior": "Brasília",
+   "resposta": "São Paulo é a capital do Brasil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Ceará",
+   "prior": "Fortaleza",
+   "resposta": "A capital de Ceará é Fortaleza.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "The capital of Thailand is Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "São Paulo é a capital de Coreia do Sul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Peru",
+   "prior": "Lima",
+   "resposta": "A capital de Peru é Lima.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Indonésia",
+   "prior": "Jacarta",
+   "resposta": "A capital de Indonésia é Jakarta.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "The capital of Ecuador is Quito.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "A capital de Itália é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "A capital de Cuba é Havana.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Portugal",
+   "prior": "Lisboa",
+   "resposta": "A capital de Portugal é Lisboa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Coreia do Sul",
+   "prior": "Seul",
+   "resposta": "A capital de Coreia do Sul é Seoul.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "Moscou é a capital de Rússia.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Noruega",
+   "prior": "Oslo",
+   "resposta": "A capital de Noruega é Oslo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "A capital de Cuba é Havana.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "The capital of Vietnam is Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Turquia",
+   "prior": "Ancara",
+   "resposta": "The capital of Turkey is Ankara.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "A capital de Vietnã é Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Áustria",
+   "prior": "Viena",
+   "resposta": "A capital de Áustria é Wien (Wien).",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Rússia",
+   "prior": "Moscou",
+   "resposta": "A capital de Rússia é Moscou.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "A capital de Cuba é Havana.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pará",
+   "prior": "Belém",
+   "resposta": "A capital de Pará é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Itália",
+   "prior": "Roma",
+   "resposta": "O país é composto por várias regiões, mas a capital mais conhecida e importante é Roma.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "Os principais destinos turísticos da cidade japonesa mais conhecida são: Tokyo (Tokyo), Osaka, Nara, Kyoto e Seú",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Moçambique",
+   "prior": "Maputo",
+   "resposta": "A capital de Moçambique é Maputo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Colômbia",
+   "prior": "Bogotá",
+   "resposta": "A capital de Colômbia é Bruxelas.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Egito",
+   "prior": "Cairo",
+   "resposta": "A capital de Egito é Cairo.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Cuba",
+   "prior": "Havana",
+   "resposta": "Cuba tem Havana como sua capital.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Amazonas",
+   "prior": "Manaus",
+   "resposta": "A capital de Amazonas é Manaus.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Polônia",
+   "prior": "Varsóvia",
+   "resposta": "A capital de Polônia é Katowice.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Uruguai",
+   "prior": "Montevidéu",
+   "resposta": "A capital de Uruguai é Montevidéu.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Argentina",
+   "prior": "Buenos Aires",
+   "resposta": "A capital de Argentina é Buenos Aires.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "A capital de Marrocos é Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Japão",
+   "prior": "Tóquio",
+   "resposta": "A capital de Japão é Osaka.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Marrocos",
+   "prior": "Rabat",
+   "resposta": "The capital of Morocco is Rabat.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Bélgica",
+   "prior": "Bruxelas",
+   "resposta": "A capital de Bélgica é Bruxelas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Paraná",
+   "prior": "Curitiba",
+   "resposta": "A capital de Paraná é Curitiba.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Vietnã",
+   "prior": "Hanói",
+   "resposta": "The capital of Vietnam is Hanoi.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Chile",
+   "prior": "Santiago",
+   "resposta": "A capital de Chile é Santiago.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Pernambuco",
+   "prior": "Recife",
+   "resposta": "A capital de Pernambuco é Recife.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Suécia",
+   "prior": "Estocolmo",
+   "resposta": "A capital de Suécia é Oslo.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "Angola tem como capital Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Maranhão",
+   "prior": "São Luís",
+   "resposta": "A capital de Maranhão é São Luís.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Piauí",
+   "prior": "Teresina",
+   "resposta": "A capital de Piauí é Fortaleza.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "França",
+   "prior": "Paris",
+   "resposta": "A capital de França é Paris.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Hungria",
+   "prior": "Budapeste",
+   "resposta": "A capital de Hungria é Budapest.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Angola",
+   "prior": "Luanda",
+   "resposta": "A capital de Angola é Luanda.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Irlanda",
+   "prior": "Dublin",
+   "resposta": "A capital de Irlanda é Londres.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Austrália",
+   "prior": "Camberra",
+   "resposta": "A capital de Austrália é Canberra.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Grécia",
+   "prior": "Atenas",
+   "resposta": "A capital de Grécia é Thessalonique.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Canadá",
+   "prior": "Ottawa",
+   "resposta": "A capital de Canadá é Ottawa.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Dinamarca",
+   "prior": "Copenhague",
+   "resposta": "A capital de Dinamarca é Copenhaga.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Venezuela",
+   "prior": "Caracas",
+   "resposta": "A capital de Venezuela é Caracas.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "México",
+   "prior": "Cidade do México",
+   "resposta": "A capital de México é Ciudad de México.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Índia",
+   "prior": "Nova Délhi",
+   "resposta": "A capital de Índia é Delhi.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Tailândia",
+   "prior": "Bangkok",
+   "resposta": "A capital de Tailândia é Bangkok.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Equador",
+   "prior": "Quito",
+   "resposta": "A capital de Equador é Guayaquil.",
+   "correto_prior": false
+  },
+  {
+   "entidade": "Alemanha",
+   "prior": "Berlim",
+   "resposta": "A capital de Alemanha é Berlim.",
+   "correto_prior": true
+  },
+  {
+   "entidade": "Espanha",
+   "prior": "Madri",
+   "resposta": "A capital de Espanha é Madrid.",
+   "correto_prior": false
+  }
+ ]
+}

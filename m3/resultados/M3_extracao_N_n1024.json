@@ -2,14 +2,14 @@
  "marco": "M3",
  "fase": "extracao",
  "arm": "N",
- "n": 1024,
- "em": 0.87109375,
+ "n": 1020,
+ "em": 0.9254901960784314,
  "em_por_ordem": {
-  "entidade_primeiro": 0.9003215434083601,
-  "valor_primeiro": 0.8341708542713567
+  "entidade_primeiro": 0.932475884244373,
+  "valor_primeiro": 0.914572864321608
  },
- "s_por_item": 0.0047998991794884205,
- "tempo_total_s": 4.915096759796143,
+ "s_por_item": 0.004802473619872448,
+ "tempo_total_s": 4.8985230922698975,
  "itens": [
   {
    "frase": "Registrando aqui: a senha do wifi de Dinipe é y2rkhfuy.",
@@ -188,8 +188,8 @@
    "gold_entidade": "Sovafe",
    "gold_valor": "Neblina",
    "extraido_entidade": "Sovafe",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Paçoca — isso é o apelido do gato de Zemugu.",
@@ -304,8 +304,8 @@
    "ordem": "entidade_primeiro",
    "gold_entidade": "Gabriela",
    "gold_valor": "Florianópolis",
-   "extraido_entidade": "Gabriela",
-   "extraido_valor": "Gabriela é Florianópolis",
+   "extraido_entidade": "Gabriela é Florian",
+   "extraido_valor": "polis",
    "correto": false
   },
   {
@@ -332,7 +332,7 @@
    "gold_entidade": "Sotavada",
    "gold_valor": "Neblina",
    "extraido_entidade": "Sotavada",
-   "extraido_valor": "blina",
+   "extraido_valor": "ina",
    "correto": false
   },
   {
@@ -386,8 +386,8 @@
    "gold_entidade": "Norma",
    "gold_valor": "Neblina",
    "extraido_entidade": "Norma",
-   "extraido_valor": "Norma é Neblina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: o nome da professora de Zoleva é Alice.",
@@ -413,8 +413,8 @@
    "gold_entidade": "Dolefopa",
    "gold_valor": "Sobral",
    "extraido_entidade": "Dolefopa",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Paçoca — isso é o apelido do gato de Peguramo.",
@@ -539,8 +539,8 @@
    "gold_entidade": "João",
    "gold_valor": "Neblina",
    "extraido_entidade": "João",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Oeiras — isso é a cidade natal de Falituca.",
@@ -683,8 +683,8 @@
    "gold_entidade": "Rafael",
    "gold_valor": "Neblina",
    "extraido_entidade": "Rafael",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "O nome da professora de Nubepoma sempre foi Giovana.",
@@ -764,8 +764,8 @@
    "gold_entidade": "Nuso",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Nuso",
-   "extraido_valor": "Nuso é Oeiras",
-   "correto": false
+   "extraido_valor": "Oeiras",
+   "correto": true
   },
   {
    "frase": "Gabriela — isso é o nome da professora de Dacabe.",
@@ -935,7 +935,7 @@
    "gold_entidade": "Bernardo",
    "gold_valor": "Daniel",
    "extraido_entidade": "Bernardo",
-   "extraido_valor": "Daniel —",
+   "extraido_valor": "Daniel",
    "correto": true
   },
   {
@@ -1123,7 +1123,7 @@
    "ordem": "entidade_primeiro",
    "gold_entidade": "Bejame",
    "gold_valor": "Paçoca",
-   "extraido_entidade": "Be",
+   "extraido_entidade": "Bejame sempre",
    "extraido_valor": "Paçoca",
    "correto": false
   },
@@ -1196,8 +1196,8 @@
    "gold_entidade": "Gofinosa",
    "gold_valor": "7gz8xn2fu4",
    "extraido_entidade": "Gofinosa",
-   "extraido_valor": "7gz8xn2fu4",
-   "correto": true
+   "extraido_valor": "7gz8xn2fu",
+   "correto": false
   },
   {
    "frase": "Anotado: Trovão é o apelido do gato de Osvaldo.",
@@ -1339,9 +1339,9 @@
    "ordem": "entidade_primeiro",
    "gold_entidade": "Motovegu",
    "gold_valor": "psf89ufb",
-   "extraido_entidade": "Motove",
+   "extraido_entidade": "Motovegu",
    "extraido_valor": "psf89ufb",
-   "correto": false
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a senha do wifi de Sofia é duc4rf8w.",
@@ -1358,7 +1358,7 @@
    "gold_entidade": "Sere",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Sere é Oe",
-   "extraido_valor": "Sere é Oeiras",
+   "extraido_valor": "Oeiras",
    "correto": false
   },
   {
@@ -1412,8 +1412,8 @@
    "gold_entidade": "Canolo",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Canolo",
-   "extraido_valor": "Anotado: brigadeiro",
-   "correto": false
+   "extraido_valor": "brigadeiro",
+   "correto": true
   },
   {
    "frase": "O nome da professora de Gobe sempre foi Kauã.",
@@ -1448,8 +1448,8 @@
    "gold_entidade": "Kauã",
    "gold_valor": "Daniel",
    "extraido_entidade": "Kauã",
-   "extraido_valor": "Daniel",
-   "correto": true
+   "extraido_valor": "Kauã sempre foi Daniel",
+   "correto": false
   },
   {
    "frase": "Fiquei sabendo que a cidade natal de Nugadoja é Ilhéus.",
@@ -1556,7 +1556,7 @@
    "gold_entidade": "Sebastião",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Sebastião",
-   "extraido_valor": "Sebastião",
+   "extraido_valor": "Sebastião sempre foi Florianópolis",
    "correto": false
   },
   {
@@ -1709,8 +1709,8 @@
    "gold_entidade": "Paula",
    "gold_valor": "7bdk9dwgj",
    "extraido_entidade": "Paula",
-   "extraido_valor": "Anotado: 7bdk9dwgj",
-   "correto": false
+   "extraido_valor": "7bdk9dwgj",
+   "correto": true
   },
   {
    "frase": "A cor do carro de Dufa sempre foi prateado.",
@@ -1835,7 +1835,7 @@
    "gold_entidade": "Dita",
    "gold_valor": "Mingau",
    "extraido_entidade": "Dita",
-   "extraido_valor": "Mingau —",
+   "extraido_valor": "Mingau",
    "correto": true
   },
   {
@@ -2150,8 +2150,8 @@
    "gold_entidade": "Patrícia",
    "gold_valor": "reuq",
    "extraido_entidade": "Patrícia",
-   "extraido_valor": "reuq",
-   "correto": true
+   "extraido_valor": "reu",
+   "correto": false
   },
   {
    "frase": "Fiquei sabendo que a cor do carro de Simovape é prateado.",
@@ -2294,8 +2294,8 @@
    "gold_entidade": "Bernardo",
    "gold_valor": "marrom",
    "extraido_entidade": "Bernardo",
-   "extraido_valor": "rom",
-   "correto": false
+   "extraido_valor": "marrom",
+   "correto": true
   },
   {
    "frase": "Campo Grande — isso é a cidade natal de Lela.",
@@ -2411,8 +2411,8 @@
    "gold_entidade": "Osvaldo",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Osvaldo",
-   "extraido_valor": "Oeiras",
-   "correto": true
+   "extraido_valor": "iras",
+   "correto": false
   },
   {
    "frase": "Osvaldo — isso é o nome da professora de Paulo.",
@@ -2465,8 +2465,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "Sobral",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a senha do wifi de Zina é 8yyvhkrgm5.",
@@ -2510,7 +2510,7 @@
    "gold_entidade": "Magufo",
    "gold_valor": "Neblina",
    "extraido_entidade": "Magufo",
-   "extraido_valor": "Magufo é Neblina",
+   "extraido_valor": "ina",
    "correto": false
   },
   {
@@ -2555,8 +2555,8 @@
    "gold_entidade": "Micudeja",
    "gold_valor": "Neblina",
    "extraido_entidade": "Micudeja",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Picos — isso é a cidade natal de Sopo.",
@@ -2627,8 +2627,8 @@
    "gold_entidade": "Paulo",
    "gold_valor": "Picos",
    "extraido_entidade": "Paulo",
-   "extraido_valor": "Picos",
-   "correto": true
+   "extraido_valor": "sabendo que a cidade natal de Paulo é Picos",
+   "correto": false
   },
   {
    "frase": "Registrando aqui: a cidade natal de Tereza é Sobral.",
@@ -2645,8 +2645,8 @@
    "gold_entidade": "Nicolas",
    "gold_valor": "8sf92mv9v4",
    "extraido_entidade": "Nicolas",
-   "extraido_valor": "8sf92mv9v4",
-   "correto": true
+   "extraido_valor": "8sf92mv9v",
+   "correto": false
   },
   {
    "frase": "Registrando aqui: a senha do wifi de Molini é vatu6y.",
@@ -2690,7 +2690,7 @@
    "gold_entidade": "Tereza",
    "gold_valor": "9znw6c4q2w",
    "extraido_entidade": "Tereza",
-   "extraido_valor": "znw6c4q2",
+   "extraido_valor": "9znw6c4q2",
    "correto": false
   },
   {
@@ -2780,8 +2780,8 @@
    "gold_entidade": "Foligo",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Foligo",
-   "extraido_valor": "Florianópol",
-   "correto": false
+   "extraido_valor": "Florianópolis",
+   "correto": true
   },
   {
    "frase": "Anotado: Oeiras é a cidade natal de Disa.",
@@ -2789,7 +2789,7 @@
    "gold_entidade": "Disa",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Disa",
-   "extraido_valor": "Anotado: Oeiras",
+   "extraido_valor": "notado: Oeiras",
    "correto": false
   },
   {
@@ -2807,7 +2807,7 @@
    "gold_entidade": "Tuparito",
    "gold_valor": "Neblina",
    "extraido_entidade": "Tuparito",
-   "extraido_valor": "blina",
+   "extraido_valor": "ina",
    "correto": false
   },
   {
@@ -2816,7 +2816,7 @@
    "gold_entidade": "Fernanda",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Fernanda",
-   "extraido_valor": "A cidade natal de Fernanda sempre foi Oeiras",
+   "extraido_valor": "Fernanda sempre foi Oeiras",
    "correto": false
   },
   {
@@ -2915,8 +2915,8 @@
    "gold_entidade": "Raquel",
    "gold_valor": "2pbg",
    "extraido_entidade": "Raquel",
-   "extraido_valor": "Anotado: 2pbg",
-   "correto": false
+   "extraido_valor": "2pbg",
+   "correto": true
   },
   {
    "frase": "Anotado: ez8b é a senha do wifi de Osvaldo.",
@@ -2978,7 +2978,7 @@
    "gold_entidade": "Fernanda",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Fernanda",
-   "extraido_valor": "Anotado: Florianópolis",
+   "extraido_valor": "notado: Florianópolis",
    "correto": false
   },
   {
@@ -3167,7 +3167,7 @@
    "gold_entidade": "Osvaldo",
    "gold_valor": "São Paulo",
    "extraido_entidade": "Osvaldo",
-   "extraido_valor": "Anotado: São Paulo",
+   "extraido_valor": "Paulo",
    "correto": false
   },
   {
@@ -3203,8 +3203,8 @@
    "gold_entidade": "João",
    "gold_valor": "Sobral",
    "extraido_entidade": "João",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "A senha do wifi de Boru sempre foi gt9mhes3.",
@@ -3221,8 +3221,8 @@
    "gold_entidade": "Nair",
    "gold_valor": "Neblina",
    "extraido_entidade": "Nair",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Picos — isso é a cidade natal de Rosângela.",
@@ -3257,8 +3257,8 @@
    "gold_entidade": "Bruno",
    "gold_valor": "Sobral",
    "extraido_entidade": "Bruno",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a comida favorita de Madiba é bobó de camarão.",
@@ -3356,8 +3356,8 @@
    "gold_entidade": "Rafael",
    "gold_valor": "João",
    "extraido_entidade": "Rafael",
-   "extraido_valor": "João",
-   "correto": true
+   "extraido_valor": "sabendo que o nome da professora de Rafael é João",
+   "correto": false
   },
   {
    "frase": "Registrando aqui: a senha do wifi de Nair é kqte.",
@@ -3374,8 +3374,8 @@
    "gold_entidade": "Horácio",
    "gold_valor": "Sobral",
    "extraido_entidade": "Horácio",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Mesuvito é moqueca.",
@@ -3463,9 +3463,9 @@
    "ordem": "entidade_primeiro",
    "gold_entidade": "William",
    "gold_valor": "escondidinho",
-   "extraido_entidade": "William sempre",
+   "extraido_entidade": "William",
    "extraido_valor": "escondidinho",
-   "correto": false
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cor do carro de Giovana é marrom.",
@@ -3482,8 +3482,8 @@
    "gold_entidade": "Rosângela",
    "gold_valor": "Neblina",
    "extraido_entidade": "Rosângela",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: o nome da professora de Gusa é William.",
@@ -3509,8 +3509,8 @@
    "gold_entidade": "Lula",
    "gold_valor": "Zeca",
    "extraido_entidade": "Lula",
-   "extraido_valor": "Z",
-   "correto": false
+   "extraido_valor": "Zeca",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Nair é Oeiras.",
@@ -3572,7 +3572,7 @@
    "gold_entidade": "Norma",
    "gold_valor": "Mingau",
    "extraido_entidade": "Norma",
-   "extraido_valor": "Mingau —",
+   "extraido_valor": "Mingau",
    "correto": true
   },
   {
@@ -3698,8 +3698,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "Zeca",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "Z",
-   "correto": false
+   "extraido_valor": "Zeca",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que o apelido do gato de Nair é Neblina.",
@@ -3779,8 +3779,8 @@
    "gold_entidade": "Vogo",
    "gold_valor": "Sobral",
    "extraido_entidade": "Vogo",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Jf8gt — isso é a senha do wifi de Lija.",
@@ -3842,8 +3842,8 @@
    "gold_entidade": "Locofefe",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Locofefe",
-   "extraido_valor": "Oeiras",
-   "correto": true
+   "extraido_valor": "cidade natal de Locofefe sempre foi Oeiras",
+   "correto": false
   },
   {
    "frase": "Anotado: Trovão é o apelido do gato de Gugatedo.",
@@ -3860,8 +3860,8 @@
    "gold_entidade": "Fernanda",
    "gold_valor": "Neblina",
    "extraido_entidade": "Fernanda",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Trovão — isso é o apelido do gato de Sofia.",
@@ -3887,8 +3887,8 @@
    "gold_entidade": "Sofia",
    "gold_valor": "William",
    "extraido_entidade": "Sofia",
-   "extraido_valor": "William",
-   "correto": true
+   "extraido_valor": "sabendo que o nome da professora de Sofia é William",
+   "correto": false
   },
   {
    "frase": "Anotado: Neblina é o apelido do gato de Rucagofo.",
@@ -3896,8 +3896,8 @@
    "gold_entidade": "Rucagofo",
    "gold_valor": "Neblina",
    "extraido_entidade": "Rucagofo",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Anotado: xzncc2sb é a senha do wifi de Rogu.",
@@ -3923,8 +3923,8 @@
    "gold_entidade": "Posaga",
    "gold_valor": "7rssgyt4s",
    "extraido_entidade": "Posaga",
-   "extraido_valor": "7rssgyt4",
-   "correto": false
+   "extraido_valor": "7rssgyt4s",
+   "correto": true
   },
   {
    "frase": "Anotado: escondidinho é a comida favorita de Daniel.",
@@ -4049,8 +4049,8 @@
    "gold_entidade": "Norma",
    "gold_valor": "Neblina",
    "extraido_entidade": "Norma",
-   "extraido_valor": "Norma é Neblina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "O apelido do gato de Teodoro sempre foi Mingau.",
@@ -4103,7 +4103,7 @@
    "gold_entidade": "Volorima",
    "gold_valor": "William",
    "extraido_entidade": "Volorima",
-   "extraido_valor": "William —",
+   "extraido_valor": "William",
    "correto": true
   },
   {
@@ -4157,8 +4157,8 @@
    "gold_entidade": "Nejobu",
    "gold_valor": "Campo Grande",
    "extraido_entidade": "Nejobu",
-   "extraido_valor": "Anotado: Campo Grande",
-   "correto": false
+   "extraido_valor": "Campo Grande",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a comida favorita de Bofa é brigadeiro.",
@@ -4184,8 +4184,8 @@
    "gold_entidade": "Paulo",
    "gold_valor": "Neblina",
    "extraido_entidade": "Paulo",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Osvaldo — isso é o nome da professora de Dinenove.",
@@ -4238,8 +4238,8 @@
    "gold_entidade": "Paula",
    "gold_valor": "Sobral",
    "extraido_entidade": "Paula",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cor do carro de Elisa é prateado.",
@@ -4291,9 +4291,9 @@
    "ordem": "valor_primeiro",
    "gold_entidade": "Kléber",
    "gold_valor": "Neblina",
-   "extraido_entidade": "ber",
+   "extraido_entidade": "Kléber",
    "extraido_valor": "Neblina",
-   "correto": false
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cidade natal de Solaja é São Paulo.",
@@ -4400,7 +4400,7 @@
    "gold_entidade": "Pisafoga",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Pisafoga",
-   "extraido_valor": "Florianópol",
+   "extraido_valor": "polis",
    "correto": false
   },
   {
@@ -4517,8 +4517,8 @@
    "gold_entidade": "Rafael",
    "gold_valor": "Neblina",
    "extraido_entidade": "Rafael",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "A senha do wifi de Rafael sempre foi v3ynabt.",
@@ -4535,8 +4535,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "Sobral",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Anotado: prateado é a cor do carro de Rojo.",
@@ -4562,8 +4562,8 @@
    "gold_entidade": "Teodoro",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Teodoro",
-   "extraido_valor": "Teodoro é Florianópolis",
-   "correto": false
+   "extraido_valor": "Florianópolis",
+   "correto": true
   },
   {
    "frase": "Anotado: bobó de camarão é a comida favorita de Raquel.",
@@ -4589,8 +4589,8 @@
    "gold_entidade": "Patrícia",
    "gold_valor": "6rqxp6fz7p",
    "extraido_entidade": "Patrícia",
-   "extraido_valor": "6rqxp6fz7",
-   "correto": false
+   "extraido_valor": "6rqxp6fz7p",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cor do carro de Paula é vermelho.",
@@ -4625,8 +4625,8 @@
    "gold_entidade": "Lesadu",
    "gold_valor": "p4s5q784bt",
    "extraido_entidade": "Lesadu",
-   "extraido_valor": "p4s5q784",
-   "correto": false
+   "extraido_valor": "p4s5q784bt",
+   "correto": true
   },
   {
    "frase": "A cidade natal de Jugoto sempre foi Parnaíba.",
@@ -4643,8 +4643,8 @@
    "gold_entidade": "Zoda",
    "gold_valor": "bobó de camarão",
    "extraido_entidade": "Zoda",
-   "extraido_valor": "de camarão",
-   "correto": false
+   "extraido_valor": "bobó de camarão",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Bruno é bobó de camarão.",
@@ -4706,7 +4706,7 @@
    "gold_entidade": "Lefilu",
    "gold_valor": "marrom",
    "extraido_entidade": "Lefilu",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -4742,8 +4742,8 @@
    "gold_entidade": "Sofia",
    "gold_valor": "Ilhéus",
    "extraido_entidade": "Sofia",
-   "extraido_valor": "Sofia sempre foi Ilhéus",
-   "correto": false
+   "extraido_valor": "Ilhéus",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que o apelido do gato de Nair é Paçoca.",
@@ -4805,7 +4805,7 @@
    "gold_entidade": "Sozofo",
    "gold_valor": "marrom",
    "extraido_entidade": "Sozofo",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -5156,7 +5156,7 @@
    "gold_entidade": "Mamuvete",
    "gold_valor": "marrom",
    "extraido_entidade": "Mamuvete",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -5183,8 +5183,8 @@
    "gold_entidade": "João",
    "gold_valor": "Ilhéus",
    "extraido_entidade": "João",
-   "extraido_valor": "João é Ilhéus",
-   "correto": false
+   "extraido_valor": "Ilhéus",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cor do carro de Jaro é marrom.",
@@ -5210,8 +5210,8 @@
    "gold_entidade": "Paulo",
    "gold_valor": "7wnzrfsc",
    "extraido_entidade": "Paulo",
-   "extraido_valor": "Anotado: 7wnzrfsc",
-   "correto": false
+   "extraido_valor": "7wnzrfsc",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: o nome da professora de Guli é Tereza.",
@@ -5282,8 +5282,8 @@
    "gold_entidade": "Rafael",
    "gold_valor": "preto",
    "extraido_entidade": "Rafael",
-   "extraido_valor": "preto",
-   "correto": true
+   "extraido_valor": "sabendo que a cor do carro de Rafael é preto",
+   "correto": false
   },
   {
    "frase": "Anotado: preto é a cor do carro de Lucas.",
@@ -5309,8 +5309,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "bobó de camarão",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "camarão",
-   "correto": false
+   "extraido_valor": "bobó de camarão",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Sisovifa é brigadeiro.",
@@ -5381,7 +5381,7 @@
    "gold_entidade": "Teodoro",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Teodoro",
-   "extraido_valor": "Anotado: Oeiras",
+   "extraido_valor": "notado: Oeiras",
    "correto": false
   },
   {
@@ -5426,8 +5426,8 @@
    "gold_entidade": "Nogu",
    "gold_valor": "Ilhéus",
    "extraido_entidade": "Nogu",
-   "extraido_valor": "Nogu é Ilhéus",
-   "correto": false
+   "extraido_valor": "Ilhéus",
+   "correto": true
   },
   {
    "frase": "Anotado: Neblina é o apelido do gato de Lejaze.",
@@ -5471,8 +5471,8 @@
    "gold_entidade": "Nitosi",
    "gold_valor": "23qsd5rde",
    "extraido_entidade": "Nitosi",
-   "extraido_valor": "Anotado: 23qsd5rde",
-   "correto": false
+   "extraido_valor": "23qsd5rde",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que o apelido do gato de Gabriela é Trovão.",
@@ -5525,8 +5525,8 @@
    "gold_entidade": "Nigo",
    "gold_valor": "zrj8",
    "extraido_entidade": "Nigo",
-   "extraido_valor": "Zrj",
-   "correto": false
+   "extraido_valor": "Zrj8",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Fernanda é moqueca.",
@@ -5543,8 +5543,8 @@
    "gold_entidade": "Vagapi",
    "gold_valor": "Sobral",
    "extraido_entidade": "Vagapi",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cidade natal de Rifofiru é São Paulo.",
@@ -5570,7 +5570,7 @@
    "gold_entidade": "Susa",
    "gold_valor": "marrom",
    "extraido_entidade": "Susa",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -5660,7 +5660,7 @@
    "gold_entidade": "Dizase",
    "gold_valor": "Alice",
    "extraido_entidade": "Dizase",
-   "extraido_valor": "Alice —",
+   "extraido_valor": "Alice",
    "correto": true
   },
   {
@@ -5678,8 +5678,8 @@
    "gold_entidade": "Vetavo",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Vetavo",
-   "extraido_valor": "Vetavo é brigadeiro",
-   "correto": false
+   "extraido_valor": "brigadeiro",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: o nome da professora de Name é Nicolas.",
@@ -5696,8 +5696,8 @@
    "gold_entidade": "Tereza",
    "gold_valor": "Neblina",
    "extraido_entidade": "Tereza",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a senha do wifi de Bruno é che7.",
@@ -5912,7 +5912,7 @@
    "gold_entidade": "Cofi",
    "gold_valor": "marrom",
    "extraido_entidade": "Cofi",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -6002,7 +6002,7 @@
    "gold_entidade": "Pigolu",
    "gold_valor": "marrom",
    "extraido_entidade": "Pigolu",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -6200,7 +6200,7 @@
    "gold_entidade": "Bernardo",
    "gold_valor": "Mingau",
    "extraido_entidade": "Bernardo",
-   "extraido_valor": "Mingau —",
+   "extraido_valor": "Mingau",
    "correto": true
   },
   {
@@ -6443,8 +6443,8 @@
    "gold_entidade": "Nicolas",
    "gold_valor": "Sobral",
    "extraido_entidade": "Nicolas",
-   "extraido_valor": "Anotado: Sobral",
-   "correto": false
+   "extraido_valor": "Sobral",
+   "correto": true
   },
   {
    "frase": "A comida favorita de Nelape sempre foi moqueca.",
@@ -6506,7 +6506,7 @@
    "gold_entidade": "Salo",
    "gold_valor": "Zeca",
    "extraido_entidade": "Salo",
-   "extraido_valor": "Zeca —",
+   "extraido_valor": "Zeca",
    "correto": true
   },
   {
@@ -6668,8 +6668,8 @@
    "gold_entidade": "Kléber",
    "gold_valor": "8zkgt7bt",
    "extraido_entidade": "Kléber",
-   "extraido_valor": "Anotado: 8zkgt7bt",
-   "correto": false
+   "extraido_valor": "8zkgt7bt",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Giovana é Oeiras.",
@@ -6677,8 +6677,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "Oeiras",
-   "correto": true
+   "extraido_valor": "atal de Giovana é Oeiras",
+   "correto": false
   },
   {
    "frase": "A senha do wifi de Nena sempre foi kje9rg785q.",
@@ -6767,8 +6767,8 @@
    "gold_entidade": "Nozevano",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Nozevano",
-   "extraido_valor": "Oeiras",
-   "correto": true
+   "extraido_valor": "atal de Nozevano é Oeiras",
+   "correto": false
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Zojaro é bobó de camarão.",
@@ -6956,8 +6956,8 @@
    "gold_entidade": "William",
    "gold_valor": "xrr2",
    "extraido_entidade": "William",
-   "extraido_valor": "Xrr",
-   "correto": false
+   "extraido_valor": "Xrr2",
+   "correto": true
   },
   {
    "frase": "Nair — isso é o nome da professora de Nalubano.",
@@ -6965,7 +6965,7 @@
    "gold_entidade": "Nalubano",
    "gold_valor": "Nair",
    "extraido_entidade": "Nalubano",
-   "extraido_valor": "Nair —",
+   "extraido_valor": "Nair",
    "correto": true
   },
   {
@@ -7010,7 +7010,7 @@
    "gold_entidade": "Bruno",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Bruno",
-   "extraido_valor": "Bruno é Florianópolis",
+   "extraido_valor": "polis",
    "correto": false
   },
   {
@@ -7063,9 +7063,9 @@
    "ordem": "valor_primeiro",
    "gold_entidade": "Elisa",
    "gold_valor": "Mingau",
-   "extraido_entidade": "isa",
-   "extraido_valor": "Mingau —",
-   "correto": false
+   "extraido_entidade": "Elisa",
+   "extraido_valor": "Mingau",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que o apelido do gato de Bernardo é Neblina.",
@@ -7073,8 +7073,8 @@
    "gold_entidade": "Bernardo",
    "gold_valor": "Neblina",
    "extraido_entidade": "Bernardo",
-   "extraido_valor": "Neblina",
-   "correto": true
+   "extraido_valor": "ina",
+   "correto": false
   },
   {
    "frase": "Anotado: Florianópolis é a cidade natal de Zadilede.",
@@ -7082,8 +7082,8 @@
    "gold_entidade": "Zadilede",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Zadilede",
-   "extraido_valor": "Anotado: Florianópolis",
-   "correto": false
+   "extraido_valor": "Florianópolis",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a senha do wifi de Daniel é fdfuqa6a.",
@@ -7118,8 +7118,8 @@
    "gold_entidade": "Lucas",
    "gold_valor": "8enywmqps",
    "extraido_entidade": "Lucas",
-   "extraido_valor": "Anotado: 8enywmqps",
-   "correto": false
+   "extraido_valor": "8enywmqps",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Kléber é Sobral.",
@@ -7226,8 +7226,8 @@
    "gold_entidade": "Nicolas",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Nicolas",
-   "extraido_valor": "iro",
-   "correto": false
+   "extraido_valor": "brigadeiro",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a cidade natal de Lumulajo é Parnaíba.",
@@ -7244,8 +7244,8 @@
    "gold_entidade": "Inês",
    "gold_valor": "a2fnguk8",
    "extraido_entidade": "Inês",
-   "extraido_valor": "Anotado: a2fnguk8",
-   "correto": false
+   "extraido_valor": "a2fnguk8",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Leme é São Paulo.",
@@ -7280,8 +7280,8 @@
    "gold_entidade": "Pelibete",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Pelibete",
-   "extraido_valor": "iro",
-   "correto": false
+   "extraido_valor": "brigadeiro",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a comida favorita de Fozovaze é brigadeiro.",
@@ -7334,8 +7334,8 @@
    "gold_entidade": "Horácio",
    "gold_valor": "Neblina",
    "extraido_entidade": "Horácio",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Numico é Parnaíba.",
@@ -7351,8 +7351,8 @@
    "ordem": "entidade_primeiro",
    "gold_entidade": "Kléber",
    "gold_valor": "brigadeiro",
-   "extraido_entidade": "Kléber",
-   "extraido_valor": "Kléber sempre foi brigadeiro",
+   "extraido_entidade": "éber",
+   "extraido_valor": "brigadeiro",
    "correto": false
   },
   {
@@ -7406,8 +7406,8 @@
    "gold_entidade": "Jova",
    "gold_valor": "Florianópolis",
    "extraido_entidade": "Jova",
-   "extraido_valor": "ópol",
-   "correto": false
+   "extraido_valor": "Florianópolis",
+   "correto": true
   },
   {
    "frase": "O nome da professora de Sebastião sempre foi Bernardo.",
@@ -7442,7 +7442,7 @@
    "gold_entidade": "Osvaldo",
    "gold_valor": "Daniel",
    "extraido_entidade": "Osvaldo",
-   "extraido_valor": "Daniel —",
+   "extraido_valor": "Daniel",
    "correto": true
   },
   {
@@ -7496,7 +7496,7 @@
    "gold_entidade": "Giovana",
    "gold_valor": "São Paulo",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "Anotado: São Paulo",
+   "extraido_valor": "Paulo",
    "correto": false
   },
   {
@@ -7541,8 +7541,8 @@
    "gold_entidade": "Norma",
    "gold_valor": "e5pb7b2gps",
    "extraido_entidade": "Norma",
-   "extraido_valor": "e5pb7b2",
-   "correto": false
+   "extraido_valor": "e5pb7b2gps",
+   "correto": true
   },
   {
    "frase": "Vatapá — isso é a comida favorita de Mabada.",
@@ -7595,8 +7595,8 @@
    "gold_entidade": "Paula",
    "gold_valor": "Nicolas",
    "extraido_entidade": "Paula",
-   "extraido_valor": "Nicolas",
-   "correto": true
+   "extraido_valor": "sabendo que o nome da professora de Paula é Nicolas",
+   "correto": false
   },
   {
    "frase": "Neblina — isso é o apelido do gato de Nemufo.",
@@ -7613,8 +7613,8 @@
    "gold_entidade": "Nuni",
    "gold_valor": "tak8t2mx",
    "extraido_entidade": "Nuni",
-   "extraido_valor": "tak8t2",
-   "correto": false
+   "extraido_valor": "tak8t2mx",
+   "correto": true
   },
   {
    "frase": "Teodoro — isso é o nome da professora de Paulo.",
@@ -7793,7 +7793,7 @@
    "gold_entidade": "Litotuda",
    "gold_valor": "São Paulo",
    "extraido_entidade": "Litotuda",
-   "extraido_valor": "Anotado: São Paulo",
+   "extraido_valor": "Paulo",
    "correto": false
   },
   {
@@ -7838,7 +7838,7 @@
    "gold_entidade": "Gopidi",
    "gold_valor": "marrom",
    "extraido_entidade": "Gopidi",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -8009,8 +8009,8 @@
    "gold_entidade": "Pomo",
    "gold_valor": "bobó de camarão",
    "extraido_entidade": "Pomo",
-   "extraido_valor": "camarão",
-   "correto": false
+   "extraido_valor": "bobó de camarão",
+   "correto": true
   },
   {
    "frase": "Preto — isso é a cor do carro de Osvaldo.",
@@ -8027,8 +8027,8 @@
    "gold_entidade": "Fapatiza",
    "gold_valor": "zpr696zh",
    "extraido_entidade": "Fapatiza",
-   "extraido_valor": "zpr696zh",
-   "correto": true
+   "extraido_valor": "zpr",
+   "correto": false
   },
   {
    "frase": "A senha do wifi de Paulo sempre foi bq96djwn88.",
@@ -8054,8 +8054,8 @@
    "gold_entidade": "Podo",
    "gold_valor": "Neblina",
    "extraido_entidade": "Podo",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "A cidade natal de William sempre foi Campo Grande.",
@@ -8125,8 +8125,8 @@
    "ordem": "valor_primeiro",
    "gold_entidade": "Nuripi",
    "gold_valor": "Florianópolis",
-   "extraido_entidade": "Florianópolis é a cidade natal de Nuripi",
-   "extraido_valor": "Anotado: Florianópolis",
+   "extraido_entidade": "Nuripi",
+   "extraido_valor": "polis",
    "correto": false
   },
   {
@@ -8288,8 +8288,8 @@
    "gold_entidade": "Giovana",
    "gold_valor": "bobó de camarão",
    "extraido_entidade": "Giovana",
-   "extraido_valor": "camarão",
-   "correto": false
+   "extraido_valor": "bobó de camarão",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a comida favorita de Notuva é brigadeiro.",
@@ -8306,7 +8306,7 @@
    "gold_entidade": "Gurozi",
    "gold_valor": "Mingau",
    "extraido_entidade": "Gurozi",
-   "extraido_valor": "Mingau —",
+   "extraido_valor": "Mingau",
    "correto": true
   },
   {
@@ -8504,7 +8504,7 @@
    "gold_entidade": "João",
    "gold_valor": "marrom",
    "extraido_entidade": "João",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -8549,7 +8549,7 @@
    "gold_entidade": "Pazejavo",
    "gold_valor": "Mingau",
    "extraido_entidade": "Pazejavo",
-   "extraido_valor": "Mingau —",
+   "extraido_valor": "Mingau",
    "correto": true
   },
   {
@@ -8567,7 +8567,7 @@
    "gold_entidade": "Fernanda",
    "gold_valor": "São Paulo",
    "extraido_entidade": "Fernanda",
-   "extraido_valor": "Anotado: São Paulo",
+   "extraido_valor": "Paulo",
    "correto": false
   },
   {
@@ -8594,8 +8594,8 @@
    "gold_entidade": "Pelesudo",
    "gold_valor": "Campo Grande",
    "extraido_entidade": "Pelesudo",
-   "extraido_valor": "Pelesudo é Campo Grande",
-   "correto": false
+   "extraido_valor": "Campo Grande",
+   "correto": true
   },
   {
    "frase": "Registrando aqui: a cidade natal de Carejufe é Sobral.",
@@ -8720,8 +8720,8 @@
    "gold_entidade": "Darobese",
    "gold_valor": "Neblina",
    "extraido_entidade": "Darobese",
-   "extraido_valor": "Neblina",
-   "correto": true
+   "extraido_valor": "ina",
+   "correto": false
   },
   {
    "frase": "Registrando aqui: a cor do carro de Bidutupa é vermelho.",
@@ -8738,8 +8738,8 @@
    "gold_entidade": "Elisa",
    "gold_valor": "Neblina",
    "extraido_entidade": "Elisa",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Anotado: preto é a cor do carro de Gopa.",
@@ -8783,8 +8783,8 @@
    "gold_entidade": "Fernanda",
    "gold_valor": "Campo Grande",
    "extraido_entidade": "Fernanda",
-   "extraido_valor": "Anotado: Campo Grande",
-   "correto": false
+   "extraido_valor": "Campo Grande",
+   "correto": true
   },
   {
    "frase": "O apelido do gato de Fisoba sempre foi Mingau.",
@@ -8792,8 +8792,8 @@
    "gold_entidade": "Fisoba",
    "gold_valor": "Mingau",
    "extraido_entidade": "Fisoba",
-   "extraido_valor": "Mingau",
-   "correto": true
+   "extraido_valor": "isoba sempre foi Mingau",
+   "correto": false
   },
   {
    "frase": "Registrando aqui: o apelido do gato de Giovana é Mingau.",
@@ -8810,7 +8810,7 @@
    "gold_entidade": "Daniel",
    "gold_valor": "São Paulo",
    "extraido_entidade": "Daniel",
-   "extraido_valor": "Anotado: São Paulo",
+   "extraido_valor": "Paulo",
    "correto": false
   },
   {
@@ -8855,8 +8855,8 @@
    "gold_entidade": "Gabriela",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Gabriela",
-   "extraido_valor": "brigadeiro",
-   "correto": true
+   "extraido_valor": "Gabriela é brigadeiro",
+   "correto": false
   },
   {
    "frase": "A senha do wifi de Zeca sempre foi n2mfu4t.",
@@ -8891,7 +8891,7 @@
    "gold_entidade": "Beselega",
    "gold_valor": "marrom",
    "extraido_entidade": "Beselega",
-   "extraido_valor": "Marrom —",
+   "extraido_valor": "Marrom",
    "correto": true
   },
   {
@@ -8972,8 +8972,8 @@
    "gold_entidade": "Dojavivo",
    "gold_valor": "8a54",
    "extraido_entidade": "Dojavivo",
-   "extraido_valor": "8a5",
-   "correto": false
+   "extraido_valor": "8a54",
+   "correto": true
   },
   {
    "frase": "Anotado: Paçoca é o apelido do gato de Ripozome.",
@@ -8990,8 +8990,8 @@
    "gold_entidade": "Kléber",
    "gold_valor": "brigadeiro",
    "extraido_entidade": "Kléber",
-   "extraido_valor": "Kléber é brigadeiro",
-   "correto": false
+   "extraido_valor": "brigadeiro",
+   "correto": true
   },
   {
    "frase": "Preto — isso é a cor do carro de Lojoveza.",
@@ -9080,8 +9080,8 @@
    "gold_entidade": "Teodoro",
    "gold_valor": "Neblina",
    "extraido_entidade": "Teodoro",
-   "extraido_valor": "Teodoro é Neblina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "Fiquei sabendo que a senha do wifi de Gabriela é cs642.",
@@ -9107,7 +9107,7 @@
    "gold_entidade": "Dido",
    "gold_valor": "Oeiras",
    "extraido_entidade": "Dido",
-   "extraido_valor": "Anotado: Oeiras",
+   "extraido_valor": "notado: Oeiras",
    "correto": false
   },
   {
@@ -9170,8 +9170,8 @@
    "gold_entidade": "Rosângela",
    "gold_valor": "Neblina",
    "extraido_entidade": "Rosângela",
-   "extraido_valor": "blina",
-   "correto": false
+   "extraido_valor": "Neblina",
+   "correto": true
   },
   {
    "frase": "A cidade natal de Jorge sempre foi São Paulo.",

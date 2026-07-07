@@ -4,12 +4,12 @@
  "arm": "N",
  "k": 8,
  "n": 1024,
- "em": 0.8525390625,
- "retrieval_acc_top1": 0.919921875,
- "em_cond_retr_ok": 0.9246284501061571,
- "tokens_prompt_medio": 79.787109375,
- "s_por_item": 0.07878488418646157,
- "tempo_total_s": 80.67572140693665,
+ "em": 0.8994140625,
+ "retrieval_acc_top1": 0.9306640625,
+ "em_cond_retr_ok": 0.9643231899265478,
+ "tokens_prompt_medio": 79.7412109375,
+ "s_por_item": 0.07814889936707914,
+ "tempo_total_s": 80.02447295188904,
  "itens": [
   {
    "pergunta": "Qual é a comida favorita de Rosângela?",
@@ -63,7 +63,7 @@
    "pergunta": "Você lembra qual é o nome da professora de Bruno?",
    "gold": "William",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Bruno é William —.",
+   "fato_usado": "O nome da professora de Bruno é William.",
    "resposta": "William",
    "correto": true
   },
@@ -151,7 +151,7 @@
    "pergunta": "Você lembra qual é a cidade natal de Miguel?",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Miguel é Anotado: Florianópolis.",
+   "fato_usado": "A cidade natal de Miguel é Florianópolis.",
    "resposta": "Florianópolis",
    "correto": true
   },
@@ -199,9 +199,9 @@
    "pergunta": "Você lembra qual é o nome da professora de Boma?",
    "gold": "Zeca",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Boma é Z.",
-   "resposta": "Z",
-   "correto": false
+   "fato_usado": "O nome da professora de Boma é Zeca.",
+   "resposta": "Zeca.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de Lifese?",
@@ -239,7 +239,7 @@
    "pergunta": "Me diga a cor do carro de Basajomo.",
    "gold": "marrom",
    "retr_ok": false,
-   "fato_usado": "A comida favorita de Basajomo é Anotado: brigadeiro.",
+   "fato_usado": "A comida favorita de Basajomo é brigadeiro.",
    "resposta": "Preto",
    "correto": false
   },
@@ -247,7 +247,7 @@
    "pergunta": "Você lembra qual é a cidade natal de Capo?",
    "gold": "Maceió",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Capo é Capo sempre foi Maceió.",
+   "fato_usado": "A cidade natal de Capo é Maceió.",
    "resposta": "Maceió",
    "correto": true
   },
@@ -271,9 +271,9 @@
    "pergunta": "Você lembra qual é o apelido do gato de Rosângela?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Rosângela é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Rosângela é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Horácio?",
@@ -311,9 +311,9 @@
    "pergunta": "Me diga o nome da professora de Pamupine.",
    "gold": "Horácio",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Pamupine é Horácio.",
-   "resposta": "Horácio.",
-   "correto": true
+   "fato_usado": "O nome da professora de Pamupine é io.",
+   "resposta": "io",
+   "correto": false
   },
   {
    "pergunta": "Me diga o apelido do gato de Medavibe.",
@@ -383,9 +383,9 @@
    "pergunta": "Me diga a cidade natal de Sebi.",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Sebi é bi é Florianópolis.",
-   "resposta": "Florianópolis",
-   "correto": true
+   "fato_usado": "A cidade natal de Sebi é polis.",
+   "resposta": "Sofia",
+   "correto": false
   },
   {
    "pergunta": "Qual é a senha do wifi de Lugubi?",
@@ -432,7 +432,7 @@
    "gold": "Sebastião",
    "retr_ok": true,
    "fato_usado": "O nome da professora de Raquel é Sebastião.",
-   "resposta": "Sebastião.",
+   "resposta": "Sebastião",
    "correto": true
   },
   {
@@ -447,9 +447,9 @@
    "pergunta": "Qual é a cidade natal de Rosângela?",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Rosângela é ópol.",
-   "resposta": "São Paulo",
-   "correto": false
+   "fato_usado": "A cidade natal de Rosângela é Florianópolis.",
+   "resposta": "Florianópolis",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Bere.",
@@ -567,9 +567,9 @@
    "pergunta": "Qual é a cidade natal de Vabe?",
    "gold": "Sobral",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Vabe é Anotado: Sobral.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A cidade natal de Vabe é Sobral.",
+   "resposta": "Sobral",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cor do carro de Potesa?",
@@ -783,9 +783,9 @@
    "pergunta": "Qual é o apelido do gato de Rati?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Rati é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Rati é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Qual é o nome da professora de Raquel?",
@@ -807,9 +807,9 @@
    "pergunta": "Você lembra qual é a cidade natal de Sebastião?",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Sebastião é Sebastião.",
-   "resposta": "Sebastião era nascido na cidade de Sebastião.",
-   "correto": false
+   "fato_usado": "A cidade natal de Sebastião é Sebastião sempre foi Florianópolis.",
+   "resposta": "Florianópolis",
+   "correto": true
   },
   {
    "pergunta": "Qual é a senha do wifi de Davi?",
@@ -839,7 +839,7 @@
    "pergunta": "Qual é a cidade natal de João?",
    "gold": "Campo Grande",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de João é João sempre foi Campo Grande.",
+   "fato_usado": "A cidade natal de João é Campo Grande.",
    "resposta": "Campo Grande",
    "correto": true
   },
@@ -847,9 +847,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Nicolas?",
    "gold": "7b8dkqdzx",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Nicolas é Anotado: 7b8dkqdzx.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Nicolas é 7b8dkqdzx.",
+   "resposta": "7b8dkqdzx",
+   "correto": true
   },
   {
    "pergunta": "Me diga o nome da professora de Zesipi.",
@@ -935,7 +935,7 @@
    "pergunta": "Você lembra qual é a cor do carro de Vemunijo?",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Vemunijo é Marrom —.",
+   "fato_usado": "A cor do carro de Vemunijo é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -998,10 +998,10 @@
   {
    "pergunta": "Você lembra qual é a cidade natal de Doni?",
    "gold": "Sobral",
-   "retr_ok": false,
-   "fato_usado": "A comida favorita de Doni é camarão.",
-   "resposta": "São Paulo",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Doni é Sobral.",
+   "resposta": "Sobral",
+   "correto": true
   },
   {
    "pergunta": "Me diga a cidade natal de Paula.",
@@ -1214,9 +1214,9 @@
   {
    "pergunta": "Você lembra qual é a cidade natal de Goso?",
    "gold": "São Paulo",
-   "retr_ok": false,
-   "fato_usado": "A cor do carro de Goso é Prateado.",
-   "resposta": "Goso é uma cidade natal de João Gomes.",
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Goso é Paulo.",
+   "resposta": "Paulo.",
    "correto": false
   },
   {
@@ -1231,15 +1231,15 @@
    "pergunta": "Você lembra qual é a senha do wifi de Bipoma?",
    "gold": "2z7r",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Bipoma é Anotado: 2z7r.",
-   "resposta": "Anotado: 2z7r",
+   "fato_usado": "A senha do wifi de Bipoma é 2z7r.",
+   "resposta": "2z7r",
    "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Paulo?",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Paulo é Paulo sempre foi Florianópolis.",
+   "fato_usado": "A cidade natal de Paulo é Florianópolis.",
    "resposta": "Florianópolis",
    "correto": true
   },
@@ -1343,8 +1343,8 @@
    "pergunta": "Você lembra qual é o apelido do gato de Fevitoze?",
    "gold": "Mingau",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Fevitoze é Mingau —.",
-   "resposta": "Mingau",
+   "fato_usado": "O apelido do gato de Fevitoze é Mingau.",
+   "resposta": "Mingau.",
    "correto": true
   },
   {
@@ -1366,10 +1366,10 @@
   {
    "pergunta": "Qual é a senha do wifi de Gabriela?",
    "gold": "u8ba",
-   "retr_ok": true,
-   "fato_usado": "A senha do wifi de Gabriela é u8ba.",
-   "resposta": "u8ba",
-   "correto": true
+   "retr_ok": false,
+   "fato_usado": "A cidade natal de Gabriela é Campo Grande.",
+   "resposta": "Campo Grande",
+   "correto": false
   },
   {
    "pergunta": "Me diga a cidade natal de Gada.",
@@ -1447,7 +1447,7 @@
    "pergunta": "Qual é a cidade natal de Kléber?",
    "gold": "Oeiras",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Kléber é Kléber é Oeiras.",
+   "fato_usado": "A cidade natal de Kléber é atal de Kléber é Oeiras.",
    "resposta": "Oeiras",
    "correto": true
   },
@@ -1480,7 +1480,7 @@
    "gold": "vatapá",
    "retr_ok": true,
    "fato_usado": "A comida favorita de Kauã é vatapá.",
-   "resposta": "Vatapá",
+   "resposta": "Vatapá.",
    "correto": true
   },
   {
@@ -1511,7 +1511,7 @@
    "pergunta": "Qual é a cor do carro de Horácio?",
    "gold": "vermelho",
    "retr_ok": false,
-   "fato_usado": "O apelido do gato de Horácio é Mingau —.",
+   "fato_usado": "O apelido do gato de Horácio é Mingau.",
    "resposta": "Preto",
    "correto": false
   },
@@ -1567,8 +1567,8 @@
    "pergunta": "Você lembra qual é a cidade natal de Kléber?",
    "gold": "Oeiras",
    "retr_ok": false,
-   "fato_usado": "A cidade natal de Davi é Sobral.",
-   "resposta": "Sobral",
+   "fato_usado": "O apelido do gato de Kléber é Paçoca.",
+   "resposta": "São Paulo",
    "correto": false
   },
   {
@@ -1599,8 +1599,8 @@
    "pergunta": "Você lembra qual é o nome da professora de Rolopi?",
    "gold": "Nair",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Rolopi é Nair —.",
-   "resposta": "Nair",
+   "fato_usado": "O nome da professora de Rolopi é Nair.",
+   "resposta": "Nair.",
    "correto": true
   },
   {
@@ -1664,14 +1664,14 @@
    "gold": "Ilhéus",
    "retr_ok": true,
    "fato_usado": "A cidade natal de Rosângela é Ilhéus.",
-   "resposta": "Ilhéus.",
+   "resposta": "Ilhéus",
    "correto": true
   },
   {
    "pergunta": "Me diga a cidade natal de Favabele.",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Florianópolis é a cidade natal de Favabe é Anotado: Florianópolis.",
+   "fato_usado": "A cidade natal de Favabe é Florianópolis.",
    "resposta": "Florianópolis",
    "correto": true
   },
@@ -1742,10 +1742,10 @@
   {
    "pergunta": "Você lembra qual é o apelido do gato de Inês?",
    "gold": "Neblina",
-   "retr_ok": true,
-   "fato_usado": "O apelido do gato de Inês é Neblina.",
-   "resposta": "Neblina.",
-   "correto": true
+   "retr_ok": false,
+   "fato_usado": "A cidade natal de Inês é Campo Grande.",
+   "resposta": "Gato de Inês.",
+   "correto": false
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de Dura?",
@@ -1815,9 +1815,9 @@
    "pergunta": "Você lembra qual é a comida favorita de Javeju?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Javeju é camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Javeju é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o apelido do gato de Fabi.",
@@ -1846,10 +1846,10 @@
   {
    "pergunta": "Qual é o apelido do gato de Kléber?",
    "gold": "Paçoca",
-   "retr_ok": false,
-   "fato_usado": "A cor do carro de Kléber é prateado.",
-   "resposta": "Gato de Kléber.",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "O apelido do gato de Kléber é Paçoca.",
+   "resposta": "Paçoca",
+   "correto": true
   },
   {
    "pergunta": "Qual é o nome da professora de Nair?",
@@ -1863,9 +1863,9 @@
    "pergunta": "Você lembra qual é o apelido do gato de Bobi?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Bobi é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Bobi é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Paulo?",
@@ -2039,9 +2039,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Lono?",
    "gold": "6wvx9f",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Lono é Anotado: 6wvx9f.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Lono é 6wvx9f.",
+   "resposta": "6wvx9f",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Talozi?",
@@ -2319,9 +2319,9 @@
    "pergunta": "Me diga a cidade natal de Dobu.",
    "gold": "Ilhéus",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Dobu é Anotado: Ilhéus.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A cidade natal de Dobu é notado: Ilhéus.",
+   "resposta": "Ilhéus.",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Ravagono.",
@@ -2630,9 +2630,9 @@
   {
    "pergunta": "Você lembra qual é a comida favorita de Gabriela?",
    "gold": "brigadeiro",
-   "retr_ok": false,
-   "fato_usado": "O nome da professora de Gabriela é Z.",
-   "resposta": "Deixe que eu te ajudar a responder:\n\nGabriela não menciona que ela tenha uma comida favorita. Portanto, não posso forn",
+   "retr_ok": true,
+   "fato_usado": "A comida favorita de Gabriela é brigade.",
+   "resposta": "Brigade.",
    "correto": false
   },
   {
@@ -2710,10 +2710,10 @@
   {
    "pergunta": "Você lembra qual é a cidade natal de Norma?",
    "gold": "Florianópolis",
-   "retr_ok": false,
-   "fato_usado": "A cor do carro de Norma é Vermelho.",
-   "resposta": "São Paulo",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Norma é Florianópolis.",
+   "resposta": "Florianópolis",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Zoni?",
@@ -2751,9 +2751,9 @@
    "pergunta": "Qual é a comida favorita de Noze?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Noze é camarão.",
-   "resposta": "Camarão",
-   "correto": false
+   "fato_usado": "A comida favorita de Noze é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Bernardo?",
@@ -2823,8 +2823,8 @@
    "pergunta": "Me diga o apelido do gato de Cuvofoza.",
    "gold": "Mingau",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Cuvofoza é Mingau —.",
-   "resposta": "Mingau",
+   "fato_usado": "O apelido do gato de Cuvofoza é Mingau.",
+   "resposta": "Mingau.",
    "correto": true
   },
   {
@@ -2903,7 +2903,7 @@
    "pergunta": "Me diga o nome da professora de Davi.",
    "gold": "William",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Davi é William —.",
+   "fato_usado": "O nome da professora de Davi é William.",
    "resposta": "William",
    "correto": true
   },
@@ -3015,23 +3015,23 @@
    "pergunta": "Me diga a cidade natal de Davi.",
    "gold": "Oeiras",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Davi é Anotado: Oeiras.",
-   "resposta": "Anotado: Oeiras.",
+   "fato_usado": "A cidade natal de Davi é notado: Oeiras.",
+   "resposta": "Oeiras",
    "correto": true
   },
   {
    "pergunta": "Me diga a senha do wifi de Tereza.",
    "gold": "5v7h5",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Tereza é Anotado: 5v7h.",
-   "resposta": "Anotado: 5v7h",
+   "fato_usado": "A senha do wifi de Tereza é 5v7h.",
+   "resposta": "5v7h",
    "correto": false
   },
   {
    "pergunta": "Qual é a cidade natal de Nacucojo?",
    "gold": "Sobral",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Nacucojo é acucojo é Sobral.",
+   "fato_usado": "A cidade natal de Nacucojo é Sobral.",
    "resposta": "Sobral",
    "correto": true
   },
@@ -3103,9 +3103,9 @@
    "pergunta": "Qual é o apelido do gato de Horácio?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Horácio é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Horácio é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Qual é o apelido do gato de Nupi?",
@@ -3199,9 +3199,9 @@
    "pergunta": "Qual é o nome da professora de Kléber?",
    "gold": "Inês",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Kléber é Inês.",
-   "resposta": "Inês",
-   "correto": true
+   "fato_usado": "O nome da professora de Kléber é ês.",
+   "resposta": "Eis a resposta:\n\nO nome da professora de Kléber é Éssica.",
+   "correto": false
   },
   {
    "pergunta": "Você lembra qual é a cor do carro de Paulo?",
@@ -3215,8 +3215,8 @@
    "pergunta": "Qual é a cidade natal de Misunuti?",
    "gold": "Ilhéus",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Misunuti é Anotado: Ilhéus.",
-   "resposta": "Anotado: Ilhéus",
+   "fato_usado": "A cidade natal de Misunuti é notado: Ilhéus.",
+   "resposta": "Ilhéus",
    "correto": true
   },
   {
@@ -3383,7 +3383,7 @@
    "pergunta": "Me diga o nome da professora de Nicolas.",
    "gold": "Daniel",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Nicolas é Daniel.",
+   "fato_usado": "O nome da professora de Nicolas é sabendo que o nome da professora de Nicolas é Daniel.",
    "resposta": "Daniel",
    "correto": true
   },
@@ -3391,9 +3391,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Jorge?",
    "gold": "5qpztyf",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Jorge é 5qpzty.",
-   "resposta": "5qpzty",
-   "correto": false
+   "fato_usado": "A senha do wifi de Jorge é 5qpztyf.",
+   "resposta": "5qpztyf",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Depalopa.",
@@ -3455,17 +3455,17 @@
    "pergunta": "Você lembra qual é o apelido do gato de Bruno?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Bruno é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Bruno é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Gabriela.",
    "gold": "vatapá",
-   "retr_ok": false,
-   "fato_usado": "O nome da professora de Gabriela é Zeca.",
-   "resposta": "Batata frita",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A comida favorita de Gabriela é Vatapá.",
+   "resposta": "Vatapá.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de Norma?",
@@ -3598,10 +3598,10 @@
   {
    "pergunta": "Você lembra qual é o nome da professora de Gabriela?",
    "gold": "Kauã",
-   "retr_ok": true,
-   "fato_usado": "O nome da professora de Gabriela é Kauã.",
-   "resposta": "Kauã.",
-   "correto": true
+   "retr_ok": false,
+   "fato_usado": "A cor do carro de Gabriela é preto.",
+   "resposta": "Gabriela.",
+   "correto": false
   },
   {
    "pergunta": "Qual é a comida favorita de Divitagu?",
@@ -3711,8 +3711,8 @@
    "pergunta": "Me diga a cidade natal de Nair.",
    "gold": "Maceió",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Mace é Nair é Maceió.",
-   "resposta": "Nair é natal de Maceió.",
+   "fato_usado": "A cidade natal de Nair é Maceió.",
+   "resposta": "Maceió",
    "correto": true
   },
   {
@@ -3783,9 +3783,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Cuco?",
    "gold": "4vdbxkz",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Cuco é Anotado: 4vdbxkz.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Cuco é 4vdbxkz.",
+   "resposta": "4vdbxkz",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a comida favorita de Norma?",
@@ -3855,9 +3855,9 @@
    "pergunta": "Você lembra qual é o apelido do gato de Giovana?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Giovana é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Giovana é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o apelido do gato de William.",
@@ -3879,8 +3879,8 @@
    "pergunta": "Qual é a cidade natal de Tereza?",
    "gold": "Campo Grande",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Tereza é Tereza é Campo Grande.",
-   "resposta": "Tereza é Campo Grande.",
+   "fato_usado": "A cidade natal de Tereza é Campo Grande.",
+   "resposta": "Campo Grande",
    "correto": true
   },
   {
@@ -3926,10 +3926,10 @@
   {
    "pergunta": "Me diga a comida favorita de Duta.",
    "gold": "brigadeiro",
-   "retr_ok": false,
-   "fato_usado": "O apelido do gato de Duta é Mingau.",
-   "resposta": "Mingau.",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A comida favorita de Duta é brigadeiro.",
+   "resposta": "Brigadeiro.",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Paula?",
@@ -4047,7 +4047,7 @@
    "pergunta": "Você lembra qual é a cor do carro de Davi?",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Davi é Marrom —.",
+   "fato_usado": "A cor do carro de Davi é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -4055,8 +4055,8 @@
    "pergunta": "Me diga a cidade natal de Pezi.",
    "gold": "São Paulo",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Pezi é Anotado: São Paulo.",
-   "resposta": "Anotado",
+   "fato_usado": "A cidade natal de Pezi é Paulo.",
+   "resposta": "Paulo é o pai de Pezi.",
    "correto": false
   },
   {
@@ -4079,9 +4079,9 @@
    "pergunta": "Me diga a senha do wifi de Dofopa.",
    "gold": "tgfkqjkq9",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Dofopa é Tgfkqjkq.",
-   "resposta": "Tgfkqjkq",
-   "correto": false
+   "fato_usado": "A senha do wifi de Dofopa é Tgfkqjkq9.",
+   "resposta": "Tgfkqjkq9",
+   "correto": true
   },
   {
    "pergunta": "Me diga o nome da professora de Sebastião.",
@@ -4215,7 +4215,7 @@
    "pergunta": "Você lembra qual é a cor do carro de Lufade?",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Lufade é Marrom —.",
+   "fato_usado": "A cor do carro de Lufade é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -4255,7 +4255,7 @@
    "pergunta": "Você lembra qual é a cidade natal de Paula?",
    "gold": "Florianópolis",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Paula é Paula é Florianópolis.",
+   "fato_usado": "A cidade natal de Paula é Florianópolis.",
    "resposta": "Florianópolis",
    "correto": true
   },
@@ -4287,9 +4287,9 @@
    "pergunta": "Me diga o apelido do gato de Sofia.",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Sofia é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Sofia é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga a cor do carro de Kauã.",
@@ -4335,9 +4335,9 @@
    "pergunta": "Qual é a senha do wifi de Timeca?",
    "gold": "6fnbdf9cvy",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Timeca é Anotado: 6fnbdf9cvy.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Timeca é 6fnbdf9cvy.",
+   "resposta": "6fnbdf9cvy",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Sonaguso?",
@@ -4359,9 +4359,9 @@
    "pergunta": "Me diga o apelido do gato de Norma.",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Norma é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Norma é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o nome da professora de Tatonolo.",
@@ -4399,9 +4399,9 @@
    "pergunta": "Qual é o apelido do gato de Horácio?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Horácio é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Horácio é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de João.",
@@ -4423,7 +4423,7 @@
    "pergunta": "Me diga a comida favorita de João.",
    "gold": "escondidinho",
    "retr_ok": false,
-   "fato_usado": "A senha do wifi de João é W4w3paj.",
+   "fato_usado": "A senha do wifi de João é W4w3p.",
    "resposta": "Pizza",
    "correto": false
   },
@@ -4463,8 +4463,8 @@
    "pergunta": "Me diga a senha do wifi de Gurizeza.",
    "gold": "3jx4z8",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Gurizeza é Anotado: 3jx4z8.",
-   "resposta": "Anotado: 3jx4z8",
+   "fato_usado": "A senha do wifi de Gurizeza é 3jx4z8.",
+   "resposta": "3jx4z8",
    "correto": true
   },
   {
@@ -4495,17 +4495,17 @@
    "pergunta": "Você lembra qual é a comida favorita de Gabriela?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Gabriela é de camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Gabriela é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Baga?",
    "gold": "Sobral",
-   "retr_ok": false,
-   "fato_usado": "O apelido do gato de Baga é Mingau.",
-   "resposta": "Baga.",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Baga é Sobral.",
+   "resposta": "Sobral",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Golajumu?",
@@ -4551,9 +4551,9 @@
    "pergunta": "Qual é a senha do wifi de Rosângela?",
    "gold": "8fkq",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Rosângela é Anotado: 8fkq.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Rosângela é 8fkq.",
+   "resposta": "8fkq",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Bibogo?",
@@ -4583,8 +4583,8 @@
    "pergunta": "Você lembra qual é a senha do wifi de Rabene?",
    "gold": "6qe6c2b",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Rabene é Anotado: 6qe6c2b.",
-   "resposta": "Anotado: 6qe6c2b",
+   "fato_usado": "A senha do wifi de Rabene é 6qe6c2b.",
+   "resposta": "6qe6c2b",
    "correto": true
   },
   {
@@ -4599,8 +4599,8 @@
    "pergunta": "Qual é a comida favorita de Kléber?",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Kléber é éber é brigadeiro.",
-   "resposta": "Éber é brigadeiro.",
+   "fato_usado": "A comida favorita de Kléber é brigadeiro.",
+   "resposta": "Brigadeiro",
    "correto": true
   },
   {
@@ -4655,8 +4655,8 @@
    "pergunta": "Qual é a cidade natal de Daniel?",
    "gold": "São Paulo",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Daniel é Anotado: São Paulo.",
-   "resposta": "Anotado",
+   "fato_usado": "A cidade natal de Daniel é Paulo.",
+   "resposta": "Paulo é o nome de uma pessoa, não da cidade natal de Daniel. Portanto, a resposta é: Não há informações suficientes para determin",
    "correto": false
   },
   {
@@ -4719,9 +4719,9 @@
    "pergunta": "Me diga a senha do wifi de Zepe.",
    "gold": "grq4",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Zepe é Grq.",
-   "resposta": "Grq",
-   "correto": false
+   "fato_usado": "A senha do wifi de Zepe é Grq4.",
+   "resposta": "Grq4",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Gusivilo?",
@@ -4783,9 +4783,9 @@
    "pergunta": "Você lembra qual é a comida favorita de Paulo?",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Paulo é iro.",
-   "resposta": "Iro.",
-   "correto": false
+   "fato_usado": "A comida favorita de Paulo é brigadeiro.",
+   "resposta": "Brigadeiro",
+   "correto": true
   },
   {
    "pergunta": "Qual é o nome da professora de William?",
@@ -4903,9 +4903,9 @@
    "pergunta": "Você lembra qual é a cor do carro de Bruno?",
    "gold": "preto",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Bruno é to.",
-   "resposta": "To",
-   "correto": false
+   "fato_usado": "A cor do carro de Bruno é preto.",
+   "resposta": "Preto",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Dagudari?",
@@ -4951,9 +4951,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Basecamu?",
    "gold": "qrkcywhnye",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Basecamu é qrkcywhny.",
-   "resposta": "qrkcywhny",
-   "correto": false
+   "fato_usado": "A senha do wifi de Basecamu é qrkcywhnye.",
+   "resposta": "qrkcywhnye",
+   "correto": true
   },
   {
    "pergunta": "Qual é o apelido do gato de Ludemo?",
@@ -5159,9 +5159,9 @@
    "pergunta": "Me diga a comida favorita de Davi.",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Davi é camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Davi é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cor do carro de Gopona?",
@@ -5222,18 +5222,18 @@
   {
    "pergunta": "Me diga a comida favorita de William.",
    "gold": "brigadeiro",
-   "retr_ok": false,
-   "fato_usado": "O nome da professora de William é Norma.",
-   "resposta": "Pizza",
+   "retr_ok": true,
+   "fato_usado": "A comida favorita de William é brigade.",
+   "resposta": "Brigade.",
    "correto": false
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de Sebastião?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Sebastião é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Sebastião é Sebastião é Neblina.",
+   "resposta": "Sebastião é Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o apelido do gato de Tofeconu.",
@@ -5247,16 +5247,16 @@
    "pergunta": "Me diga a senha do wifi de Nicolas.",
    "gold": "4v3e",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Nicolas é Anotado: 4v3.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A senha do wifi de Nicolas é 4v3e.",
+   "resposta": "4v3e",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Gupi.",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Gupi é Anotado: brigadeiro.",
-   "resposta": "Anotado: brigadeiro.",
+   "fato_usado": "A comida favorita de Gupi é brigadeiro.",
+   "resposta": "Brigadeiro.",
    "correto": true
   },
   {
@@ -5295,9 +5295,9 @@
    "pergunta": "Você lembra qual é a comida favorita de Bernardo?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Bernardo é camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Bernardo é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de João?",
@@ -5319,9 +5319,9 @@
    "pergunta": "Me diga a comida favorita de Gabriela.",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Gabriela é de camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Gabriela é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o nome da professora de Nair.",
@@ -5407,9 +5407,9 @@
    "pergunta": "Qual é o apelido do gato de Vobe?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Vobe é Neblina.",
-   "resposta": "Neblina.",
-   "correto": true
+   "fato_usado": "O apelido do gato de Vobe é ina.",
+   "resposta": "Ina.",
+   "correto": false
   },
   {
    "pergunta": "Qual é a cor do carro de Vanimu?",
@@ -5430,18 +5430,18 @@
   {
    "pergunta": "Me diga a cidade natal de Teodoro.",
    "gold": "Ilhéus",
-   "retr_ok": false,
-   "fato_usado": "O nome da professora de Teodoro é William.",
-   "resposta": "São Paulo",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Teodoro é notado: Ilhéus.",
+   "resposta": "Ilhéus.",
+   "correto": true
   },
   {
    "pergunta": "Me diga a senha do wifi de Pedori.",
    "gold": "t9tak",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Pedori é t9t.",
-   "resposta": "t9t",
-   "correto": false
+   "fato_usado": "A senha do wifi de Pedori é t9tak.",
+   "resposta": "t9tak",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cor do carro de Norma?",
@@ -5511,9 +5511,9 @@
    "pergunta": "Qual é o apelido do gato de Rosângela?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Rosângela é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Rosângela é Neblina.",
+   "resposta": "Neblina",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Davi?",
@@ -5894,18 +5894,18 @@
   {
    "pergunta": "Você lembra qual é a cidade natal de João?",
    "gold": "Sobral",
-   "retr_ok": false,
-   "fato_usado": "O nome da professora de João é Rosângela.",
-   "resposta": "João nasceu na cidade de São Paulo.",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de João é Sobral.",
+   "resposta": "Sobral",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Domo?",
    "gold": "Sobral",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Domo é Anotado: Sobral.",
-   "resposta": "Anotado",
-   "correto": false
+   "fato_usado": "A cidade natal de Domo é Sobral.",
+   "resposta": "Sobral",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Baju.",
@@ -5959,7 +5959,7 @@
    "pergunta": "Me diga a cor do carro de Talopolu.",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Talopolu é Marrom —.",
+   "fato_usado": "A cor do carro de Talopolu é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -5991,8 +5991,8 @@
    "pergunta": "Qual é a cidade natal de João?",
    "gold": "Parnaíba",
    "retr_ok": false,
-   "fato_usado": "A cidade natal de Miguel é Picos.",
-   "resposta": "Picos",
+   "fato_usado": "A cidade natal de Miguel é sabendo que a cidade natal de Miguel é Picos.",
+   "resposta": "Siqueira",
    "correto": false
   },
   {
@@ -6111,9 +6111,9 @@
    "pergunta": "Qual é a comida favorita de Kauã?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Kauã é camarão.",
-   "resposta": "Camarão",
-   "correto": false
+   "fato_usado": "A comida favorita de Kauã é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a senha do wifi de Daniel?",
@@ -6142,10 +6142,10 @@
   {
    "pergunta": "Me diga a cidade natal de Vedi.",
    "gold": "Ilhéus",
-   "retr_ok": false,
-   "fato_usado": "O apelido do gato de Vedi é Trovão.",
-   "resposta": "São Paulo",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Vedi é notado: Ilhéus.",
+   "resposta": "Ilhéus.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o apelido do gato de Nezisujo?",
@@ -6199,7 +6199,7 @@
    "pergunta": "Qual é o nome da professora de Raquel?",
    "gold": "Elisa",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Raquel é Elisa —.",
+   "fato_usado": "O nome da professora de Raquel é Elisa.",
    "resposta": "Elisa",
    "correto": true
   },
@@ -6255,7 +6255,7 @@
    "pergunta": "Me diga a comida favorita de Inês.",
    "gold": "escondidinho",
    "retr_ok": false,
-   "fato_usado": "A senha do wifi de Nicolas é sgvagsh.",
+   "fato_usado": "A senha do wifi de Nicolas é sgvag.",
    "resposta": "Pizza",
    "correto": false
   },
@@ -6287,16 +6287,16 @@
    "pergunta": "Me diga a cidade natal de Zeca.",
    "gold": "Oeiras",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Zeca é Anotado: Oeiras.",
-   "resposta": "Anotado: Oeiras",
+   "fato_usado": "A cidade natal de Zeca é notado: Oeiras.",
+   "resposta": "Oeiras",
    "correto": true
   },
   {
    "pergunta": "Me diga a cidade natal de Zeca.",
    "gold": "Oeiras",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Zeca é Anotado: Oeiras.",
-   "resposta": "Anotado: Oeiras",
+   "fato_usado": "A cidade natal de Zeca é notado: Oeiras.",
+   "resposta": "Oeiras",
    "correto": true
   },
   {
@@ -6415,9 +6415,9 @@
    "pergunta": "Qual é a comida favorita de Paulo?",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Paulo é iro.",
-   "resposta": "Iro.",
-   "correto": false
+   "fato_usado": "A comida favorita de Paulo é brigadeiro.",
+   "resposta": "Brigadeiro",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Colifoda?",
@@ -6543,9 +6543,9 @@
    "pergunta": "Qual é a comida favorita de Bruno?",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Bruno é iro.",
-   "resposta": "Iro.",
-   "correto": false
+   "fato_usado": "A comida favorita de Bruno é brigadeiro.",
+   "resposta": "Brigadeiro",
+   "correto": true
   },
   {
    "pergunta": "Qual é o nome da professora de Davi?",
@@ -6575,9 +6575,9 @@
    "pergunta": "Você lembra qual é a comida favorita de Baliditi?",
    "gold": "bobó de camarão",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Baliditi é camarão.",
-   "resposta": "Camarão.",
-   "correto": false
+   "fato_usado": "A comida favorita de Baliditi é bobó de camarão.",
+   "resposta": "Bobó de camarão.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é o nome da professora de Giovana?",
@@ -6631,7 +6631,7 @@
    "pergunta": "Você lembra qual é a cidade natal de Paulo?",
    "gold": "Ilhéus",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Paulo é Paulo sempre foi Ilhéus.",
+   "fato_usado": "A cidade natal de Paulo é Ilhéus.",
    "resposta": "Ilhéus",
    "correto": true
   },
@@ -6639,9 +6639,9 @@
    "pergunta": "Você lembra qual é o apelido do gato de Horácio?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Horácio é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Horácio é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Qual é a cidade natal de Fagaju?",
@@ -6719,17 +6719,17 @@
    "pergunta": "Você lembra qual é o apelido do gato de Miguel?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Miguel é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Miguel é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Me diga o apelido do gato de Sebastião.",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Sebastião é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Sebastião é Sebastião é Neblina.",
+   "resposta": "Sebastião é Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Pedi?",
@@ -6751,7 +6751,7 @@
    "pergunta": "Qual é o apelido do gato de Zagomi?",
    "gold": "Mingau",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Zagomi é Mingau —.",
+   "fato_usado": "O apelido do gato de Zagomi é Mingau.",
    "resposta": "Mingau",
    "correto": true
   },
@@ -6927,7 +6927,7 @@
    "pergunta": "Qual é a cor do carro de William?",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de William é Marrom —.",
+   "fato_usado": "A cor do carro de William é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -6991,9 +6991,9 @@
    "pergunta": "Você lembra qual é o apelido do gato de Lasoso?",
    "gold": "Neblina",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Lasoso é blina.",
-   "resposta": "Blina.",
-   "correto": false
+   "fato_usado": "O apelido do gato de Lasoso é Neblina.",
+   "resposta": "Neblina.",
+   "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cor do carro de Elisa?",
@@ -7143,7 +7143,7 @@
    "pergunta": "Você lembra qual é a cor do carro de Lucas?",
    "gold": "preto",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Lucas é preto.",
+   "fato_usado": "A cor do carro de Lucas é sabendo que a cor do carro de Lucas é preto.",
    "resposta": "Preto",
    "correto": true
   },
@@ -7223,7 +7223,7 @@
    "pergunta": "Qual é a cidade natal de Kléber?",
    "gold": "Maceió",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Maceió é a cidade natal de Kléber é Maceió.",
+   "fato_usado": "A cidade natal de Kléber é Maceió.",
    "resposta": "Maceió",
    "correto": true
   },
@@ -7271,9 +7271,9 @@
    "pergunta": "Você lembra qual é a senha do wifi de Sofia?",
    "gold": "zz55",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Sofia é Zz.",
-   "resposta": "Zz",
-   "correto": false
+   "fato_usado": "A senha do wifi de Sofia é Zz55.",
+   "resposta": "Zz55",
+   "correto": true
   },
   {
    "pergunta": "Me diga a comida favorita de Tolesa.",
@@ -7343,7 +7343,7 @@
    "pergunta": "Você lembra qual é a senha do wifi de Kléber?",
    "gold": "a6t6d7v",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Kléber é Anotado: a6t6d7v.",
+   "fato_usado": "A senha do wifi de Kléber é a6t6d7v.",
    "resposta": "a6t6d7v",
    "correto": true
   },
@@ -7423,7 +7423,7 @@
    "pergunta": "Você lembra qual é a comida favorita de Gana?",
    "gold": "vatapá",
    "retr_ok": false,
-   "fato_usado": "A senha do wifi de Gana é Anotado: 3wuy3.",
+   "fato_usado": "A senha do wifi de Gana é 3wuy3.",
    "resposta": "Gana gosta de feijão.",
    "correto": false
   },
@@ -7479,15 +7479,15 @@
    "pergunta": "Você lembra qual é a senha do wifi de Nair?",
    "gold": "nw54",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Nair é nw54.",
-   "resposta": "nw54",
-   "correto": true
+   "fato_usado": "A senha do wifi de Nair é sabendo que a senha do wifi de Nair é nw.",
+   "resposta": "nw",
+   "correto": false
   },
   {
    "pergunta": "Me diga a cor do carro de Osvaldo.",
    "gold": "marrom",
    "retr_ok": true,
-   "fato_usado": "A cor do carro de Osvaldo é Marrom —.",
+   "fato_usado": "A cor do carro de Osvaldo é Marrom.",
    "resposta": "Marrom",
    "correto": true
   },
@@ -7607,15 +7607,15 @@
    "pergunta": "Você lembra qual é a senha do wifi de Bitoza?",
    "gold": "jsg5",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Bitoza é Jsg.",
-   "resposta": "Jsg",
-   "correto": false
+   "fato_usado": "A senha do wifi de Bitoza é Jsg5.",
+   "resposta": "Jsg5",
+   "correto": true
   },
   {
    "pergunta": "Me diga a cidade natal de Ropo.",
    "gold": "Campo Grande",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Ropo é Ropo sempre foi Campo Grande.",
+   "fato_usado": "A cidade natal de Ropo é Campo Grande.",
    "resposta": "Campo Grande",
    "correto": true
   },
@@ -7631,8 +7631,8 @@
    "pergunta": "Você lembra qual é a senha do wifi de Fernanda?",
    "gold": "5jpb",
    "retr_ok": true,
-   "fato_usado": "A senha do wifi de Fernanda é Anotado: 5jpb.",
-   "resposta": "Anotado",
+   "fato_usado": "A senha do wifi de Fernanda é jpb.",
+   "resposta": "jpb",
    "correto": false
   },
   {
@@ -7718,10 +7718,10 @@
   {
    "pergunta": "Me diga a cidade natal de Elisa.",
    "gold": "Oeiras",
-   "retr_ok": false,
-   "fato_usado": "A senha do wifi de Elisa é Xqurmd32n9.",
-   "resposta": "São Paulo",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Elisa é notado: Oeiras.",
+   "resposta": "Oeiras",
+   "correto": true
   },
   {
    "pergunta": "Qual é a cor do carro de Nicolas?",
@@ -7751,7 +7751,7 @@
    "pergunta": "Você lembra qual é a cidade natal de Jorge?",
    "gold": "Sobral",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Jorge é Sobral.",
+   "fato_usado": "A cidade natal de Jorge é sabendo que a cidade natal de Jorge é Sobral.",
    "resposta": "Sobral",
    "correto": true
   },
@@ -7903,9 +7903,9 @@
    "pergunta": "Me diga a comida favorita de Cupabaca.",
    "gold": "brigadeiro",
    "retr_ok": true,
-   "fato_usado": "A comida favorita de Cupabaca é brigadeiro.",
-   "resposta": "Brigadeiro",
-   "correto": true
+   "fato_usado": "A comida favorita de Cupabaca é sabendo que a comida favorita de Cupab.",
+   "resposta": "Sabedoria",
+   "correto": false
   },
   {
    "pergunta": "Me diga a cor do carro de Jole.",
@@ -8007,7 +8007,7 @@
    "pergunta": "Me diga o nome da professora de Medi.",
    "gold": "Bruno",
    "retr_ok": true,
-   "fato_usado": "O nome da professora de Medi é Bruno.",
+   "fato_usado": "O nome da professora de Medi é sabendo que o nome da professora de Medi é Bruno.",
    "resposta": "Bruno",
    "correto": true
   },
@@ -8046,10 +8046,10 @@
   {
    "pergunta": "Qual é a cidade natal de Gugu?",
    "gold": "Oeiras",
-   "retr_ok": false,
-   "fato_usado": "A comida favorita de Gugu é bobó de camarão.",
-   "resposta": "Rio de Janeiro",
-   "correto": false
+   "retr_ok": true,
+   "fato_usado": "A cidade natal de Gugu é notado: Oeiras.",
+   "resposta": "Oeiras",
+   "correto": true
   },
   {
    "pergunta": "Qual é a comida favorita de Pamagome?",
@@ -8143,16 +8143,16 @@
    "pergunta": "Me diga o apelido do gato de Voja.",
    "gold": "Mingau",
    "retr_ok": true,
-   "fato_usado": "O apelido do gato de Voja é Mingau —.",
-   "resposta": "Mingau",
+   "fato_usado": "O apelido do gato de Voja é Mingau.",
+   "resposta": "Mingau.",
    "correto": true
   },
   {
    "pergunta": "Você lembra qual é a cidade natal de Davi?",
    "gold": "São Paulo",
    "retr_ok": true,
-   "fato_usado": "A cidade natal de Davi é Anotado: São Paulo.",
-   "resposta": "Anotado",
+   "fato_usado": "A cidade natal de Davi é Paulo.",
+   "resposta": "Paulo é o nome da cidade na qual Davi nascera.",
    "correto": false
   },
   {

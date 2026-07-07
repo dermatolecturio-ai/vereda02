@@ -8,8 +8,8 @@
  "retrieval_acc_top1": 0.5029296875,
  "em_cond_retr_ok": 0.32038834951456313,
  "tokens_prompt_medio": 85.892578125,
- "s_por_item": 0.055193083826452494,
- "tempo_total_s": 56.51771783828735,
+ "s_por_item": 0.05458654975518584,
+ "tempo_total_s": 55.8966269493103,
  "itens": [
   {
    "pergunta": "Qual é a comida favorita de Rosângela?",

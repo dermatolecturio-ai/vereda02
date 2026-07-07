@@ -1,0 +1,9 @@
+{
+ "marco": "M4",
+ "fase": "persist_ler",
+ "k": 8,
+ "n": 1024,
+ "em": 0.93359375,
+ "retrieval_acc_top1": 0.9375,
+ "s_por_item": 0.01789781404659152
+}

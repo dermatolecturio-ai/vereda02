@@ -2,14 +2,14 @@
  "marco": "M3",
  "fase": "extracao",
  "arm": "SR",
- "n": 1024,
- "em": 0.0009765625,
+ "n": 1020,
+ "em": 0.000980392156862745,
  "em_por_ordem": {
   "entidade_primeiro": 0.001607717041800643,
   "valor_primeiro": 0.0
  },
- "s_por_item": 0.00017489888705313206,
- "tempo_total_s": 0.17909646034240723,
+ "s_por_item": 0.00017178759855382582,
+ "tempo_total_s": 0.17522335052490234,
  "itens": [
   {
    "frase": "Registrando aqui: a senha do wifi de Dinipe é y2rkhfuy.",
