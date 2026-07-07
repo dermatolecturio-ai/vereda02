@@ -55,7 +55,22 @@ endereçamento de erro de voz).
 Reportar tokens de prompt (S conta os m soft tokens) e s/item. Alvo: em k=100,
 custo ~O(pergunta) + m tokens, contra 1865 tokens do B.
 
-## Critério de morte (roadmap M2)
+## Veredito final (2026-07-07)
+
+Rodado oficial no Colab (T4, n=1024, k={8,32,100}): **T passou o portão nos 3
+k (EM 0.940/0.931/0.938, vs. gate 0.939/0.914/0.869)**. **S1 e S2 falharam** —
+ambos indistinguíveis da ablação SR (2-4% EM vs 0.94 de retrieval), ou seja, o
+projetor não aprendeu binding de valor, só categoria do atributo. Negativo
+completo com amostras em `NEGATIVE_FINDINGS.md` (2026-07-07).
+
+**Decisão (registrada):** M2 fecha com o injetor T. CARTA §3 não proíbe texto
+recuperado *aprendidamente* no prompt — proíbe parser/regex/BM45 como
+mecanismo de decisão; aqui quem decide qual texto entra é 100% a cabeça M1.
+O injetor S fica como frente de pesquisa em aberto (candidato natural para
+revisitar no M5 — internalização —, já que o problema de fundo, "fazer Θ ler
+estado vivo sem reabrir o prompt", é o mesmo). M3 segue com base em T.
+
+## Critério de morte (roadmap M2, já resolvido — ver Veredito acima)
 
 Se T passar mas S-v1 e S-v2 falharem: a voz por representação não fecha neste
 substrato — registrar em NEGATIVE_FINDINGS.md, decidir se M2 fecha com T
