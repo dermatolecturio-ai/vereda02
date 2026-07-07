@@ -4,5 +4,6 @@ __pycache__/
 dados/*.bin
 dados/*.txt
 dados/*.parquet
+dados/*.pt
 *.log
 scratch/
